@@ -1,11 +1,11 @@
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(LineRenderer))]
 public class EyeTrackingRay : MonoBehaviour
 {
     [SerializeField]
-    private float rayDistance = 1.0f;
+    private float rayDistance = 500.0f;
 
     [SerializeField]
     private float rayWidth = 0.01f;
@@ -13,33 +13,24 @@ public class EyeTrackingRay : MonoBehaviour
     [SerializeField]
     private LayerMask layersToInclude;
 
-    [SerializeField]
-    private Color rayColorDefaultState = Color.yellow;
-
-    [SerializeField]
-    private Color rayColorHoverState = Color.red;
-
-    [SerializeField]
-    private OVRHand handUsedForPinchSelection;
-
-    [SerializeField]
-    private bool mockHandPinchGesture;
-
-    private bool intercepting;
-
-    private bool allowPinchSelection;
-
     private LineRenderer lineRenderer;
-
     private Dictionary<int, EyeInteractable> interactables = new Dictionary<int, EyeInteractable>();
-
     private EyeInteractable lastEyeInteractable;
+    private Transform leftEyeAnchor;
+    private Transform rightEyeAnchor;
 
     private void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        allowPinchSelection = handUsedForPinchSelection != null;
         SetupRay();
+
+        // Get the eye anchors for more accurate raycast/line renderer start position 
+        OVRCameraRig cameraRig = FindObjectOfType<OVRCameraRig>();
+        if (cameraRig)
+        {
+            leftEyeAnchor = cameraRig.leftEyeAnchor;
+            rightEyeAnchor = cameraRig.rightEyeAnchor;
+        }
     }
 
     private void SetupRay()
@@ -48,80 +39,50 @@ public class EyeTrackingRay : MonoBehaviour
         lineRenderer.positionCount = 2;
         lineRenderer.startWidth = rayWidth;
         lineRenderer.endWidth = rayWidth;
-        lineRenderer.startColor = rayColorDefaultState;
-        lineRenderer.endColor = rayColorDefaultState;
         lineRenderer.SetPosition(0, transform.position);
         lineRenderer.SetPosition(1, new Vector3(transform.position.x, transform.position.y, transform.position.z + rayDistance));
     }
 
     private void Update()
     {
-        lineRenderer.enabled = !IsPinching();
+        if (leftEyeAnchor == null || rightEyeAnchor == null) return;
 
-        SelectionStarted();
-
-        // clear all hover selections when no intercepting
-        if (!intercepting)
-        {
-            lineRenderer.startColor = lineRenderer.endColor = rayColorDefaultState;
-            lineRenderer.SetPosition(1, new Vector3(0, 0, transform.position.z + rayDistance));
-            HoverEnded();
-        }
-    }
-
-    private void SelectionStarted()
-    {
-        if (IsPinching())
-        {
-            lastEyeInteractable?.Select(true, handUsedForPinchSelection.IsTracked ?
-                handUsedForPinchSelection.transform : transform);
-        }
-        else
-        {
-            lastEyeInteractable?.Select(false);
-        }
-    }
-
-    private void FixedUpdate()
-    {
-        if (IsPinching()) return;
+        Vector3 eyesCenter = (leftEyeAnchor.position + rightEyeAnchor.position) * 0.5f;
 
         Vector3 rayDirection = transform.TransformDirection(Vector3.forward) * rayDistance;
+        bool intercepting = Physics.Raycast(eyesCenter, rayDirection, out RaycastHit hit, Mathf.Infinity, layersToInclude);
 
-        // Check if eye ray intersects with any objects included in the layersToInclude
-        intercepting = Physics.Raycast(transform.position, rayDirection, out RaycastHit hit, Mathf.Infinity, layersToInclude);
+        // Change the LineRenderer start position to the eyes center
+        lineRenderer.SetPosition(0, transform.InverseTransformPoint(eyesCenter));
 
         if (intercepting)
         {
-            // hover ended
-            HoverEnded();
-
-            lineRenderer.startColor = lineRenderer.endColor = rayColorHoverState;
-
-            // keep a cache of interactables
             if (!interactables.TryGetValue(hit.transform.gameObject.GetHashCode(), out EyeInteractable eyeInteractable))
             {
                 eyeInteractable = hit.transform.GetComponent<EyeInteractable>();
                 interactables.Add(hit.transform.gameObject.GetHashCode(), eyeInteractable);
             }
 
-            // limit line render ray
-            var toLocalSpace = transform.InverseTransformPoint(eyeInteractable.transform.position);
-            lineRenderer.SetPosition(1, new Vector3(0, 0, toLocalSpace.z));
+            var toLocalSpace = transform.InverseTransformPoint(hit.point); 
+            lineRenderer.SetPosition(1, toLocalSpace); 
 
-            // hover started
+            if (lastEyeInteractable && lastEyeInteractable != eyeInteractable)
+            {
+                lastEyeInteractable.Hover(false);
+            }
+
             eyeInteractable.Hover(true);
-
             lastEyeInteractable = eyeInteractable;
+        }
+        else
+        {
+            if (lastEyeInteractable)
+            {
+                lastEyeInteractable.Hover(false);
+                lastEyeInteractable = null;
+            }
+            lineRenderer.SetPosition(1, new Vector3(0, 0, rayDistance));
         }
     }
 
-    private void HoverEnded(bool reset = false)
-    {
-        foreach (var interactable in interactables) interactable.Value.Hover(false);
-    }
-
-    private void OnDestroy() => interactables.Clear();
-
-    private bool IsPinching() => (allowPinchSelection && handUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index)) || mockHandPinchGesture;
 }
