@@ -12,8 +12,8 @@ public class MentalCommands : MonoBehaviour
     string clientId = "2BQ6yrpPyo00O3WRjZPQp18hd1roobOuF2cLxAVh";
     string clientSecret = "BcQrNVEj6YLavHmq4ihAWl2RE8noBU6lEk7IXrFOi59y0ws7nTmuNnYd1mlRxg10JihSMMtpFDnBxR3XDYHRG6f75OaGeBzyyefFk6w91uQw6zj0lORFeEzV3hknKDiU";
     string appName = "UnityApp";
-    string profileName = "kyleSIM";
-    string headsetId = "INSIGHT2-1C816C02";
+    string profileName = "wanyeaSIM";
+    string headsetId = "INSIGHT2-E562E5DB";
 
     // Delegate for mental command changes
     public delegate void OnMentalCommandChanged(string newCommand);

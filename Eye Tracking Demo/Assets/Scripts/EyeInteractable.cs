@@ -35,7 +35,7 @@ public class EyeInteractable : MonoBehaviour
     {
         if (isHovered) 
         {
-
+            Debug.Log("Hoevered over cube!");
             var mentalCommand = mentalCommands.GetMentalCommand();
 
             /*// Check if connection with Emotiv has been established and mentals command are coming through

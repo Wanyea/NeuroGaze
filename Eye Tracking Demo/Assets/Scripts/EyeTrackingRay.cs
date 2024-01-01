@@ -57,6 +57,7 @@ public class EyeTrackingRay : MonoBehaviour
 
         if (intercepting)
         {
+            Debug.Log("Starting intercepting...");
             if (!interactables.TryGetValue(hit.transform.gameObject.GetHashCode(), out EyeInteractable eyeInteractable))
             {
                 eyeInteractable = hit.transform.GetComponent<EyeInteractable>();
