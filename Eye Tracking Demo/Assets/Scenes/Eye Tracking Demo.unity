@@ -143,7 +143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &996796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -234,10 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverActiveMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
-  mentalCommands: {fileID: 0}
-  moveSpeed: 1
+  OnHoverMaterial: {fileID: 0}
 --- !u!54 &996801
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -445,10 +442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverActiveMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
-  mentalCommands: {fileID: 118158416}
-  moveSpeed: 1
+  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
 --- !u!54 &252306945
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -590,6 +584,11 @@ Transform:
   m_Father: {fileID: 1438722341}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &497174861 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6271845857759016733, guid: 806de2aec3cc3ff44aa56a7c2d0ad857, type: 3}
+  m_PrefabInstance: {fileID: 2112694498990346368}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +683,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!4 &768240401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6041237116848707814, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
+  m_PrefabInstance: {fileID: 9089409890088038010}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1015765160
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,7 +855,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1563394212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -942,10 +946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverActiveMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
-  mentalCommands: {fileID: 0}
-  moveSpeed: 1
+  OnHoverMaterial: {fileID: 0}
 --- !u!54 &1563394217
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1103,6 +1104,14 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 2112694498990346371, guid: 806de2aec3cc3ff44aa56a7c2d0ad857, type: 3}
+      propertyPath: leftEyeAnchor
+      value: 
+      objectReference: {fileID: 497174861}
+    - target: {fileID: 2112694498990346371, guid: 806de2aec3cc3ff44aa56a7c2d0ad857, type: 3}
+      propertyPath: rightEyeAnchor
+      value: 
+      objectReference: {fileID: 768240401}
+    - target: {fileID: 2112694498990346371, guid: 806de2aec3cc3ff44aa56a7c2d0ad857, type: 3}
       propertyPath: layersToInclude.m_Bits
       value: 64
       objectReference: {fileID: 0}
@@ -1124,7 +1133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6271845857759016733, guid: 806de2aec3cc3ff44aa56a7c2d0ad857, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6271845857759016733, guid: 806de2aec3cc3ff44aa56a7c2d0ad857, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1159,6 +1168,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7019705915503227992, guid: 806de2aec3cc3ff44aa56a7c2d0ad857, type: 3}
+      propertyPath: TrackingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019705915503227992, guid: 806de2aec3cc3ff44aa56a7c2d0ad857, type: 3}
       propertyPath: ReferenceFrame
       value: 
       objectReference: {fileID: 311076178}
@@ -1177,7 +1190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8383982802558328480, guid: 4220599be15fadf4a8229e1f7ac913be, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8383982802558328484, guid: 4220599be15fadf4a8229e1f7ac913be, type: 3}
       propertyPath: m_RootOrder
@@ -1245,6 +1258,14 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 1841153943030923128, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
+      propertyPath: leftEyeAnchor
+      value: 
+      objectReference: {fileID: 497174861}
+    - target: {fileID: 1841153943030923128, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
+      propertyPath: rightEyeAnchor
+      value: 
+      objectReference: {fileID: 768240401}
+    - target: {fileID: 1841153943030923128, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
       propertyPath: layersToInclude.m_Bits
       value: 64
       objectReference: {fileID: 0}
@@ -1258,7 +1279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6041237116848707814, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6041237116848707814, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1299,6 +1320,10 @@ PrefabInstance:
     - target: {fileID: 6041237116848707819, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329567587150338979, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
+      propertyPath: TrackingMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7329567587150338979, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
       propertyPath: ReferenceFrame
