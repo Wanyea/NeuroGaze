@@ -33,34 +33,18 @@ public class MentalCommands : MonoBehaviour
         {
             _emotivUnityltf.CreateSessionWithHeadset(headsetId);
             UnityEngine.Debug.Log("Creating Session with: " + headsetId);
-            
 
-        }
-
-        if (Event.current.Equals(Event.KeyboardEvent("l")))
-        {
             _emotivUnityltf.LoadProfile(profileName);
             UnityEngine.Debug.Log("Loading Profile: " + profileName);
-
         }
 
-
-        if (Event.current.Equals(Event.KeyboardEvent("s")))
-        {
+        if (Event.current.Equals(Event.KeyboardEvent("space")))
+        { 
             _emotivUnityltf.SubscribeData(dataStreamList);
             UnityEngine.Debug.Log("Subscribing to DataStream");
             mentalCmdRcvd = true;
         }
 
-        if (Event.current.Equals(Event.KeyboardEvent("escape")))
-        {
-            mentalCmdRcvd = false;
-            _emotivUnityltf.UnLoadProfile(profileName);
-            _emotivUnityltf.UnSubscribeData(dataStreamList);
-            _emotivUnityltf.Stop();
-            UnityEngine.Debug.Log("Unloaded Profile, Unsubscribed Data, and Stopped EmotivUnityItf");
-
-        }
     }
 
     private string lastMentalCommand = "";
