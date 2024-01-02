@@ -234,7 +234,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 0}
+  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
+  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
+  mentalCommands: {fileID: 118158416}
+  moveSpeed: 1
 --- !u!54 &996801
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -443,6 +446,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
+  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
+  mentalCommands: {fileID: 118158416}
+  moveSpeed: 1
 --- !u!54 &252306945
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -946,7 +952,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 0}
+  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
+  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
+  mentalCommands: {fileID: 118158416}
+  moveSpeed: 1
 --- !u!54 &1563394217
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1237,6 +1246,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8383982802558328487, guid: 4220599be15fadf4a8229e1f7ac913be, type: 3}
+      propertyPath: mentalCommands
+      value: 
+      objectReference: {fileID: 118158416}
+    - target: {fileID: 8383982802558328487, guid: 4220599be15fadf4a8229e1f7ac913be, type: 3}
+      propertyPath: OnHoverMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
+    - target: {fileID: 8383982802558328487, guid: 4220599be15fadf4a8229e1f7ac913be, type: 3}
       propertyPath: OnMentalCommandActiveMaterial
       value: 
       objectReference: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
@@ -1268,6 +1285,10 @@ PrefabInstance:
     - target: {fileID: 1841153943030923128, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
       propertyPath: layersToInclude.m_Bits
       value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841153943030923129, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6041237116848707814, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
       propertyPath: m_RootOrder
@@ -1320,6 +1341,10 @@ PrefabInstance:
     - target: {fileID: 6041237116848707819, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329567587150338979, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7329567587150338979, guid: 9ea11b952aa4b4347b303cd977c8181e, type: 3}
       propertyPath: TrackingMode
