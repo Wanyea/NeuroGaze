@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3269,6 +3269,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Mental Command Manager '
       objectReference: {fileID: 0}
+    - target: {fileID: 6279153400065857629, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
+      propertyPath: headsetId
+      value: INSIGHT2-A3D20368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6279153400065857629, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
+      propertyPath: profileName
+      value: kyleSIM24
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
 --- !u!1001 &6384109739135069184
@@ -3324,6 +3332,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3603264776607211897, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553680290433056003, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6384109739135069186, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

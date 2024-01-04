@@ -12,8 +12,8 @@ public class MentalCommands : MonoBehaviour
     string clientId = "2BQ6yrpPyo00O3WRjZPQp18hd1roobOuF2cLxAVh";
     string clientSecret = "BcQrNVEj6YLavHmq4ihAWl2RE8noBU6lEk7IXrFOi59y0ws7nTmuNnYd1mlRxg10JihSMMtpFDnBxR3XDYHRG6f75OaGeBzyyefFk6w91uQw6zj0lORFeEzV3hknKDiU";
     string appName = "UnityApp";
-    string profileName = "wanyeaSIM";
-    string headsetId = "INSIGHT2-E562E5DB";
+    public string profileName = "kyleSIM24";
+    public string headsetId = "INSIGHT2-A3D20368";
 
     // Delegate for mental command changes
     public delegate void OnMentalCommandChanged(string newCommand);
@@ -34,16 +34,34 @@ public class MentalCommands : MonoBehaviour
             _emotivUnityltf.CreateSessionWithHeadset(headsetId);
             UnityEngine.Debug.Log("Creating Session with: " + headsetId);
 
-            _emotivUnityltf.LoadProfile(profileName);
-            UnityEngine.Debug.Log("Loading Profile: " + profileName);
+
         }
 
-        if (Event.current.Equals(Event.KeyboardEvent("space")))
-        { 
+        if (Event.current.Equals(Event.KeyboardEvent("l")))
+        {
+            _emotivUnityltf.LoadProfile(profileName);
+            UnityEngine.Debug.Log("Loading Profile: " + profileName);
+
+        }
+
+
+        if (Event.current.Equals(Event.KeyboardEvent("s")))
+        {
             _emotivUnityltf.SubscribeData(dataStreamList);
             UnityEngine.Debug.Log("Subscribing to DataStream");
             mentalCmdRcvd = true;
         }
+
+        if (Event.current.Equals(Event.KeyboardEvent("escape")))
+        {
+            mentalCmdRcvd = false;
+            _emotivUnityltf.UnLoadProfile(profileName);
+            _emotivUnityltf.UnSubscribeData(dataStreamList);
+            _emotivUnityltf.Stop();
+            UnityEngine.Debug.Log("Unloaded Profile, Unsubscribed Data, and Stopped EmotivUnityItf");
+
+        }
+
 
     }
 
@@ -54,11 +72,14 @@ public class MentalCommands : MonoBehaviour
         if (mentalCmdRcvd)
         {
             string currentCommand = _emotivUnityltf.mentalCmdIs();
+
+            Debug.Log(currentCommand);
+
             if (currentCommand != lastMentalCommand)
             {
                 mentalCommand = currentCommand;
                 lastMentalCommand = currentCommand;
-                Debug.Log(mentalCommand);
+                //Debug.Log(mentalCommand);
 
                 // Trigger the event
                 MentalCommandChanged?.Invoke(mentalCommand);

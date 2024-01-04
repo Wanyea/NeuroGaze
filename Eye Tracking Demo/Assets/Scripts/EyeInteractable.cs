@@ -45,7 +45,7 @@ public class EyeInteractable : MonoBehaviour
         if (isHovered && mentalCommand == "pull")
         {
             gazeDuration += Time.deltaTime;
-            if (gazeDuration >= 2f)
+            if (gazeDuration >= 0.0f)
             {
                 shouldShrink = true;
             }
