@@ -64,8 +64,7 @@ public class EyeInteractable : MonoBehaviour
 
     private void ShrinkAndDestroy()
     {
-        // Shrink the cube
-        float shrinkSpeed = 0.3f * Time.deltaTime; // Adjust shrink speed as needed
+        float shrinkSpeed = 0.3f * Time.deltaTime;
         transform.localScale -= new Vector3(shrinkSpeed, shrinkSpeed, shrinkSpeed);
 
         // Destroy cube if it is small enough
@@ -128,9 +127,17 @@ public class EyeInteractable : MonoBehaviour
         if (shouldShrink)
         {
             // Shrink the cube slowly
-            float shrinkSpeed = 2.0f * Time.deltaTime; // Adjust shrink speed as needed
+            float shrinkSpeed = 2.0f * Time.deltaTime; 
             transform.localScale = Vector3.Max(Vector3.zero, transform.localScale - new Vector3(shrinkSpeed, shrinkSpeed, shrinkSpeed));
         }
+    }
+
+    private void OnDisable()
+    {
+        Debug.Log("Disabling Cube...");
+        AssessmentManager.Instance.RecordCubeDestruction(GetComponent<Renderer>().material.color);
+        EyeInteractableManager.Instance.AddDisabledCube(gameObject);
+
     }
 
 }
