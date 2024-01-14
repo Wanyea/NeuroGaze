@@ -234,8 +234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &996801
@@ -287,8 +285,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &21871337
@@ -479,8 +475,8 @@ Transform:
   m_LocalScale: {x: 0.21, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1578227146}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
 --- !u!1 &69210375
 GameObject:
@@ -568,13 +564,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69210375}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04379213, y: 3.272, z: 0.11327194}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04379213, y: 3.272, z: 0.11327195}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 1578227146}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &93367382
 GameObject:
@@ -590,7 +586,7 @@ GameObject:
   - component: {fileID: 93367386}
   - component: {fileID: 93367385}
   - component: {fileID: 93367384}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (39)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -624,8 +620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &93367385
@@ -801,8 +795,8 @@ Transform:
   m_LocalScale: {x: 0.21, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 1578227146}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
 --- !u!1 &109076443
 GameObject:
@@ -818,7 +812,7 @@ GameObject:
   - component: {fileID: 109076447}
   - component: {fileID: 109076446}
   - component: {fileID: 109076445}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (30)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -852,8 +846,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &109076446
@@ -960,7 +952,7 @@ GameObject:
   - component: {fileID: 138103805}
   - component: {fileID: 138103804}
   - component: {fileID: 138103803}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (27)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -994,8 +986,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &138103804
@@ -1125,8 +1115,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &144213429
@@ -1222,7 +1210,7 @@ GameObject:
   - component: {fileID: 156299277}
   - component: {fileID: 156299276}
   - component: {fileID: 156299275}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (89)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -1256,8 +1244,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &156299276
@@ -1387,8 +1373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &175199010
@@ -1518,8 +1502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &182688913
@@ -1615,7 +1597,7 @@ GameObject:
   - component: {fileID: 183997311}
   - component: {fileID: 183997310}
   - component: {fileID: 183997309}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (76)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -1649,8 +1631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &183997310
@@ -1746,7 +1726,7 @@ GameObject:
   - component: {fileID: 193700724}
   - component: {fileID: 193700723}
   - component: {fileID: 193700722}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (61)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -1780,8 +1760,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &193700723
@@ -1911,8 +1889,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &199787671
@@ -1964,7 +1940,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ae9458e725396554090ebf7247653f66, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2042,8 +2018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &205628325
@@ -2139,7 +2113,7 @@ GameObject:
   - component: {fileID: 205762184}
   - component: {fileID: 205762183}
   - component: {fileID: 205762182}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (92)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -2173,8 +2147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &205762183
@@ -2304,8 +2276,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &214402883
@@ -2435,8 +2405,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &220492102
@@ -2566,8 +2534,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &232636338
@@ -2697,8 +2663,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &236688918
@@ -2828,8 +2792,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &240099464
@@ -2925,7 +2887,7 @@ GameObject:
   - component: {fileID: 252306940}
   - component: {fileID: 252306945}
   - component: {fileID: 252306944}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (2)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -3022,8 +2984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &252306945
@@ -3090,8 +3050,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &253094944
@@ -3221,8 +3179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &254532110
@@ -3318,7 +3274,7 @@ GameObject:
   - component: {fileID: 271066118}
   - component: {fileID: 271066117}
   - component: {fileID: 271066116}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (92)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -3352,8 +3308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &271066117
@@ -3483,8 +3437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &278206807
@@ -3614,8 +3566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &285215358
@@ -3711,7 +3661,7 @@ GameObject:
   - component: {fileID: 285420932}
   - component: {fileID: 285420931}
   - component: {fileID: 285420930}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (95)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -3745,8 +3695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &285420931
@@ -3842,7 +3790,7 @@ GameObject:
   - component: {fileID: 305572052}
   - component: {fileID: 305572051}
   - component: {fileID: 305572050}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (82)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -3876,8 +3824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &305572051
@@ -4007,8 +3953,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &318599131
@@ -4104,7 +4048,7 @@ GameObject:
   - component: {fileID: 324311868}
   - component: {fileID: 324311867}
   - component: {fileID: 324311866}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (98)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -4138,8 +4082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &324311867
@@ -4269,8 +4211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &327238983
@@ -4400,8 +4340,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &371773019
@@ -4572,13 +4510,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384351774}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.97, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.9700003, y: 0, z: 0}
   m_LocalScale: {x: 0.21, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1578227146}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &398934684
 GameObject:
@@ -4628,8 +4566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &398934687
@@ -4725,7 +4661,7 @@ GameObject:
   - component: {fileID: 411971941}
   - component: {fileID: 411971940}
   - component: {fileID: 411971939}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (82)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -4759,8 +4695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &411971940
@@ -4890,8 +4824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &416244909
@@ -5021,8 +4953,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &447986905
@@ -5118,7 +5048,7 @@ GameObject:
   - component: {fileID: 454567054}
   - component: {fileID: 454567053}
   - component: {fileID: 454567052}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (52)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -5152,8 +5082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &454567053
@@ -5249,7 +5177,7 @@ GameObject:
   - component: {fileID: 456259099}
   - component: {fileID: 456259098}
   - component: {fileID: 456259097}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (49)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -5283,8 +5211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &456259098
@@ -5414,8 +5340,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &458300064
@@ -5511,7 +5435,7 @@ GameObject:
   - component: {fileID: 498692604}
   - component: {fileID: 498692603}
   - component: {fileID: 498692602}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (101)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -5545,8 +5469,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &498692603
@@ -5676,8 +5598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &506095096
@@ -5807,8 +5727,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &519497234
@@ -5904,7 +5822,7 @@ GameObject:
   - component: {fileID: 542247877}
   - component: {fileID: 542247876}
   - component: {fileID: 542247875}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (64)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -5938,8 +5856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &542247876
@@ -6069,8 +5985,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &559159109
@@ -6200,8 +6114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &567165825
@@ -6316,8 +6228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &572415598
@@ -6428,7 +6338,7 @@ GameObject:
   - component: {fileID: 573368653}
   - component: {fileID: 573368652}
   - component: {fileID: 573368651}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (18)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -6462,8 +6372,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &573368652
@@ -6593,8 +6501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &601713921
@@ -6690,7 +6596,7 @@ GameObject:
   - component: {fileID: 606050142}
   - component: {fileID: 606050141}
   - component: {fileID: 606050140}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (10)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -6724,8 +6630,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &606050141
@@ -6821,7 +6725,7 @@ GameObject:
   - component: {fileID: 634874858}
   - component: {fileID: 634874857}
   - component: {fileID: 634874856}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (98)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -6855,8 +6759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &634874857
@@ -6986,8 +6888,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &645715778
@@ -7117,8 +7017,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &666362478
@@ -7289,13 +7187,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668341798}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.65, y: 0, z: 0}
   m_LocalScale: {x: 0.21, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1578227146}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -7439,8 +7337,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &712651023
@@ -7570,8 +7466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &720275299
@@ -7701,8 +7595,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &732416853
@@ -7832,8 +7724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &733960346
@@ -7963,8 +7853,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &744064050
@@ -8094,8 +7982,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &770728065
@@ -8191,7 +8077,7 @@ GameObject:
   - component: {fileID: 773172105}
   - component: {fileID: 773172104}
   - component: {fileID: 773172103}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (33)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -8225,8 +8111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &773172104
@@ -8322,7 +8206,7 @@ GameObject:
   - component: {fileID: 794556524}
   - component: {fileID: 794556523}
   - component: {fileID: 794556522}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (70)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -8356,8 +8240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &794556523
@@ -8487,8 +8369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &811737475
@@ -8618,8 +8498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &818039050
@@ -8790,13 +8668,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818949089}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.87, y: 3.59, z: 0}
-  m_LocalScale: {x: 0.21, y: 8, z: 8}
+  m_LocalScale: {x: 0.21000008, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 1578227146}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &834593656
 GameObject:
@@ -8948,7 +8826,7 @@ GameObject:
   - component: {fileID: 843824248}
   - component: {fileID: 843824247}
   - component: {fileID: 843824246}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (14)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -8982,8 +8860,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &843824247
@@ -9113,8 +8989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &850242947
@@ -9294,7 +9168,7 @@ GameObject:
   - component: {fileID: 880812994}
   - component: {fileID: 880812993}
   - component: {fileID: 880812992}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (101)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -9328,8 +9202,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &880812993
@@ -9425,7 +9297,7 @@ GameObject:
   - component: {fileID: 898000423}
   - component: {fileID: 898000422}
   - component: {fileID: 898000421}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (6)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -9459,8 +9331,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &898000422
@@ -9556,7 +9426,7 @@ GameObject:
   - component: {fileID: 901658517}
   - component: {fileID: 901658516}
   - component: {fileID: 901658515}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (14)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -9575,8 +9445,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &901658516
@@ -9789,8 +9657,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &941229741
@@ -9886,7 +9752,7 @@ GameObject:
   - component: {fileID: 949397097}
   - component: {fileID: 949397096}
   - component: {fileID: 949397095}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (58)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -9920,8 +9786,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &949397096
@@ -10017,7 +9881,7 @@ GameObject:
   - component: {fileID: 963998156}
   - component: {fileID: 963998155}
   - component: {fileID: 963998154}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (95)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -10051,8 +9915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &963998155
@@ -10182,8 +10044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &964109290
@@ -10347,7 +10207,7 @@ GameObject:
   - component: {fileID: 986687440}
   - component: {fileID: 986687439}
   - component: {fileID: 986687438}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (73)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -10381,8 +10241,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &986687439
@@ -10512,8 +10370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &989862029
@@ -10643,8 +10499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &993508806
@@ -10774,8 +10628,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1012134509
@@ -10905,8 +10757,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1013430068
@@ -11002,7 +10852,7 @@ GameObject:
   - component: {fileID: 1030022022}
   - component: {fileID: 1030022021}
   - component: {fileID: 1030022020}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (79)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -11036,8 +10886,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1030022021
@@ -11168,7 +11016,7 @@ GameObject:
   - component: {fileID: 1075086374}
   - component: {fileID: 1075086373}
   - component: {fileID: 1075086372}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (45)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -11202,8 +11050,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1075086373
@@ -11299,7 +11145,7 @@ GameObject:
   - component: {fileID: 1076519382}
   - component: {fileID: 1076519381}
   - component: {fileID: 1076519380}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (67)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -11333,8 +11179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1076519381
@@ -11449,8 +11293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1091347976
@@ -11595,8 +11437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1096269202
@@ -11726,8 +11566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1103034132
@@ -11857,8 +11695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1110730207
@@ -11988,8 +11824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1111947841
@@ -12119,8 +11953,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1127111341
@@ -12250,8 +12082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1160370672
@@ -12381,8 +12211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1167473504
@@ -12512,8 +12340,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1173225872
@@ -12609,7 +12435,7 @@ GameObject:
   - component: {fileID: 1174220331}
   - component: {fileID: 1174220330}
   - component: {fileID: 1174220329}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (20)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -12628,8 +12454,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1174220330
@@ -12740,7 +12564,7 @@ GameObject:
   - component: {fileID: 1185203043}
   - component: {fileID: 1185203042}
   - component: {fileID: 1185203041}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (8)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -12774,8 +12598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1185203042
@@ -12871,7 +12693,7 @@ GameObject:
   - component: {fileID: 1244748260}
   - component: {fileID: 1244748259}
   - component: {fileID: 1244748258}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (79)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -12905,8 +12727,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1244748259
@@ -13036,8 +12856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1253487440
@@ -13167,8 +12985,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1264072628
@@ -13298,8 +13114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1265539871
@@ -13429,8 +13243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1304318177
@@ -13560,8 +13372,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1320590734
@@ -13691,8 +13501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1321884511
@@ -13788,7 +13596,7 @@ GameObject:
   - component: {fileID: 1366321567}
   - component: {fileID: 1366321566}
   - component: {fileID: 1366321565}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (17)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -13807,8 +13615,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1366321566
@@ -13953,8 +13759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1374956346
@@ -14050,7 +13854,7 @@ GameObject:
   - component: {fileID: 1388565053}
   - component: {fileID: 1388565052}
   - component: {fileID: 1388565051}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (76)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -14084,8 +13888,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1388565052
@@ -14215,8 +14017,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1404053854
@@ -14312,7 +14112,7 @@ GameObject:
   - component: {fileID: 1405576730}
   - component: {fileID: 1405576729}
   - component: {fileID: 1405576728}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (86)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -14346,8 +14146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1405576729
@@ -14477,8 +14275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1409372670
@@ -14574,7 +14370,7 @@ GameObject:
   - component: {fileID: 1421056676}
   - component: {fileID: 1421056675}
   - component: {fileID: 1421056674}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (42)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -14608,8 +14404,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1421056675
@@ -14739,8 +14533,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1421332288
@@ -14836,7 +14628,7 @@ GameObject:
   - component: {fileID: 1429406628}
   - component: {fileID: 1429406627}
   - component: {fileID: 1429406626}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (86)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -14870,8 +14662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1429406627
@@ -15001,8 +14791,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1434516266
@@ -15132,8 +14920,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1464355932
@@ -15263,8 +15049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1477041432
@@ -15379,8 +15163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1497900256
@@ -15525,8 +15307,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1510951912
@@ -15656,8 +15436,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1561924834
@@ -15787,8 +15565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1562281197
@@ -15981,8 +15757,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1563394217
@@ -16001,6 +15775,44 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1578227145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1578227146}
+  m_Layer: 0
+  m_Name: Scene Design
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1578227146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578227145}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 384351778}
+  - {fileID: 668341802}
+  - {fileID: 42199923}
+  - {fileID: 103774856}
+  - {fileID: 818949093}
+  - {fileID: 1679310086}
+  - {fileID: 69210377}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1579687858
 GameObject:
   m_ObjectHideFlags: 0
@@ -16015,7 +15827,7 @@ GameObject:
   - component: {fileID: 1579687862}
   - component: {fileID: 1579687861}
   - component: {fileID: 1579687860}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (22)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -16049,8 +15861,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1579687861
@@ -16180,8 +15990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1599442588
@@ -16277,7 +16085,7 @@ GameObject:
   - component: {fileID: 1607072821}
   - component: {fileID: 1607072820}
   - component: {fileID: 1607072819}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (73)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -16311,8 +16119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1607072820
@@ -16442,8 +16248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1614328900
@@ -16663,13 +16467,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679310084}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04379213, y: 3.272, z: 0.11327194}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04379213, y: 3.272, z: 0.11327195}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 1578227146}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1684906086
 GameObject:
@@ -16710,7 +16514,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684906086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2707422, y: -1.3912082, z: -1.4831045}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16765,8 +16569,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1723300453
@@ -16881,8 +16683,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1741718578
@@ -17027,8 +16827,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1752030091
@@ -17158,8 +16956,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1754231707
@@ -17289,8 +17085,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1762902267
@@ -17420,8 +17214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1788682709
@@ -17517,7 +17309,7 @@ GameObject:
   - component: {fileID: 1797213422}
   - component: {fileID: 1797213421}
   - component: {fileID: 1797213420}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (55)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -17551,8 +17343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1797213421
@@ -17648,7 +17438,7 @@ GameObject:
   - component: {fileID: 1804351319}
   - component: {fileID: 1804351318}
   - component: {fileID: 1804351317}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (67)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -17682,8 +17472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1804351318
@@ -17813,8 +17601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1823605750
@@ -17944,8 +17730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1827739339
@@ -18075,8 +17859,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1836810897
@@ -18206,8 +17988,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1838331200
@@ -18337,8 +18117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1859125799
@@ -18468,8 +18246,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1888558774
@@ -18599,8 +18375,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1893138994
@@ -18730,8 +18504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1896411993
@@ -18827,7 +18599,7 @@ GameObject:
   - component: {fileID: 1897796460}
   - component: {fileID: 1897796459}
   - component: {fileID: 1897796458}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (89)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -18861,8 +18633,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1897796459
@@ -18992,8 +18762,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1941432344
@@ -19123,8 +18891,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1966159256
@@ -19220,7 +18986,7 @@ GameObject:
   - component: {fileID: 1967379835}
   - component: {fileID: 1967379834}
   - component: {fileID: 1967379833}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (36)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -19254,8 +19020,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1967379834
@@ -19385,8 +19149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1983353401
@@ -19516,8 +19278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1985083577
@@ -19647,8 +19407,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &1995872169
@@ -19778,8 +19536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &2003332568
@@ -19875,7 +19631,7 @@ GameObject:
   - component: {fileID: 2018298243}
   - component: {fileID: 2018298242}
   - component: {fileID: 2018298241}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (20)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -19909,8 +19665,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &2018298242
@@ -20040,8 +19794,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &2022851471
@@ -20171,8 +19923,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &2032348961
@@ -20366,7 +20116,7 @@ GameObject:
   - component: {fileID: 2081046587}
   - component: {fileID: 2081046586}
   - component: {fileID: 2081046585}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Color Changing Cube (70)
   m_TagString: EyeInteractable
   m_Icon: {fileID: 0}
@@ -20400,8 +20150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &2081046586
@@ -20516,8 +20264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &2110820854
@@ -20662,8 +20408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &2138179930
@@ -20793,8 +20537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd3b8f5cea800e47bebd54afbaf0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnHoverMaterial: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-  OnMentalCommandActiveMaterial: {fileID: 2100000, guid: d1b7c68309e30c841a2c1840a095f9c7, type: 2}
   mentalCommands: {fileID: 118158416}
   moveSpeed: 1
 --- !u!54 &2146106829

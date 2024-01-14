@@ -5,61 +5,74 @@ using UnityEngine;
 public class EyeInteractable : MonoBehaviour
 {
     [SerializeField]
-    private Material OnHoverMaterial;
-    [SerializeField]
-    private Material OnMentalCommandActiveMaterial;
-    [SerializeField]
     private MentalCommands mentalCommands;
     [SerializeField]
     private float moveSpeed = 1.0f;
 
-    private Material originalMaterial;
-    private MeshRenderer meshRenderer;
+    private Vector3 originalScale;
+    private Vector3 targetScale; // Target scale when looked at
     private bool isHovered = false;
-    private float pullDuration = 0f;
-    private bool shouldShrink = false;
+    private bool isBeingPulled = false;
     private float gazeDuration = 0f;
-  
+    private bool shouldShrink = false;
+
     private void Start()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
-        originalMaterial = meshRenderer.material;
-
-        if (mentalCommands == null)
-        {
-            Debug.LogError("MentalCommands reference not set in EyeInteractable");
-        }
+        originalScale = transform.localScale;
+        targetScale = originalScale * 1.28f; // Set target scale as 1.25 times the original scale
     }
 
     public void Hover(bool state)
     {
         isHovered = state;
-        UpdateMaterial();
     }
 
     private void Update()
     {
         var mentalCommand = mentalCommands.GetMentalCommand();
 
-        // Check if the cube is being gazed at with the "pull" command
         if (isHovered && mentalCommand == "pull")
         {
             gazeDuration += Time.deltaTime;
             if (gazeDuration >= 0.0f)
             {
                 shouldShrink = true;
+                isBeingPulled = true;
             }
         }
         else
         {
-            // Reset gaze duration if gaze or command is broken
             gazeDuration = 0f;
+            if (isBeingPulled)
+            {
+                transform.localScale = originalScale;
+                isBeingPulled = false;
+            }
         }
 
         if (shouldShrink)
         {
             ShrinkAndDestroy();
         }
+        else if (isHovered)
+        {
+            ScaleUp();
+        }
+        else
+        {
+            // Return to original scale when not hovered over
+            ScaleDown();
+        }
+    }
+
+    private void ScaleUp()
+    {
+        transform.localScale = Vector3.Lerp(transform.localScale, targetScale, Time.deltaTime * 2);
+    }
+
+    private void ScaleDown()
+    {
+        transform.localScale = Vector3.Lerp(transform.localScale, originalScale, Time.deltaTime * 2);
     }
 
     private void ShrinkAndDestroy()
@@ -102,25 +115,6 @@ public class EyeInteractable : MonoBehaviour
                 break;
         }
     }
-
-
-    private void UpdateMaterial()
-    {
-        var mentalCommand = mentalCommands.GetMentalCommand();
-        if (isHovered)
-        {
-            meshRenderer.material = OnHoverMaterial;
-        }
-        else if (mentalCommand == "pull" || mentalCommand == "push")
-        {
-            meshRenderer.material = OnMentalCommandActiveMaterial;
-        }
-        else
-        {
-            meshRenderer.material = originalMaterial;
-        }
-    }
-
 
     private void HandleShrinking()
     {
