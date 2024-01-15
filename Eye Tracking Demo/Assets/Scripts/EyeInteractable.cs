@@ -15,6 +15,8 @@ public class EyeInteractable : MonoBehaviour
     private bool isBeingPulled = false;
     private float gazeDuration = 0f;
     private bool shouldShrink = false;
+    private float cooldownTimer = 0f; // Cooldown timer after a cube has been shrunk
+    private const float CooldownDuration = 1.0f; // Cooldown duration in seconds
 
     private void Start()
     {
@@ -29,6 +31,13 @@ public class EyeInteractable : MonoBehaviour
 
     private void Update()
     {
+        // Check if the cooldown is active
+        if (cooldownTimer > 0)
+        {
+            cooldownTimer -= Time.deltaTime;
+            return; // Skip the rest of the update if cooldown is active
+        }
+
         var mentalCommand = mentalCommands.GetMentalCommand();
 
         if (isHovered && mentalCommand == "pull")
@@ -60,7 +69,6 @@ public class EyeInteractable : MonoBehaviour
         }
         else
         {
-            // Return to original scale when not hovered over
             ScaleDown();
         }
     }
@@ -84,6 +92,7 @@ public class EyeInteractable : MonoBehaviour
         if (transform.localScale.x <= 0.05f) // Threshold for destruction, adjust as needed
         {
             Destroy(gameObject);
+            cooldownTimer = CooldownDuration; // Start the cooldown
         }
     }
 

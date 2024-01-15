@@ -5,7 +5,7 @@ public class EyeTrackingRay : MonoBehaviour
 {
     [SerializeField] private float rayDistance = 500.0f;
     [SerializeField] private Transform leftEyeAnchor;
-    [SerializeField] private Transform rightEyeAnchor;   
+    [SerializeField] private Transform rightEyeAnchor;
 
     private LineRenderer lineRenderer;
     private EyeInteractable lastEyeInteractable;
@@ -27,7 +27,8 @@ public class EyeTrackingRay : MonoBehaviour
     private void Update()
     {
         Vector3 eyesCenter = (leftEyeAnchor.position + rightEyeAnchor.position) * 0.5f;
-        Ray ray = new Ray(eyesCenter, transform.forward);
+        Vector3 forwardDirection = (leftEyeAnchor.forward + rightEyeAnchor.forward) * 0.5f; // Average the forward direction of both eyes
+        Ray ray = new Ray(eyesCenter, forwardDirection);
         RaycastHit hit;
         bool isHit = Physics.Raycast(ray, out hit, rayDistance);
 
@@ -63,6 +64,6 @@ public class EyeTrackingRay : MonoBehaviour
 
         // Update the LineRenderer to represent the ray
         lineRenderer.SetPosition(0, eyesCenter);
-        lineRenderer.SetPosition(1, eyesCenter + transform.forward * rayDistance);
+        lineRenderer.SetPosition(1, eyesCenter + forwardDirection * rayDistance);
     }
 }
