@@ -12,7 +12,7 @@ public class MentalCommands : MonoBehaviour
     string clientId = "2BQ6yrpPyo00O3WRjZPQp18hd1roobOuF2cLxAVh";
     string clientSecret = "BcQrNVEj6YLavHmq4ihAWl2RE8noBU6lEk7IXrFOi59y0ws7nTmuNnYd1mlRxg10JihSMMtpFDnBxR3XDYHRG6f75OaGeBzyyefFk6w91uQw6zj0lORFeEzV3hknKDiU";
     string appName = "UnityApp";
-    public string profileName = "kyleSIM24";
+    public string profileName = "wanyeaV2";
     public string headsetId = "INSIGHT2-A3D20368";
 
     // Delegate for mental command changes
@@ -73,13 +73,12 @@ public class MentalCommands : MonoBehaviour
         {
             string currentCommand = _emotivUnityltf.mentalCmdIs();
 
-            Debug.Log(currentCommand);
+            Debug.Log(mentalCommand);
 
             if (currentCommand != lastMentalCommand)
             {
                 mentalCommand = currentCommand;
                 lastMentalCommand = currentCommand;
-                //Debug.Log(mentalCommand);
 
                 // Trigger the event
                 MentalCommandChanged?.Invoke(mentalCommand);

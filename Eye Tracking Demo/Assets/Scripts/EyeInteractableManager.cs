@@ -5,7 +5,11 @@ using UnityEngine;
 public class EyeInteractableManager : MonoBehaviour
 {
     public static EyeInteractableManager Instance;
+    [SerializeField] private MentalCommands mentalCommands; // Assuming this component exists to fetch commands
 
+    public string CurrentMentalCommand { get; private set; } = "neutral";
+    private float cooldownTimer = 0f;
+    private float CooldownDuration = 5.0f; // Cooldown duration after each interaction
     [SerializeField] private GameObject leftWall;
     [SerializeField] private GameObject rightWall;
     [SerializeField] private GameObject frontWall;
@@ -31,6 +35,20 @@ public class EyeInteractableManager : MonoBehaviour
 
     void Update()
     {
+
+        // if (Input.GetKeyDown("p")) { CurrentMentalCommand = "pull"; }
+        // if (Input.GetKeyDown("n")) { CurrentMentalCommand = "neutral"; }
+        
+/*        if (cooldownTimer > 0)
+        {
+            cooldownTimer -= Time.deltaTime;
+            CurrentMentalCommand = "neutral";
+        }
+        else
+        {
+            CurrentMentalCommand = mentalCommands.GetMentalCommand();
+        }
+
         if (startAssessment && !assessmentStarted)
         {
             AssessmentManager.Instance.StartAssessment(); // Start the assessment
@@ -43,7 +61,12 @@ public class EyeInteractableManager : MonoBehaviour
             AssessmentManager.Instance.ResetAssessment(); // Reset the assessment
             ResetAssessment();
             resetAssessment = false;
-        }
+        }*/
+    }
+
+    public void NotifyCubeShrink()
+    {
+        cooldownTimer = CooldownDuration; // Reset cooldown
     }
 
     IEnumerator StartAssessment()

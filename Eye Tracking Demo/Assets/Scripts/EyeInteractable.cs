@@ -4,24 +4,18 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class EyeInteractable : MonoBehaviour
 {
-    [SerializeField]
-    private MentalCommands mentalCommands;
-    [SerializeField]
-    private float moveSpeed = 1.0f;
-
+    [SerializeField] private float moveSpeed = 1.0f;
     private Vector3 originalScale;
     private Vector3 targetScale; // Target scale when looked at
     private bool isHovered = false;
     private bool isBeingPulled = false;
     private float gazeDuration = 0f;
     private bool shouldShrink = false;
-    private float cooldownTimer = 0f; // Cooldown timer after a cube has been shrunk
-    private const float CooldownDuration = 1.0f; // Cooldown duration in seconds
 
     private void Start()
     {
         originalScale = transform.localScale;
-        targetScale = originalScale * 1.28f; // Set target scale as 1.25 times the original scale
+        targetScale = originalScale * 1.28f; // Set target scale as 1.28 times the original scale
     }
 
     public void Hover(bool state)
@@ -31,14 +25,7 @@ public class EyeInteractable : MonoBehaviour
 
     private void Update()
     {
-        // Check if the cooldown is active
-        if (cooldownTimer > 0)
-        {
-            cooldownTimer -= Time.deltaTime;
-            return; // Skip the rest of the update if cooldown is active
-        }
-
-        var mentalCommand = mentalCommands.GetMentalCommand();
+        string mentalCommand = EyeInteractableManager.Instance.CurrentMentalCommand;
 
         if (isHovered && mentalCommand == "pull")
         {
@@ -91,56 +78,9 @@ public class EyeInteractable : MonoBehaviour
         // Destroy cube if it is small enough
         if (transform.localScale.x <= 0.05f) // Threshold for destruction, adjust as needed
         {
+            EyeInteractableManager.Instance.NotifyCubeShrink(); // Initiate the cooldown in the manager
             Destroy(gameObject);
-            cooldownTimer = CooldownDuration; // Start the cooldown
         }
-    }
-
-    private void HandleMentalCommandMovement(string command)
-    {
-
-        Vector3 directionToUser = (Camera.main.transform.position - transform.position).normalized;
-        float step = moveSpeed * Time.deltaTime;
-
-        switch (command)
-        {
-            case "pull":
-
-                // Move towards the user
-                // transform.position += directionToUser * step;
-                this.transform.localScale = Vector3.zero;
-                break;
-
-            case "push":
-
-                // Move away from the user
-                // transform.position -= directionToUser * step;
-                break;
-
-            case "neutral":
-
-                // Stop movement immediately
-                // We don't need to add anything here as the object will simply stop moving
-                break;
-        }
-    }
-
-    private void HandleShrinking()
-    {
-        if (shouldShrink)
-        {
-            // Shrink the cube slowly
-            float shrinkSpeed = 2.0f * Time.deltaTime; 
-            transform.localScale = Vector3.Max(Vector3.zero, transform.localScale - new Vector3(shrinkSpeed, shrinkSpeed, shrinkSpeed));
-        }
-    }
-
-    private void OnDisable()
-    {
-        Debug.Log("Disabling Cube...");
-        AssessmentManager.Instance.RecordCubeDestruction(GetComponent<Renderer>().material.color);
-        EyeInteractableManager.Instance.AddDisabledCube(gameObject);
-
     }
 
 }
