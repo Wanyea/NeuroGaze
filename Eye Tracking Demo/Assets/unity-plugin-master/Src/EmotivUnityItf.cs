@@ -579,7 +579,7 @@ namespace EmotivUnityPlugin
 
         private void OnMentalCommandReceived(object sender, MentalCommandEventArgs data)
         {
-            //string dataText = "com data: " + data.Act + ", power: " + data.Pow.ToString() + ", time " + data.Time.ToString();
+            // string dataText = "com data: " + data.Act + ", power: " + data.Pow.ToString() + ", time " + data.Time.ToString();
             string dataText = ("Command: " + data.Act);
             action = data.Act;
             // print out data to console
@@ -590,7 +590,6 @@ namespace EmotivUnityPlugin
         {
             return action;
         }
-
 
         private void OnFacialExpReceived(object sender, FacEventArgs data)
         {

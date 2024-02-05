@@ -235,6 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &996801
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -285,6 +286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &21871337
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -619,6 +621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &93367385
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -844,6 +847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &109076446
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -983,6 +987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &138103804
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1111,6 +1116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &144213429
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1239,6 +1245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &156299276
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1367,6 +1374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &175199010
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1495,6 +1503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &182688913
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1623,6 +1632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &183997310
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1751,6 +1761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &193700723
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1879,6 +1890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &199787671
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2007,6 +2019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &205628325
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2135,6 +2148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &205762183
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2263,6 +2277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &214402883
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2391,6 +2406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &220492102
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2519,6 +2535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &232636338
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2647,6 +2664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &236688918
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2775,6 +2793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &240099464
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3085,6 +3104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &252306945
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3150,6 +3170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &253094944
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3278,6 +3299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &254532110
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3406,6 +3428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &271066117
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3534,6 +3557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &278206807
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3662,6 +3686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &285215358
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3790,6 +3815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &285420931
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3918,6 +3944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &305572051
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4046,6 +4073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &318599131
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4174,6 +4202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &324311867
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4302,6 +4331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &327238983
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4430,6 +4460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &371773019
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4655,6 +4686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &398934687
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4783,6 +4815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &411971940
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4911,6 +4944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &416244909
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5039,6 +5073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &447986905
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5167,6 +5202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &454567053
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5246,206 +5282,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454567050}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &455839502
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 455839507}
-  - component: {fileID: 455839506}
-  - component: {fileID: 455839505}
-  - component: {fileID: 455839504}
-  - component: {fileID: 455839503}
-  m_Layer: 0
-  m_Name: CenterEyeAnchor
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &455839503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455839502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1a298899abc2714581fe86864c68a09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rayDistance: 500
-  leftEyeAnchor: {fileID: 1209870875}
-  rightEyeAnchor: {fileID: 687391150}
---- !u!120 &455839504
-LineRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455839502}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1409c3707ca4cf24887ba9af81a6f5f9, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Positions:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 1}
-  m_Parameters:
-    serializedVersion: 3
-    widthMultiplier: 0.032692835
-    widthCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    colorGradient:
-      serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
-      key3: {r: 0, g: 0, b: 0, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
-      key5: {r: 0, g: 0, b: 0, a: 0}
-      key6: {r: 0, g: 0, b: 0, a: 0}
-      key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    numCornerVertices: 0
-    numCapVertices: 0
-    alignment: 0
-    textureMode: 0
-    shadowBias: 0.5
-    generateLightingData: 0
-  m_UseWorldSpace: 1
-  m_Loop: 0
---- !u!20 &455839505
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455839502}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.1
-  far clip plane: 1000
-  field of view: 90
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 0
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!81 &455839506
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455839502}
-  m_Enabled: 1
---- !u!4 &455839507
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455839502}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &456259095
 GameObject:
   m_ObjectHideFlags: 0
@@ -5495,6 +5331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &456259098
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5623,6 +5460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &458300064
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5751,6 +5589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &498692603
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5879,6 +5718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &506095096
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6007,6 +5847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &519497234
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6135,6 +5976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &542247876
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6263,6 +6105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &559159109
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6391,6 +6234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &567165825
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6504,6 +6348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &572415598
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6647,6 +6492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &573368652
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6775,6 +6621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &601713921
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6903,6 +6750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &606050141
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7031,6 +6879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &634874857
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7159,6 +7008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &645715778
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7287,6 +7137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &666362478
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7611,6 +7462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &712651023
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7739,6 +7591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &720275299
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7867,6 +7720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &732416853
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7995,6 +7849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &733960346
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8123,6 +7978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &744064050
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8251,6 +8107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &770728065
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8379,6 +8236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &773172104
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8507,6 +8365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &794556523
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8635,6 +8494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &811737475
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8763,6 +8623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &818039050
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9124,6 +8985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &843824247
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9252,6 +9114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &850242947
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9464,6 +9327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &880812993
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9592,6 +9456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &898000422
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9705,6 +9570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &901658516
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9916,6 +9782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &941229741
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10044,6 +9911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &949397096
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10172,6 +10040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &963998155
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10300,6 +10169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &964109290
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10496,6 +10366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &986687439
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10624,6 +10495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &989862029
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10752,6 +10624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &993508806
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10880,6 +10753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1012134509
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11008,6 +10882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1013430068
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11136,6 +11011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1030022021
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11299,6 +11175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1075086373
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11427,6 +11304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1076519381
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11540,6 +11418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1091347976
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11683,6 +11562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1096269202
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11811,6 +11691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1103034132
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11939,6 +11820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1110730207
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12067,6 +11949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1111947841
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12195,6 +12078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1127111341
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12323,6 +12207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1160370672
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12451,6 +12336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1167473504
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12579,6 +12465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1173225872
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12692,6 +12579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1174220330
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12835,6 +12723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1185203042
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12968,6 +12857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1244748259
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13096,6 +12986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1253487440
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13224,6 +13115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1264072628
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13352,6 +13244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1265539871
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13480,6 +13373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1304318177
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13608,6 +13502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1320590734
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13736,6 +13631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1321884511
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13849,6 +13745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1366321566
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13992,6 +13889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1374956346
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14120,6 +14018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1388565052
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14248,6 +14147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1404053854
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14376,6 +14276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1405576729
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14504,6 +14405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1409372670
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14632,6 +14534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1421056675
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14760,6 +14663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1421332288
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14888,6 +14792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1429406627
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15016,6 +14921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1434516266
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15144,6 +15050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1464355932
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15272,6 +15179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1477041432
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15385,6 +15293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1497900256
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15528,6 +15437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1510951912
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15656,6 +15566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1561924834
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15784,6 +15695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1562281197
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15991,6 +15903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!1 &1578227145
 GameObject:
   m_ObjectHideFlags: 0
@@ -16079,6 +15992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1579687861
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16207,6 +16121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1599442588
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16335,6 +16250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1607072820
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16463,6 +16379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1614328900
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16784,6 +16701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1723300453
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16897,6 +16815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1741718578
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17040,6 +16959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1752030091
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17168,6 +17088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1754231707
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17296,6 +17217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1762902267
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17424,6 +17346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1788682709
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17552,6 +17475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1797213421
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17680,6 +17604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1804351318
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17808,6 +17733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1823605750
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17936,6 +17862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1827739339
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18064,6 +17991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1836810897
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18192,6 +18120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1838331200
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18320,6 +18249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1859125799
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18448,6 +18378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1888558774
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18576,6 +18507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1893138994
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18704,6 +18636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1896411993
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18832,6 +18765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1897796459
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18960,6 +18894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1941432344
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19088,6 +19023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1966159256
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19216,6 +19152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1967379834
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19344,6 +19281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1983353401
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19472,6 +19410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1985083577
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19600,6 +19539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &1995872169
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19728,6 +19668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &2003332568
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19856,6 +19797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &2018298242
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19984,6 +19926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &2022851471
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20112,6 +20055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &2032348961
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20338,6 +20282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &2081046586
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20451,6 +20396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &2110820854
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20594,6 +20540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &2138179930
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20722,6 +20669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  shouldShrink: 0
 --- !u!54 &2146106829
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20858,11 +20806,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6279153400065857629, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
       propertyPath: headsetId
-      value: INSIGHT2-A3D20368
+      value: INSIGHT2-A3D2036F
       objectReference: {fileID: 0}
     - target: {fileID: 6279153400065857629, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
       propertyPath: profileName
-      value: wanyeaNewV2
+      value: wanyeaNewV3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}

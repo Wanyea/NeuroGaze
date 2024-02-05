@@ -9,7 +9,7 @@ public class EyeInteractableManager : MonoBehaviour
 
     public string CurrentMentalCommand { get; private set; } = "neutral";
     private float cooldownTimer = 0f;
-    private float CooldownDuration = 5.0f; // Cooldown duration after each interaction
+    [SerializeField] private float CooldownDuration = 5.0f; // Cooldown duration after each interaction
     [SerializeField] private GameObject leftWall;
     [SerializeField] private GameObject rightWall;
     [SerializeField] private GameObject frontWall;
@@ -35,13 +35,14 @@ public class EyeInteractableManager : MonoBehaviour
 
     void Update()
     {
+        Debug.Log($"The Current Mental Command is {CurrentMentalCommand}");
 
         // if (Input.GetKeyDown("p")) { CurrentMentalCommand = "pull"; }
         // if (Input.GetKeyDown("n")) { CurrentMentalCommand = "neutral"; }
 
         if (cooldownTimer > 0)
         {
-            Debug.Log($"Cooldown for {cooldownTimer} more seconds...");
+            // Debug.Log($"Cooldown for {cooldownTimer} more seconds...");
             cooldownTimer -= Time.deltaTime;
             CurrentMentalCommand = "neutral";
         }

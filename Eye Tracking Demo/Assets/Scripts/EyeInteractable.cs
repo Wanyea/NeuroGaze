@@ -10,7 +10,7 @@ public class EyeInteractable : MonoBehaviour
     private bool isHovered = false;
     private bool isBeingPulled = false;
     private float gazeDuration = 0f;
-    private bool shouldShrink = false;
+    [SerializeField] private bool shouldShrink = false;
 
     private void Start()
     {
@@ -72,13 +72,14 @@ public class EyeInteractable : MonoBehaviour
 
     private void ShrinkAndDestroy()
     {
+        EyeInteractableManager.Instance.NotifyCubeShrink(); // Initiate the cooldown in the manager
+
         float shrinkSpeed = 0.3f * Time.deltaTime;
         transform.localScale -= new Vector3(shrinkSpeed, shrinkSpeed, shrinkSpeed);
 
         // Destroy cube if it is small enough
         if (transform.localScale.x <= 0.05f) // Threshold for destruction, adjust as needed
         {
-            EyeInteractableManager.Instance.NotifyCubeShrink(); // Initiate the cooldown in the manager
             Destroy(gameObject);
         }
     }

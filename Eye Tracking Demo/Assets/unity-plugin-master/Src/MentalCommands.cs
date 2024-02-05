@@ -12,7 +12,7 @@ public class MentalCommands : MonoBehaviour
     string clientId = "wiAajbnzJ4EXPBCi5pczwdpofQIFsE8JhJxu5iKV";
     string clientSecret = "3P3UHnIHjzK5P1Hi5FgXrOTO6WqtecERe9mghtkzlhoD4lPvGaHEBmGthY931gWeho57NoCXYNa8pgocatBLpWjhBpemkMrF0DtMcj4bsj9gAU2ukAnGnsP1OSNzxhS9";
     string appName = "NeuroGaze";
-    public string profileName = "wanyeaNewV2";
+    public string profileName = "wanyeaNewV3";
     public string headsetId = "INSIGHT2-A3D2036F";
 
     // Delegate for mental command changes
@@ -72,8 +72,6 @@ public class MentalCommands : MonoBehaviour
         if (mentalCmdRcvd)
         {
             string currentCommand = _emotivUnityltf.mentalCmdIs();
-
-            Debug.Log(mentalCommand);
 
             if (currentCommand != lastMentalCommand)
             {
