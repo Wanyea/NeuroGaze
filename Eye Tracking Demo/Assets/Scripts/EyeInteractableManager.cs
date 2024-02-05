@@ -38,9 +38,10 @@ public class EyeInteractableManager : MonoBehaviour
 
         // if (Input.GetKeyDown("p")) { CurrentMentalCommand = "pull"; }
         // if (Input.GetKeyDown("n")) { CurrentMentalCommand = "neutral"; }
-        
-/*        if (cooldownTimer > 0)
+
+        if (cooldownTimer > 0)
         {
+            Debug.Log($"Cooldown for {cooldownTimer} more seconds...");
             cooldownTimer -= Time.deltaTime;
             CurrentMentalCommand = "neutral";
         }
@@ -61,7 +62,7 @@ public class EyeInteractableManager : MonoBehaviour
             AssessmentManager.Instance.ResetAssessment(); // Reset the assessment
             ResetAssessment();
             resetAssessment = false;
-        }*/
+        }
     }
 
     public void NotifyCubeShrink()

@@ -30,6 +30,7 @@ using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.Collections;
 using System.Timers;
+using UnityEngine;
 
 namespace EmotivUnityPlugin
 {
@@ -223,6 +224,7 @@ namespace EmotivUnityPlugin
 
             JObject response = JObject.Parse(e.Message);
 
+            // Debug.Log($"The current ID is: {response["id"]}");
             if (response["id"] != null)
             {
                 string method = ""; // method name
@@ -365,6 +367,7 @@ namespace EmotivUnityPlugin
             else if (method == "generateNewToken")
             {
                 string cortexToken = data["cortexToken"].ToString();
+                UnityEngine.Debug.Log($"The current Cortex Token is: {cortexToken}");
                 RefreshTokenOK(this, cortexToken);
             }
             else if (method == "getLicenseInfo")

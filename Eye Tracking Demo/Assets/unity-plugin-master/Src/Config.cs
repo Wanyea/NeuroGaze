@@ -10,18 +10,18 @@
         /// <para>To get a client id and a client secret, you must connect to your Emotiv
         /// account on emotiv.com and create a Cortex app.
         /// https://www.emotiv.com/my-account/cortex-apps/.</para></summary>
-        public static string AppClientId            = "2BQ6yrpPyo00O3WRjZPQp18hd1roobOuF2cLxAVh";
-        public static string AppClientSecret        = "BcQrNVEj6YLavHmq4ihAWl2RE8noBU6lEk7IXrFOi59y0ws7nTmuNnYd1mlRxg10JihSMMtpFDnBxR3XDYHRG6f75OaGeBzyyefFk6w91uQw6zj0lORFeEzV3hknKDiU";
+        public static string AppClientId            = "wiAajbnzJ4EXPBCi5pczwdpofQIFsE8JhJxu5iKV";
+        public static string AppClientSecret        = "3P3UHnIHjzK5P1Hi5FgXrOTO6WqtecERe9mghtkzlhoD4lPvGaHEBmGthY931gWeho57NoCXYNa8pgocatBLpWjhBpemkMrF0DtMcj4bsj9gAU2ukAnGnsP1OSNzxhS9";
 
          public static string AppUrl                 = "wss://localhost:6868"; // default
         public static string AppVersion             = "1.0.0"; // default
-        public static string AppName                = "UnityApp"; // default app name
+        public static string AppName                = "NeuroGaze"; 
         
         /// <summary>
         /// Name of directory where contain tmp data and logs file.
         /// </summary>
-        public static string TmpAppDataDir          = "UnityApp";
-        public static string EmotivAppsPath         = ""; // location of emotiv Apps . Eg: C:\Program Files\EmotivApps
+        public static string TmpAppDataDir          = "NeuroGaze";
+        public static string EmotivAppsPath         = "C:/Program Files/EmotivApps"; // location of emotiv Apps . Eg: C:\Program Files\EmotivApps
         public static string TmpVersionFileName     = "version.ini";
         public static string TmpDataFileName        = "data.dat";
         public static string ProfilesDir            = "Profiles";

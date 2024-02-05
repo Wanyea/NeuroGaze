@@ -9,11 +9,11 @@ public class MentalCommands : MonoBehaviour
     bool mentalCmdRcvd = false;
     string mentalCommand;
     List<string> dataStreamList = new List<string>() { DataStreamName.MentalCommands, DataStreamName.SysEvents };
-    string clientId = "2BQ6yrpPyo00O3WRjZPQp18hd1roobOuF2cLxAVh";
-    string clientSecret = "BcQrNVEj6YLavHmq4ihAWl2RE8noBU6lEk7IXrFOi59y0ws7nTmuNnYd1mlRxg10JihSMMtpFDnBxR3XDYHRG6f75OaGeBzyyefFk6w91uQw6zj0lORFeEzV3hknKDiU";
-    string appName = "UnityApp";
-    public string profileName = "wanyeaV2";
-    public string headsetId = "INSIGHT2-A3D20368";
+    string clientId = "wiAajbnzJ4EXPBCi5pczwdpofQIFsE8JhJxu5iKV";
+    string clientSecret = "3P3UHnIHjzK5P1Hi5FgXrOTO6WqtecERe9mghtkzlhoD4lPvGaHEBmGthY931gWeho57NoCXYNa8pgocatBLpWjhBpemkMrF0DtMcj4bsj9gAU2ukAnGnsP1OSNzxhS9";
+    string appName = "NeuroGaze";
+    public string profileName = "wanyeaNewV2";
+    public string headsetId = "INSIGHT2-A3D2036F";
 
     // Delegate for mental command changes
     public delegate void OnMentalCommandChanged(string newCommand);
@@ -24,7 +24,7 @@ public class MentalCommands : MonoBehaviour
     {
         _emotivUnityltf.Init(clientId,clientSecret,appName);
         _emotivUnityltf.Start();
-        DataStreamManager.Instance.ScanHeadsets(); 
+        DataStreamManager.Instance.ScanHeadsets();
     }
 
     private void OnGUI()
