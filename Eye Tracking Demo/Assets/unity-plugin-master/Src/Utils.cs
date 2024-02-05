@@ -41,6 +41,7 @@ namespace EmotivUnityPlugin
             homePath = Directory.GetCurrentDirectory();
         #endif
             string targetPath = Path.Combine(homePath, Config.TmpAppDataDir);
+            UnityEngine.Debug.Log("TARGET PATH: " + targetPath);
             return targetPath;
         }
 

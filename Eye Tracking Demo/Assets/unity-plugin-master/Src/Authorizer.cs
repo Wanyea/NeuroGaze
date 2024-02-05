@@ -196,6 +196,8 @@ namespace EmotivUnityPlugin
             }
             try
             {
+                UnityEngine.Debug.Log($"The directory is: {targetDir}");
+
                 Stream stream = File.Open(fileDir, FileMode.Open);
                 BinaryFormatter bformater = new BinaryFormatter();
                 UserDataInfo tokenInfo   = (UserDataInfo)bformater.Deserialize(stream);
@@ -390,6 +392,7 @@ namespace EmotivUnityPlugin
 
                 UnityEngine.Debug.Log("Refresh token for next using.");
                 // genereate new token
+                UnityEngine.Debug.Log($"TokenInfo: {tokenInfo.CortexToken}");
                 _ctxClient.GenerateNewToken(tokenInfo.CortexToken);
             } else {
 
