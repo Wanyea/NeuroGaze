@@ -9,14 +9,13 @@ public class EyeInteractableManager : MonoBehaviour
 
     public string CurrentMentalCommand { get; private set; } = "neutral";
     private float cooldownTimer = 0f;
-    [SerializeField] private float CooldownDuration = 5.0f; // Cooldown duration after each interaction
     [SerializeField] private GameObject leftWall;
     [SerializeField] private GameObject rightWall;
     [SerializeField] private GameObject frontWall;
     [SerializeField] private GameObject backWall;
-    [SerializeField] private bool startAssessment = false; // Toggle this in the inspector to start
+    [SerializeField] public bool startAssessment = false; // Toggle this in the inspector to start
     [SerializeField] private bool resetAssessment = false; // Toggle this in the inspector to reset
-    [SerializeField] private int countdownDuration = 3; // Set countdown duration in the inspector
+    [SerializeField] private int cooldownDuration = 2; // Set countdown duration in the inspector
     [SerializeField] private int targetsPerWall = 1;
 
     private bool assessmentStarted = false;
@@ -66,14 +65,16 @@ public class EyeInteractableManager : MonoBehaviour
         }
     }
 
-    public void NotifyCubeShrink()
+    public void setStartAssessment() { startAssessment = true; }
+    public void setResetAssessment() { resetAssessment = true;  }
+    public void NotifyCubeShrink() 
     {
-        cooldownTimer = CooldownDuration; // Reset cooldown
+        cooldownTimer = cooldownDuration; // Reset cooldown
     }
 
     IEnumerator StartAssessment()
     {
-        for (int i = countdownDuration; i > 0; i--)
+        for (int i = cooldownDuration; i > 0; i--)
         {
             Debug.Log("Countdown: " + i);
             yield return new WaitForSeconds(1f);
