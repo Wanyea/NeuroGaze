@@ -1,12 +1,15 @@
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
+using TMPro; 
 
 public class EyeInteractableManager : MonoBehaviour
 {
     public static EyeInteractableManager Instance;
     [SerializeField] private MentalCommands mentalCommands; // Assuming this component exists to fetch commands
-
+    [SerializeField] GameObject buttonUI;
+    private TextMeshPro assessmentTextMesh;
+    public TextMeshPro mentalCommandsLog;
     public string CurrentMentalCommand { get; private set; } = "neutral";
     private float cooldownTimer = 0f;
     [SerializeField] private GameObject leftWall;
@@ -32,9 +35,16 @@ public class EyeInteractableManager : MonoBehaviour
         }
     }
 
+    void Start() 
+    {
+        assessmentTextMesh = buttonUI.GetComponent<TextMeshPro>();
+    }
+
     void Update()
     {
-        Debug.Log($"The Current Mental Command is {CurrentMentalCommand}");
+        mentalCommandsLog.text = $"The Current Mental Command is {CurrentMentalCommand}";
+
+        //Debug.Log($"The Current Mental Command is {CurrentMentalCommand}");
 
         // if (Input.GetKeyDown("p")) { CurrentMentalCommand = "pull"; }
         // if (Input.GetKeyDown("n")) { CurrentMentalCommand = "neutral"; }
@@ -76,11 +86,14 @@ public class EyeInteractableManager : MonoBehaviour
     {
         for (int i = cooldownDuration; i > 0; i--)
         {
-            Debug.Log("Countdown: " + i);
+            assessmentTextMesh.text = $"Assessment starts in {i} seconds...";
+            //Debug.Log("Countdown: " + i);
             yield return new WaitForSeconds(1f);
         }
 
-        Debug.Log("Assessment Started!");
+        assessmentTextMesh.text = "Assessment Started!";
+
+        //Debug.Log("Assessment Started!");
 
         // Start changing the color of random cubes
         StartCoroutine(ChangeRandomCubesColor(leftWall));
@@ -98,7 +111,9 @@ public class EyeInteractableManager : MonoBehaviour
     {
         startAssessment = false;
         assessmentStarted = false;
-        Debug.Log("Assessment Reset");
+
+        assessmentTextMesh.text = "Assessment Menu";
+        //Debug.Log("Assessment Reset");
 
         // Reset and re-enable all cubes
         ResetAndEnableCubes(leftWall);

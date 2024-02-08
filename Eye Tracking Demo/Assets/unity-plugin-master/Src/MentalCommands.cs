@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using EmotivUnityPlugin;
+using TMPro;
 
 public class MentalCommands : MonoBehaviour
 {
@@ -19,9 +20,12 @@ public class MentalCommands : MonoBehaviour
     public delegate void OnMentalCommandChanged(string newCommand);
     public event OnMentalCommandChanged MentalCommandChanged;
 
+    [SerializeField] GameObject emotivUI;
+    private TextMeshPro emotivTextMesh;
 
     void Start()
     {
+        emotivTextMesh = emotivUI.GetComponent<TextMeshPro>();
         _emotivUnityltf.Init(clientId,clientSecret,appName);
         _emotivUnityltf.Start();
         DataStreamManager.Instance.ScanHeadsets();
@@ -33,8 +37,6 @@ public class MentalCommands : MonoBehaviour
         {
             _emotivUnityltf.CreateSessionWithHeadset(headsetId);
             UnityEngine.Debug.Log("Creating Session with: " + headsetId);
-
-
         }
 
         if (Event.current.Equals(Event.KeyboardEvent("l")))
@@ -62,7 +64,41 @@ public class MentalCommands : MonoBehaviour
 
         }
 
+    }
 
+
+    public void CreateSession()
+    {
+        emotivTextMesh.text = $"Creating Session with: {headsetId}";
+        _emotivUnityltf.CreateSessionWithHeadset(headsetId);
+        UnityEngine.Debug.Log("Creating Session with: " + headsetId);
+    }
+
+    public void LoadProfile()
+    {
+        emotivTextMesh.text = $"Loading Profile: {profileName}";
+        _emotivUnityltf.LoadProfile(profileName);
+        UnityEngine.Debug.Log("Loading Profile: " + profileName);
+    }
+
+    public void SubscribeToDataStream()
+    {
+        emotivTextMesh.text = "Subscribing to DataStream";
+        _emotivUnityltf.SubscribeData(dataStreamList);
+        UnityEngine.Debug.Log("Subscribing to DataStream");
+        mentalCmdRcvd = true;
+    }
+
+    public void EndSession()
+    {
+        emotivTextMesh.text = "Unloaded Profile, Unsubscribed Data, and Stopped EmotivUnityItf";
+        mentalCmdRcvd = false;
+        _emotivUnityltf.UnLoadProfile(profileName);
+        _emotivUnityltf.UnSubscribeData(dataStreamList);
+        _emotivUnityltf.Stop();
+        UnityEngine.Debug.Log("Unloaded Profile, Unsubscribed Data, and Stopped EmotivUnityItf");
+
+        emotivTextMesh.text = "Emotiv Log";
     }
 
     private string lastMentalCommand = "";
