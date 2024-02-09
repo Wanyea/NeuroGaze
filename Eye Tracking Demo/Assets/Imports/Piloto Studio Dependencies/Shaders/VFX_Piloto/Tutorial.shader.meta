@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 3df3d5db80957054ab5aa65d96cacb74
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MaskingLayer: {fileID: 2800000, guid: 92982803f8a25f544b29e7d2e493aee3, type: 3}
+  - _ParallaxTexture: {fileID: 2800000, guid: 87c3e936b2e267a4887594e8c6c89208, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

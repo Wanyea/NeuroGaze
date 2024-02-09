@@ -926,11 +926,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: a62bf845-b549-4f1d-a67d-65c7f6779445
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Eye Tracking Demo
+  organizationId: wanyeabarbel
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
