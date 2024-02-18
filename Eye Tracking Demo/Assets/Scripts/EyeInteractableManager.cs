@@ -44,8 +44,6 @@ public class EyeInteractableManager : MonoBehaviour
     {
         mentalCommandsLog.text = $"The Current Mental Command is {CurrentMentalCommand}";
 
-        //Debug.Log($"The Current Mental Command is {CurrentMentalCommand}");
-
         // if (Input.GetKeyDown("p")) { CurrentMentalCommand = "pull"; }
         // if (Input.GetKeyDown("n")) { CurrentMentalCommand = "neutral"; }
 
@@ -87,7 +85,6 @@ public class EyeInteractableManager : MonoBehaviour
         for (int i = cooldownDuration; i > 0; i--)
         {
             assessmentTextMesh.text = $"Assessment starts in {i} seconds...";
-            //Debug.Log("Countdown: " + i);
             yield return new WaitForSeconds(1f);
         }
 

@@ -10,9 +10,9 @@ public class MentalCommands : MonoBehaviour
     bool mentalCmdRcvd = false;
     string mentalCommand;
     List<string> dataStreamList = new List<string>() { DataStreamName.MentalCommands, DataStreamName.SysEvents };
-    string clientId = "wiAajbnzJ4EXPBCi5pczwdpofQIFsE8JhJxu5iKV";
-    string clientSecret = "3P3UHnIHjzK5P1Hi5FgXrOTO6WqtecERe9mghtkzlhoD4lPvGaHEBmGthY931gWeho57NoCXYNa8pgocatBLpWjhBpemkMrF0DtMcj4bsj9gAU2ukAnGnsP1OSNzxhS9";
-    string appName = "NeuroGaze";
+    string clientId = "TfClPsjFL6t6TpxT219uyWVImNg1T8pt8e6lMsSf";
+    string clientSecret = "anILaTvFJ5jUpuHBSN0DTtBeZann9xgGYR4FRpMqjgM5WaprPlCmil2A9AUEaXYxRO1nEledPsU1GLe0YW2XjmNGD4jcMzZSLgGO1fFNA04ItaRBzUQQR1Hy8AuMLPoh";
+    string appName = "MSI";
     public string profileName = "wanyeaNewV3";
     public string headsetId = "INSIGHT2-A3D2036F";
 

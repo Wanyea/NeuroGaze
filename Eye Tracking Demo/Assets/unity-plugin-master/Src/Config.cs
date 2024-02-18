@@ -10,12 +10,12 @@
         /// <para>To get a client id and a client secret, you must connect to your Emotiv
         /// account on emotiv.com and create a Cortex app.
         /// https://www.emotiv.com/my-account/cortex-apps/.</para></summary>
-        public static string AppClientId            = "wiAajbnzJ4EXPBCi5pczwdpofQIFsE8JhJxu5iKV";
-        public static string AppClientSecret        = "3P3UHnIHjzK5P1Hi5FgXrOTO6WqtecERe9mghtkzlhoD4lPvGaHEBmGthY931gWeho57NoCXYNa8pgocatBLpWjhBpemkMrF0DtMcj4bsj9gAU2ukAnGnsP1OSNzxhS9";
+        public static string AppClientId            = "TfClPsjFL6t6TpxT219uyWVImNg1T8pt8e6lMsSf";
+        public static string AppClientSecret        = "anILaTvFJ5jUpuHBSN0DTtBeZann9xgGYR4FRpMqjgM5WaprPlCmil2A9AUEaXYxRO1nEledPsU1GLe0YW2XjmNGD4jcMzZSLgGO1fFNA04ItaRBzUQQR1Hy8AuMLPoh";
 
          public static string AppUrl                 = "wss://localhost:6868"; // default
         public static string AppVersion             = "1.0.0"; // default
-        public static string AppName                = "NeuroGaze"; 
+        public static string AppName                = "MSI"; 
         
         /// <summary>
         /// Name of directory where contain tmp data and logs file.
