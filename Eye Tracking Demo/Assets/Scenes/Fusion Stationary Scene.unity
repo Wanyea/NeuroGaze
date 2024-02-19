@@ -3569,8 +3569,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rayDistance: 500
-  leftEyeAnchor: {fileID: 1209870875}
-  rightEyeAnchor: {fileID: 687391150}
+  leftEyeAnchor: {fileID: 418761291}
+  rightEyeAnchor: {fileID: 1028716317}
 --- !u!120 &240171171
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -3578,7 +3578,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240171166}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -6030,6 +6030,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416244906}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &418761291 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1351984907727342493, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
+  m_PrefabInstance: {fileID: 6384109739135069184}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &447986902
 GameObject:
   m_ObjectHideFlags: 0
@@ -8331,11 +8336,6 @@ Transform:
   m_Father: {fileID: 1578227146}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &687391150 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8460630920724175516, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
-  m_PrefabInstance: {fileID: 6384109739135069184}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -11081,7 +11081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5824888959264055625, guid: 4bf459842f45eb648a8e314fa01c55b6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5824888959364241579, guid: 4bf459842f45eb648a8e314fa01c55b6, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -12187,6 +12187,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013430065}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1028716317 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8460630920724175516, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
+  m_PrefabInstance: {fileID: 6384109739135069184}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1030022018
 GameObject:
   m_ObjectHideFlags: 0
@@ -14281,7 +14286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5824888959264055625, guid: 4bf459842f45eb648a8e314fa01c55b6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5824888959364241579, guid: 4bf459842f45eb648a8e314fa01c55b6, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -14389,11 +14394,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bf459842f45eb648a8e314fa01c55b6, type: 3}
---- !u!4 &1209870875 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1351984907727342493, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
-  m_PrefabInstance: {fileID: 6384109739135069184}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1242039855
 GameObject:
   m_ObjectHideFlags: 0
@@ -15870,7 +15870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1377101993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23339,7 +23339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6279153400065857629, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
       propertyPath: profileName
-      value: kyleUnitySIM
+      value: mackieSIM
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
