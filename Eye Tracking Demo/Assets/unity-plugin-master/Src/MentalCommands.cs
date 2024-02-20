@@ -13,8 +13,8 @@ public class MentalCommands : MonoBehaviour
     string clientId = "TfClPsjFL6t6TpxT219uyWVImNg1T8pt8e6lMsSf";
     string clientSecret = "anILaTvFJ5jUpuHBSN0DTtBeZann9xgGYR4FRpMqjgM5WaprPlCmil2A9AUEaXYxRO1nEledPsU1GLe0YW2XjmNGD4jcMzZSLgGO1fFNA04ItaRBzUQQR1Hy8AuMLPoh";
     string appName = "MSI";
-    public string profileName = "wanyeaNewV3";
-    public string headsetId = "INSIGHT2-A3D2036F";
+    public string profileName = "wanyeaEpocX";
+    public string headsetId = "EPOCX-E50208B2";
 
     // Delegate for mental command changes
     public delegate void OnMentalCommandChanged(string newCommand);
@@ -35,8 +35,14 @@ public class MentalCommands : MonoBehaviour
     {
         if (Event.current.Equals(Event.KeyboardEvent("return")))
         {
-            _emotivUnityltf.CreateSessionWithHeadset(headsetId);
-            UnityEngine.Debug.Log("Creating Session with: " + headsetId);
+            try 
+            {
+                _emotivUnityltf.CreateSessionWithHeadset(headsetId);
+            } catch
+            {
+                UnityEngine.Debug.Log("Creating Session with: " + headsetId);
+            }
+
         }
 
         if (Event.current.Equals(Event.KeyboardEvent("l")))
@@ -109,8 +115,10 @@ public class MentalCommands : MonoBehaviour
         {
             string currentCommand = _emotivUnityltf.mentalCmdIs();
 
+
             if (currentCommand != lastMentalCommand)
             {
+                Debug.Log($"The current mental command is: {mentalCommand}");
                 mentalCommand = currentCommand;
                 lastMentalCommand = currentCommand;
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11081,7 +11081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5824888959264055625, guid: 4bf459842f45eb648a8e314fa01c55b6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5824888959364241579, guid: 4bf459842f45eb648a8e314fa01c55b6, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -14286,7 +14286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5824888959264055625, guid: 4bf459842f45eb648a8e314fa01c55b6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5824888959364241579, guid: 4bf459842f45eb648a8e314fa01c55b6, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -15870,7 +15870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1377101993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23335,11 +23335,11 @@ PrefabInstance:
       objectReference: {fileID: 329187192}
     - target: {fileID: 6279153400065857629, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
       propertyPath: headsetId
-      value: INSIGHT2-A3D2036F
+      value: EPOCX-E50208B2
       objectReference: {fileID: 0}
     - target: {fileID: 6279153400065857629, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
       propertyPath: profileName
-      value: mackieSIM
+      value: wanyeaEpocX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
@@ -23368,7 +23368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3603264776607211896, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3603264776607211897, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_RootOrder
