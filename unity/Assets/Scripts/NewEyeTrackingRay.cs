@@ -29,8 +29,8 @@ public class NewEyeTrackingRay : MonoBehaviour
         lineRenderer.endWidth = rayWidth;
         lineRenderer.startColor = rayColorDefaultState;
         lineRenderer.endColor = rayColorDefaultState;
-        lineRenderer.SetPosition(0, eyeAnchor.transform.position);
-        lineRenderer.SetPosition(1, new Vector3(eyeAnchor.transform.position.x, eyeAnchor.transform.position.y, eyeAnchor.transform.position.z + rayDistance));
+        lineRenderer.SetPosition(0, transform.position);
+        lineRenderer.SetPosition(1, new Vector3(transform.position.x, transform.position.y, transform.position.z + rayDistance));
     }
 
     void FixedUpdate()
