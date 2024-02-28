@@ -2,7 +2,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
 [RequireComponent(typeof(Rigidbody))]
-public class EyeInteractable : MonoBehaviour
+public class EyeInteractableForHands : MonoBehaviour
 {
     private Vector3 originalScale;
     private Vector3 targetScale; // Target scale when looked at
@@ -10,6 +10,7 @@ public class EyeInteractable : MonoBehaviour
     private bool isBeingPulled = false;
     private float gazeDuration = 0f;
     [SerializeField] private bool shouldShrink = false;
+    [HideInInspector] public bool isPinching = false;
 
     private void Start()
     {
@@ -24,9 +25,8 @@ public class EyeInteractable : MonoBehaviour
 
     private void Update()
     {
-        string mentalCommand = EyeInteractableManager.Instance.CurrentMentalCommand;
 
-        if (isHovered && mentalCommand == "pull")
+        if (isHovered && isPinching)
         {
             gazeDuration += Time.deltaTime;
             if (gazeDuration >= 0.0f)
@@ -71,7 +71,7 @@ public class EyeInteractable : MonoBehaviour
 
     private void ShrinkAndDestroy()
     {
-        EyeInteractableManager.Instance.NotifyCubeShrink(); // Initiate the cooldown in the manager
+        EyeInteractableManagerForHands.Instance.NotifyCubeShrink(); // Initiate the cooldown in the manager
 
         float shrinkSpeed = 0.3f * Time.deltaTime;
         transform.localScale -= new Vector3(shrinkSpeed, shrinkSpeed, shrinkSpeed);
@@ -82,5 +82,4 @@ public class EyeInteractable : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
 }
