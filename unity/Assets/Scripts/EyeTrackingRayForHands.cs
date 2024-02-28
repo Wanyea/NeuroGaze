@@ -9,7 +9,9 @@ public class EyeTrackingRayForHands : MonoBehaviour
 
     private LineRenderer lineRenderer;
     private EyeInteractableForHands lastEyeInteractableForHands;
-    [SerializeField] private OVRHand handUsedForPinchSelection;
+
+    [SerializeField] private OVRHand leftHandUsedForPinchSelection;
+    [SerializeField] private OVRHand rightHandUsedForPinchSelection;
     [SerializeField] private bool mockHandUsedForPinchSelection;
 
     private bool intercepting;
@@ -18,7 +20,7 @@ public class EyeTrackingRayForHands : MonoBehaviour
     private void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        allowPinchSelection = handUsedForPinchSelection != null;
+        allowPinchSelection = (leftHandUsedForPinchSelection != null) || (rightHandUsedForPinchSelection != null);
         SetupRay();
     }
 
@@ -75,10 +77,7 @@ public class EyeTrackingRayForHands : MonoBehaviour
         lineRenderer.SetPosition(1, eyesCenter + forwardDirection * rayDistance);
     }
 
-    private void SelectionStarted() 
-    {
-
-    }
-
-    private bool IsPinching() => (allowPinchSelection && handUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index)) || mockHandUsedForPinchSelection;
+    // Check whether or not a pinch is allowed and left or right hand is active
+    private bool IsPinching() => (allowPinchSelection && (leftHandUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index) || 
+                                                          rightHandUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index))) || mockHandUsedForPinchSelection;
 }

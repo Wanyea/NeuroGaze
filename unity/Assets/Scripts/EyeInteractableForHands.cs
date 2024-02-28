@@ -71,7 +71,7 @@ public class EyeInteractableForHands : MonoBehaviour
 
     private void ShrinkAndDestroy()
     {
-        EyeInteractableManager.Instance.NotifyCubeShrink(); // Initiate the cooldown in the manager
+        EyeInteractableManagerForHands.Instance.NotifyCubeShrink(); // Initiate the cooldown in the manager
 
         float shrinkSpeed = 0.3f * Time.deltaTime;
         transform.localScale -= new Vector3(shrinkSpeed, shrinkSpeed, shrinkSpeed);
