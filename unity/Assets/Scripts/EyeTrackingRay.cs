@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(LineRenderer))]
 public class EyeTrackingRay : MonoBehaviour
 {
-    [SerializeField] private float rayDistance = 500.0f;
+    [SerializeField] private float rayDistance = 1000.0f;
     [SerializeField] private Transform leftEyeAnchor;
     [SerializeField] private Transform rightEyeAnchor;
 

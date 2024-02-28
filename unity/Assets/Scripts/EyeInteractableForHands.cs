@@ -11,6 +11,8 @@ public class EyeInteractableForHands : MonoBehaviour
     private float gazeDuration = 0f;
     [SerializeField] private bool shouldShrink = false;
     [HideInInspector] public bool isPinching = false;
+    private bool isShrinking = false; // New flag to indicate if the shrink process has started
+
 
     private void Start()
     {
@@ -20,25 +22,28 @@ public class EyeInteractableForHands : MonoBehaviour
 
     public void Hover(bool state)
     {
-        isHovered = state;
+        // Only allow hovering if the cube isn't already shrinking
+        if (!isShrinking)
+        {
+            isHovered = state;
+        }
     }
 
     private void Update()
     {
-
-        if (isHovered && isPinching)
+        if (isHovered)
         {
-            gazeDuration += Time.deltaTime;
-            if (gazeDuration >= 0.0f)
+            if (isPinching)
             {
                 shouldShrink = true;
                 isBeingPulled = true;
+                StartShrinking(); // Start shrinking and ignore further interactions
             }
         }
         else
         {
-            gazeDuration = 0f;
-            if (isBeingPulled)
+            // Reset logic if necessary, but ensure it doesn't interfere with ongoing shrinking
+            if (isBeingPulled && !isShrinking)
             {
                 transform.localScale = originalScale;
                 isBeingPulled = false;
@@ -57,6 +62,14 @@ public class EyeInteractableForHands : MonoBehaviour
         {
             ScaleDown();
         }
+    }
+
+    private void StartShrinking()
+    {
+        isShrinking = true;
+        GetComponent<Collider>().enabled = false; // Disable the collider to prevent further ray interaction
+        isHovered = false; // Optionally reset hover state
+                           // Rest of the shrinking logic remains as is
     }
 
     private void ScaleUp()
