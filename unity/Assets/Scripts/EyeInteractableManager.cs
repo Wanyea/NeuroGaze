@@ -10,7 +10,7 @@ public class EyeInteractableManager : MonoBehaviour
     [SerializeField] GameObject buttonUI;
     private TextMeshPro assessmentTextMesh;
     public TextMeshPro mentalCommandsLog;
-    public string CurrentMentalCommand { get; private set; } = "neutral";
+    [SerializeField] public string CurrentMentalCommand { get; private set; } = "neutral";
     private float cooldownTimer = 0f;
     [SerializeField] private GameObject leftWall;
     [SerializeField] private GameObject rightWall;
@@ -20,6 +20,8 @@ public class EyeInteractableManager : MonoBehaviour
     [SerializeField] private bool resetAssessment = false; // Toggle this in the inspector to reset
     [SerializeField] private int cooldownDuration = 2; // Set countdown duration in the inspector
     [SerializeField] private int targetsPerWall = 1;
+    [SerializeField] private bool forcePullCommand = false;
+    [SerializeField] private bool forceNeutralCommand = false;
 
     private bool assessmentStarted = false;
 
@@ -42,10 +44,8 @@ public class EyeInteractableManager : MonoBehaviour
 
     void Update()
     {
-        mentalCommandsLog.text = $"The Current Mental Command is {CurrentMentalCommand}";
-
-        // if (Input.GetKeyDown("p")) { CurrentMentalCommand = "pull"; }
-        // if (Input.GetKeyDown("n")) { CurrentMentalCommand = "neutral"; }
+        if (forcePullCommand) { CurrentMentalCommand = "pull"; }
+        if (forceNeutralCommand) { CurrentMentalCommand = "neutral"; }
 
         if (cooldownTimer > 0)
         {
@@ -57,6 +57,8 @@ public class EyeInteractableManager : MonoBehaviour
         {
             CurrentMentalCommand = mentalCommands.GetMentalCommand();
         }
+
+        mentalCommandsLog.text = $"The Current Mental Command is {CurrentMentalCommand}";
 
         if (startAssessment && !assessmentStarted)
         {

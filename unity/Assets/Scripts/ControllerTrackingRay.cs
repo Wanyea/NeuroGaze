@@ -8,9 +8,20 @@ public class ControllerTrackingRay : MonoBehaviour
     private LineRenderer lineRenderer;
     private EyeInteractableForHands lastInteractable;
 
-    private void Start()
+    // Define colors for the LineRenderer
+    [SerializeField] private Material defaultColor;
+    [SerializeField] private Material activeColor;
+
+    private void Awake()
     {
         lineRenderer = GetComponent<LineRenderer>();
+        SetLineColor(defaultColor.color); 
+        SetupRay();
+
+    }
+
+    private void Start()
+    {
         SetupRay();
     }
 
@@ -47,8 +58,14 @@ public class ControllerTrackingRay : MonoBehaviour
 
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
                 {
-                   interactable.isPinching = true;
+                    interactable.isPinching = true;
+                    SetLineColor(activeColor.color);
+
+                } else
+                {
+                    SetLineColor(defaultColor.color); // Change color back to white when trigger is released
                 }
+
             } else if (lastInteractable != null)
             {
                 lastInteractable.Hover(false);
@@ -67,5 +84,10 @@ public class ControllerTrackingRay : MonoBehaviour
         // Update the LineRenderer to represent the ray
         lineRenderer.SetPosition(0, transform.position);
         lineRenderer.SetPosition(1, transform.position + transform.forward * rayDistance);
+    }
+    private void SetLineColor(Color color)
+    {
+        lineRenderer.startColor = color;
+        lineRenderer.endColor = color;
     }
 }

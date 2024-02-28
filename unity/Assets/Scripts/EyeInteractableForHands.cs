@@ -8,7 +8,6 @@ public class EyeInteractableForHands : MonoBehaviour
     private Vector3 targetScale; // Target scale when looked at
     private bool isHovered = false;
     private bool isBeingPulled = false;
-    private float gazeDuration = 0f;
     [SerializeField] private bool shouldShrink = false;
     [HideInInspector] public bool isPinching = false;
     private bool isShrinking = false; // New flag to indicate if the shrink process has started

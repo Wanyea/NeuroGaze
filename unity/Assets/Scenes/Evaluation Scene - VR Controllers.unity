@@ -29219,6 +29219,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rayDistance: 1000
+  defaultColor: {fileID: 2100000, guid: 1409c3707ca4cf24887ba9af81a6f5f9, type: 2}
+  activeColor: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
 --- !u!1 &1823605747
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,14 +14,22 @@ public class EyeTrackingRayForHands : MonoBehaviour
     [SerializeField] private OVRHand rightHandUsedForPinchSelection;
     [SerializeField] private bool mockHandUsedForPinchSelection;
 
-    private bool intercepting;
+    // Define colors for the LineRenderer
+    [SerializeField] private Material defaultColor;
+    [SerializeField] private Material activeColor;
+
     private bool allowPinchSelection;
+
+    private void Awake()
+    {
+        lineRenderer = GetComponent<LineRenderer>();
+        SetLineColor(defaultColor.color);
+        SetupRay();
+    }
 
     private void Start()
     {
-        lineRenderer = GetComponent<LineRenderer>();
         allowPinchSelection = (leftHandUsedForPinchSelection != null) || (rightHandUsedForPinchSelection != null);
-        SetupRay();
     }
 
     private void SetupRay()
@@ -77,7 +85,24 @@ public class EyeTrackingRayForHands : MonoBehaviour
         lineRenderer.SetPosition(1, eyesCenter + forwardDirection * rayDistance);
     }
 
+    private void SetLineColor(Color color)
+    {
+        lineRenderer.startColor = color;
+        lineRenderer.endColor = color;
+    }
+
     // Check whether or not a pinch is allowed and left or right hand is active
-    private bool IsPinching() => (allowPinchSelection && (leftHandUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index) || 
-                                                          rightHandUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index))) || mockHandUsedForPinchSelection;
+    private bool IsPinching()
+    {
+        if ((allowPinchSelection && (leftHandUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index) ||
+                                                          rightHandUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index))) || mockHandUsedForPinchSelection) 
+        {
+            SetLineColor(activeColor.color);
+            return true;
+        } else
+        {
+            SetLineColor(defaultColor.color);
+            return false;
+        }
+    } 
 }

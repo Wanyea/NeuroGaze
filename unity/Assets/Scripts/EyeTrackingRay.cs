@@ -10,9 +10,13 @@ public class EyeTrackingRay : MonoBehaviour
     private LineRenderer lineRenderer;
     private EyeInteractable lastEyeInteractable;
 
-    private void Start()
+    private void Awake()
     {
         lineRenderer = GetComponent<LineRenderer>();
+        SetupRay();
+    }
+    private void Start()
+    {
         SetupRay();
     }
 
