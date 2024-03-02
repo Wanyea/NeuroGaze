@@ -6,7 +6,7 @@ public class EyeInteractableForHands : MonoBehaviour
 {
     private Vector3 originalScale;
     private Vector3 targetScale; // Target scale when looked at
-    private bool isHovered = false;
+    public bool isHovered = false;
     private bool isBeingPulled = false;
     [SerializeField] private bool shouldShrink = false;
     [HideInInspector] public bool isPinching = false;

@@ -56,11 +56,10 @@ public class ControllerTrackingRay : MonoBehaviour
                     interactable.Hover(true);
                 }
 
-                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
                 {
                     interactable.isPinching = true;
-                    SetLineColor(activeColor.color);
-
+                    Debug.Log($"IsHover: {interactable.isHovered}, IsPinching: {interactable.isPinching}");
                 } else
                 {
                     SetLineColor(defaultColor.color); // Change color back to white when trigger is released
