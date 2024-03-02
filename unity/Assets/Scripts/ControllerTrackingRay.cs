@@ -16,8 +16,6 @@ public class ControllerTrackingRay : MonoBehaviour
     {
         lineRenderer = GetComponent<LineRenderer>();
         SetLineColor(defaultColor.color); 
-        SetupRay();
-
     }
 
     private void Start()
