@@ -83,17 +83,15 @@ public class EyeInteractableForHands : MonoBehaviour
 
     private void ShrinkAndDestroy()
     {
-        EyeInteractableManagerForHands.Instance.NotifyCubeShrink(); // Existing logic
+        EyeInteractableManagerForHands.Instance.NotifyCubeShrink(); // Initiate the cooldown in the manager
 
         float shrinkSpeed = 0.3f * Time.deltaTime;
         transform.localScale -= new Vector3(shrinkSpeed, shrinkSpeed, shrinkSpeed);
 
+        // Destroy cube if it is small enough
         if (transform.localScale.x <= 0.05f) // Threshold for destruction, adjust as needed
         {
-            // Notify the Assessment Manager here before destroying the cube
-            AssessmentManagerForHands.Instance.RecordCubeDestruction(this.tag); // Assuming this.tag is "RedCube"
             Destroy(gameObject);
         }
     }
-
 }
