@@ -7,6 +7,7 @@ public class CubeTrainingManager : MonoBehaviour
     [SerializeField] private float duration = 8f; // Duration over which the cube shrinks
     [SerializeField] private bool startShrinking = false; // Toggle this in the inspector to start shrinking
     [SerializeField] private bool resetCube = false; // Toggle this in the inspector to reset cube size
+    private Collider cubeCollider;
 
     private Vector3 originalScale; // To store the original scale of the cube
 
@@ -14,16 +15,20 @@ public class CubeTrainingManager : MonoBehaviour
     {
         if (cube != null)
         {
-            originalScale = cube.transform.localScale;
+            originalScale = new Vector3(0.23f, 0.23f, 0.23f);
         }
         else
         {
             Debug.LogError("CubeTrainingManager: The cube object is not assigned.");
         }
+
+        cubeCollider = cube.GetComponent<Collider>();
     }
 
     private void Update()
     {
+        
+        
         if (startShrinking)
         {
             StartShrinking();
@@ -40,7 +45,9 @@ public class CubeTrainingManager : MonoBehaviour
     // Method to start the shrinking process
     public void StartShrinking()
     {
+        cubeCollider.enabled = false;
         StartCoroutine(ShrinkCubeOverTime(cube, duration));
+        cubeCollider.enabled = true;
     }
 
     // Coroutine that gradually scales down the cube
