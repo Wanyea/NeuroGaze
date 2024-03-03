@@ -6,7 +6,7 @@ public class ControllerTrackingRay : MonoBehaviour
     [SerializeField] private float rayDistance = 1000.0f;
 
     private LineRenderer lineRenderer;
-    private EyeInteractableForHands lastInteractable;
+    private EyeInteractableForControllers lastInteractable;
 
     // Define colors for the LineRenderer
     [SerializeField] private Material defaultColor;
@@ -39,7 +39,7 @@ public class ControllerTrackingRay : MonoBehaviour
 
         if (isHit)
         {
-            EyeInteractableForHands interactable = hit.collider.GetComponent<EyeInteractableForHands>();
+            EyeInteractableForControllers interactable = hit.collider.GetComponent<EyeInteractableForControllers>();
 
             if (interactable)
             {

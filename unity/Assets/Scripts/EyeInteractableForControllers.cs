@@ -2,14 +2,16 @@ using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
 [RequireComponent(typeof(Rigidbody))]
-public class EyeInteractable : MonoBehaviour
+public class EyeInteractableForControllers : MonoBehaviour
 {
     private Vector3 originalScale;
     private Vector3 targetScale; // Target scale when looked at
-    private bool isHovered = false;
+    public bool isHovered = false;
     private bool isBeingPulled = false;
-    private float gazeDuration = 0f;
     [SerializeField] private bool shouldShrink = false;
+    [HideInInspector] public bool isPinching = false;
+    private bool isShrinking = false; // New flag to indicate if the shrink process has started
+
 
     private void Start()
     {
@@ -19,26 +21,28 @@ public class EyeInteractable : MonoBehaviour
 
     public void Hover(bool state)
     {
-        isHovered = state;
+        // Only allow hovering if the cube isn't already shrinking
+        if (!isShrinking)
+        {
+            isHovered = state;
+        }
     }
 
     private void Update()
     {
-        string mentalCommand = EyeInteractableManager.Instance.CurrentMentalCommand;
-
-        if (isHovered && mentalCommand == "pull")
+        if (isHovered)
         {
-            gazeDuration += Time.deltaTime;
-            if (gazeDuration >= 0.0f)
+            if (isPinching)
             {
                 shouldShrink = true;
                 isBeingPulled = true;
+                StartShrinking(); // Start shrinking and ignore further interactions
             }
         }
         else
         {
-            gazeDuration = 0f;
-            if (isBeingPulled)
+            // Reset logic if necessary, but ensure it doesn't interfere with ongoing shrinking
+            if (isBeingPulled && !isShrinking)
             {
                 transform.localScale = originalScale;
                 isBeingPulled = false;
@@ -59,6 +63,14 @@ public class EyeInteractable : MonoBehaviour
         }
     }
 
+    private void StartShrinking()
+    {
+        isShrinking = true;
+        GetComponent<Collider>().enabled = false; // Disable the collider to prevent further ray interaction
+        isHovered = false; // Optionally reset hover state
+                           // Rest of the shrinking logic remains as is
+    }
+
     private void ScaleUp()
     {
         transform.localScale = Vector3.Lerp(transform.localScale, targetScale, Time.deltaTime * 2);
@@ -71,16 +83,15 @@ public class EyeInteractable : MonoBehaviour
 
     private void ShrinkAndDestroy()
     {
-        EyeInteractableManager.Instance.NotifyCubeShrink(); // Initiate the cooldown in the manager
+        EyeInteractableManagerForHands.Instance.NotifyCubeShrink(); // Existing logic
 
         float shrinkSpeed = 0.3f * Time.deltaTime;
         transform.localScale -= new Vector3(shrinkSpeed, shrinkSpeed, shrinkSpeed);
 
-        // Destroy cube if it is small enough
         if (transform.localScale.x <= 0.05f) // Threshold for destruction, adjust as needed
         {
             // Notify the Assessment Manager here before destroying the cube
-            AssessmentManager.Instance.RecordCubeDestruction(this.tag); // Assuming this.tag is "RedCube"
+            AssessmentManagerForControllers.Instance.RecordCubeDestruction(this.tag); // Assuming this.tag is "RedCube"
             Destroy(gameObject);
         }
     }

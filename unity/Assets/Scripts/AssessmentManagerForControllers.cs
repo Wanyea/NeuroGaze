@@ -2,9 +2,9 @@ using System;
 using System.IO;
 using UnityEngine;
 
-public class AssessmentManager : MonoBehaviour
+public class AssessmentManagerForControllers : MonoBehaviour
 {
-    public static AssessmentManager Instance;
+    public static AssessmentManagerForControllers Instance;
 
     [SerializeField] private string id;
     [SerializeField] string csvOutputPath;
@@ -22,12 +22,12 @@ public class AssessmentManager : MonoBehaviour
             Destroy(gameObject);
     }
 
-    private void Start() 
+    private void Start()
     {
         if (String.IsNullOrEmpty(id))
             id = Guid.NewGuid().ToString("N");
 
-        csvOutputPath = "../unity/Assets/Assessment Results/NeuroGaze/StaticNeuroGazeResults_" + id + ".csv";
+        csvOutputPath = "../unity/Assets/Assessment Results/VR Controllers/StaticVRControllersResults_" + id + ".csv";
     }
 
     public void CalculateTotalRedCubes()
@@ -78,7 +78,7 @@ public class AssessmentManager : MonoBehaviour
         File.AppendAllText(csvOutputPath, newLine);
 
         // Reset the assessment
-        EyeInteractableManager.Instance.ResetAssessment();
+        EyeInteractableManagerForControllers.Instance.ResetAssessment();
     }
 
     public void ResetAssessment()

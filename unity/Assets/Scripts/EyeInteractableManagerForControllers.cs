@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
-using TMPro; 
+using TMPro;
 
-public class EyeInteractableManagerForHands : MonoBehaviour
+public class EyeInteractableManagerForControllers : MonoBehaviour
 {
-    public static EyeInteractableManagerForHands Instance;
+    public static EyeInteractableManagerForControllers Instance;
     private float cooldownTimer = 0f;
     [SerializeField] private GameObject leftWall;
     [SerializeField] private GameObject rightWall;
@@ -30,28 +30,28 @@ public class EyeInteractableManagerForHands : MonoBehaviour
         }
     }
 
-    void Start() {}
+    void Start() { }
 
     void Update()
     {
         if (startAssessment && !assessmentStarted)
         {
-            AssessmentManagerForHands.Instance.StartAssessment(); // Start the assessment
+            AssessmentManagerForControllers.Instance.StartAssessment(); // Start the assessment
             StartCoroutine(StartAssessment());
             assessmentStarted = true;
         }
 
         if (resetAssessment)
         {
-            AssessmentManagerForHands.Instance.ResetAssessment(); // Reset the assessment
+            AssessmentManagerForControllers.Instance.ResetAssessment(); // Reset the assessment
             ResetAssessment();
             resetAssessment = false;
         }
     }
 
     public void setStartAssessment() { startAssessment = true; }
-    public void setResetAssessment() { resetAssessment = true;  }
-    public void NotifyCubeShrink() 
+    public void setResetAssessment() { resetAssessment = true; }
+    public void NotifyCubeShrink()
     {
         cooldownTimer = cooldownDuration; // Reset cooldown
     }
@@ -75,8 +75,8 @@ public class EyeInteractableManagerForHands : MonoBehaviour
 
         // Calculate total red cubes after they have been set
         yield return new WaitForSeconds(0.1f); // Small delay to ensure cubes are colored first
-        AssessmentManagerForHands.Instance.CalculateTotalRedCubes();
-        AssessmentManagerForHands.Instance.StartAssessment();
+        AssessmentManagerForControllers.Instance.CalculateTotalRedCubes();
+        AssessmentManagerForControllers.Instance.StartAssessment();
     }
 
     public void ResetAssessment()
