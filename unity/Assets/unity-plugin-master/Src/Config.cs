@@ -10,12 +10,12 @@
         /// <para>To get a client id and a client secret, you must connect to your Emotiv
         /// account on emotiv.com and create a Cortex app.
         /// https://www.emotiv.com/my-account/cortex-apps/.</para></summary>
-        public static string AppClientId            = "TfClPsjFL6t6TpxT219uyWVImNg1T8pt8e6lMsSf";
-        public static string AppClientSecret        = "anILaTvFJ5jUpuHBSN0DTtBeZann9xgGYR4FRpMqjgM5WaprPlCmil2A9AUEaXYxRO1nEledPsU1GLe0YW2XjmNGD4jcMzZSLgGO1fFNA04ItaRBzUQQR1Hy8AuMLPoh";
+        public static string AppClientId            = "svF72ZlUVz0yQRzyUo0oECWj0WvaUqTF4EtQuAyG";
+        public static string AppClientSecret        = "C74k3zEBEOvA9cf9AmCam5gMWspCgMKs2XwUO3c6vxH3ZR9gN3Sd45njfDdEXyz7gSRLpwRkGU8n5QJ90LvfyRNyUgZUbBztsF373ZKdR1P8OdE6tobxu9Sfvh53UrzH";
 
          public static string AppUrl                 = "wss://localhost:6868"; // default
         public static string AppVersion             = "1.0.0"; // default
-        public static string AppName                = "MSI"; 
+        public static string AppName                = "MSI2"; 
         
         /// <summary>
         /// Name of directory where contain tmp data and logs file.

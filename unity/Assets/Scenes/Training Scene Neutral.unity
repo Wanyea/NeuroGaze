@@ -127,9 +127,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 247086503}
     m_Modifications:
+    - target: {fileID: 240171171, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2079265572223263571, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2079265572229168465, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2079265572229852843, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_Enabled
@@ -149,7 +157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3603264776607211897, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07
+      value: 0.71
       objectReference: {fileID: 0}
     - target: {fileID: 3603264776607211897, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8758,7 +8766,7 @@ MeshFilter:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 604585787}
   - {fileID: 2054266658}
   - {fileID: 247086503}
   - {fileID: 517411644}
-  - {fileID: 604585787}
