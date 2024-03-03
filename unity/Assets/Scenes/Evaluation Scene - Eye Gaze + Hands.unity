@@ -16734,10 +16734,13 @@ PrefabInstance:
       propertyPath: eyeRight
       value: 
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 3595218915374510179, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
       propertyPath: eyeReticle
       value: 
       objectReference: {fileID: 4940780113568709774, guid: c8cdb44f9a1bdeb4aae34ec545d64dad, type: 3}
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 3595218915374510179, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
       propertyPath: activeColor
       value: 
@@ -19113,7 +19116,7 @@ GameObject:
   - component: {fileID: 1663515373}
   - component: {fileID: 1663515374}
   m_Layer: 0
-  m_Name: Eye Interactable Manager
+  m_Name: Eye Interactable Manager For Hands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19257,8 +19260,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1684906088}
   - component: {fileID: 1684906087}
+  - component: {fileID: 1684906089}
   m_Layer: 0
-  m_Name: Assessment Manager
+  m_Name: Assessment Manager For Hands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19271,12 +19275,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684906086}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1577bc810472ce340ad53d5f40a76e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 
+  id: 0
   csvOutputPath: 
 --- !u!4 &1684906088
 Transform:
@@ -19293,6 +19297,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1528736838}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1684906089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684906086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f36ba537c9d7f45b75c00d1e8b20d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  csvOutputPath: 
 --- !u!1 &1723300450
 GameObject:
   m_ObjectHideFlags: 0

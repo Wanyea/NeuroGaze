@@ -36,14 +36,14 @@ public class EyeInteractableManagerForHands : MonoBehaviour
     {
         if (startAssessment && !assessmentStarted)
         {
-            AssessmentManager.Instance.StartAssessment(); // Start the assessment
+            AssessmentManagerForHands.Instance.StartAssessment(); // Start the assessment
             StartCoroutine(StartAssessment());
             assessmentStarted = true;
         }
 
         if (resetAssessment)
         {
-            AssessmentManager.Instance.ResetAssessment(); // Reset the assessment
+            AssessmentManagerForHands.Instance.ResetAssessment(); // Reset the assessment
             ResetAssessment();
             resetAssessment = false;
         }
@@ -75,8 +75,8 @@ public class EyeInteractableManagerForHands : MonoBehaviour
 
         // Calculate total red cubes after they have been set
         yield return new WaitForSeconds(0.1f); // Small delay to ensure cubes are colored first
-        AssessmentManager.Instance.CalculateTotalRedCubes();
-        AssessmentManager.Instance.StartAssessment();
+        AssessmentManagerForHands.Instance.CalculateTotalRedCubes();
+        AssessmentManagerForHands.Instance.StartAssessment();
     }
 
     public void ResetAssessment()
