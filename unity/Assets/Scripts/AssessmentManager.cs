@@ -24,9 +24,7 @@ public class AssessmentManager : MonoBehaviour
 
     private void Start() 
     {
-        if (String.IsNullOrEmpty(id))
-            id = Guid.NewGuid().ToString("N");
-
+        id = Guid.NewGuid().ToString("N");
         csvOutputPath = "../Eye Tracking Demo/Assets/Assessment Results/StaticNeuroGazeResults_" + id + ".csv";
     }
 
