@@ -8,15 +8,20 @@ public class EyeTrackingRayForHands : MonoBehaviour
     [SerializeField] private Transform rightEyeAnchor;
 
     private LineRenderer lineRenderer;
-    private EyeInteractableForHands lastEyeInteractableForHands;
 
     [SerializeField] private OVRHand leftHandUsedForPinchSelection;
     [SerializeField] private OVRHand rightHandUsedForPinchSelection;
     [SerializeField] private bool mockHandUsedForPinchSelection;
 
+    //[SerializeField] private GameObject eyeReticle;
+
+    private EyeInteractableForHands lastEyeInteractableForHands;
+
     public bool currentlyPinching = false;
     public int pinchCount = 0;
     public int maxPinch = 3;
+    public float offsetFromHit = 0.1f;
+    public float positionUpdateThreshold = 0.02f; // Threshold for updating the reticle's position
 
     private bool allowPinchSelection;
 
@@ -28,6 +33,17 @@ public class EyeTrackingRayForHands : MonoBehaviour
 
     private void Start()
     {
+/*        if (eyeReticle != null)
+        {
+            if (eyeReticle.scene.rootCount == 0)
+            {
+                eyeReticle = Instantiate(eyeReticle, new Vector3(0, 0, 0), Quaternion.identity);
+            }
+        }
+        else
+        {
+            Debug.LogError("Eye Reticle GameObject is not assigned in the inspector!");
+        }*/
         allowPinchSelection = (leftHandUsedForPinchSelection != null) || (rightHandUsedForPinchSelection != null);
     }
 
@@ -41,70 +57,63 @@ public class EyeTrackingRayForHands : MonoBehaviour
 
     private void FixedUpdate()
     {
-        FrameCounter();
-
         Vector3 eyesCenter = (leftEyeAnchor.position + rightEyeAnchor.position) * 0.5f;
-        Vector3 forwardDirection = (leftEyeAnchor.forward + rightEyeAnchor.forward) * 0.5f; 
+        Vector3 forwardDirection = (leftEyeAnchor.forward + rightEyeAnchor.forward).normalized;
         Ray ray = new Ray(eyesCenter, forwardDirection);
         RaycastHit hit;
         bool isHit = Physics.Raycast(ray, out hit, rayDistance);
 
-
         if (isHit)
         {
-            EyeInteractableForHands eyeInteractableForHands = hit.collider.GetComponent<EyeInteractableForHands>();
-            if (eyeInteractableForHands)
-            {
-                eyeInteractableForHands.isPinching = IsPinching();
+            // Calculate the adjusted position with the offset
+            Vector3 adjustedPosition = hit.point + hit.normal * offsetFromHit;
 
-                if (lastEyeInteractableForHands != eyeInteractableForHands)
-                {
-                    if (lastEyeInteractableForHands != null)
-                    {
-                        lastEyeInteractableForHands.Hover(false);
-                    }
-                    lastEyeInteractableForHands = eyeInteractableForHands;
-                }
-                eyeInteractableForHands.Hover(true);
-            }
-            else if (lastEyeInteractableForHands != null)
+            // Check if the distance between the current position and the new position exceeds the threshold
+            if (Vector3.Distance(eyeReticle.transform.position, adjustedPosition) > positionUpdateThreshold)
             {
-                lastEyeInteractableForHands.Hover(false);
-                lastEyeInteractableForHands = null;
-            }
-        }
-        else
-        {
-            if (lastEyeInteractableForHands != null)
-            {
-                lastEyeInteractableForHands.Hover(false);
-                lastEyeInteractableForHands = null;
+                Debug.Log($"Hit detected at {hit.point}, moving reticle.");
+                eyeReticle.transform.position = adjustedPosition;
+                eyeReticle.transform.rotation = Quaternion.FromToRotation(Vector3.forward, hit.normal);
             }
         }
 
-        // Update the LineRenderer to represent the ray
-        lineRenderer.SetPosition(0, eyesCenter);
-        lineRenderer.SetPosition(1, eyesCenter + forwardDirection * rayDistance);
+        UpdateLineRenderer(eyesCenter, forwardDirection);
     }
 
-    private void SetLineColor(Color color)
+    private void UpdateLineRenderer(Vector3 start, Vector3 direction)
     {
-        lineRenderer.startColor = color;
-        lineRenderer.endColor = color;
+        lineRenderer.SetPosition(0, start);
+        lineRenderer.SetPosition(1, start + direction * rayDistance);
     }
 
-    // Check whether or not a pinch is allowed and left or right hand is active
+    private void HandleEyeInteractable(EyeInteractableForHands interactable)
+    {
+        if (interactable)
+        {
+            interactable.isPinching = IsPinching();
+
+            if (lastEyeInteractableForHands != interactable)
+            {
+                if (lastEyeInteractableForHands != null)
+                {
+                    lastEyeInteractableForHands.Hover(false);
+                }
+                lastEyeInteractableForHands = interactable;
+                interactable.Hover(true);
+            }
+        }
+        else if (lastEyeInteractableForHands != null)
+        {
+            lastEyeInteractableForHands.Hover(false);
+            lastEyeInteractableForHands = null;
+        }
+    }
     private bool IsPinching()
     {
-        if (allowPinchSelection && (pinchCount< maxPinch) && ((leftHandUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index) ||
-                                                          rightHandUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index)) || mockHandUsedForPinchSelection))
-        {     
-            return true;
-        } else
-        {      
-            return false;
-        }
-    } 
+        return allowPinchSelection && (pinchCount < maxPinch) &&
+               ((leftHandUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index) ||
+                 rightHandUsedForPinchSelection.GetFingerIsPinching(OVRHand.HandFinger.Index)) || mockHandUsedForPinchSelection);
+    }
 
     private void FrameCounter()
     {
