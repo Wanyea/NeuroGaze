@@ -83,7 +83,7 @@ public class EyeInteractableForControllers : MonoBehaviour
 
     private void ShrinkAndDestroy()
     {
-        EyeInteractableManagerForHands.Instance.NotifyCubeShrink(); // Existing logic
+        EyeInteractableManagerForControllers.Instance.NotifyCubeShrink(); // Existing logic
 
         float shrinkSpeed = 0.3f * Time.deltaTime;
         transform.localScale -= new Vector3(shrinkSpeed, shrinkSpeed, shrinkSpeed);
