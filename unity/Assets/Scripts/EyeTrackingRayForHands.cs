@@ -53,6 +53,15 @@ public class EyeTrackingRayForHands : MonoBehaviour
         if (isHit)
         {
             EyeInteractableForHands eyeInteractableForHands = hit.collider.GetComponent<EyeInteractableForHands>();
+
+            if (pinchCount < 2) 
+            {
+                if (hit.transform.tag == "Wall" && IsPinching())
+                {
+                    AssessmentManagerForHands.Instance.errorCount++;
+                }
+            }
+
             if (eyeInteractableForHands)
             {
                 eyeInteractableForHands.isPinching = IsPinching();
@@ -69,6 +78,7 @@ public class EyeTrackingRayForHands : MonoBehaviour
             }
             else if (lastEyeInteractableForHands != null)
             {
+
                 lastEyeInteractableForHands.Hover(false);
                 lastEyeInteractableForHands = null;
             }

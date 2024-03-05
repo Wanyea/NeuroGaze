@@ -10,7 +10,7 @@ public class AssessmentManagerForHands : MonoBehaviour
     [SerializeField] string csvOutputPath;
     private int totalRedCubes;
     private int destroyedRedCubes;
-    private int errorCount;
+    public int errorCount;
     private float startTime;
     private bool assessmentActive;
 
