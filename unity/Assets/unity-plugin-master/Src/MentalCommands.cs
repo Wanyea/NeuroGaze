@@ -13,7 +13,7 @@ public class MentalCommands : MonoBehaviour
     string clientId = "svF72ZlUVz0yQRzyUo0oECWj0WvaUqTF4EtQuAyG";
     string clientSecret = "C74k3zEBEOvA9cf9AmCam5gMWspCgMKs2XwUO3c6vxH3ZR9gN3Sd45njfDdEXyz7gSRLpwRkGU8n5QJ90LvfyRNyUgZUbBztsF373ZKdR1P8OdE6tobxu9Sfvh53UrzH";
     string appName = "MSI2";
-    public string profileName = "wanyeaEpocX";
+    public string profileName = "kylePilot";
     public string headsetId = "EPOCX-E50208B2";
 
     // Delegate for mental command changes

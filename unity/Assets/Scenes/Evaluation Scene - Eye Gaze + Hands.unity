@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 42199920}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -786,7 +786,7 @@ GameObject:
   - component: {fileID: 103774853}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5189,7 +5189,7 @@ GameObject:
   - component: {fileID: 384351775}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8356,7 +8356,7 @@ GameObject:
   - component: {fileID: 668341799}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9926,7 +9926,7 @@ GameObject:
   - component: {fileID: 818949090}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18829,8 +18829,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0f36ba537c9d7f45b75c00d1e8b20d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 1
+  id: 4
   csvOutputPath: 
+  errorCount: 0
 --- !u!1 &1723300450
 GameObject:
   m_ObjectHideFlags: 0
@@ -20656,6 +20657,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1884201495}
     m_Modifications:
+    - target: {fileID: 240171171, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2079265572223263571, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -22882,7 +22887,7 @@ GameObject:
   - component: {fileID: 2062044994}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -41,6 +41,16 @@ public class ControllerTrackingRay : MonoBehaviour
         {
             EyeInteractableForControllers interactable = hit.collider.GetComponent<EyeInteractableForControllers>();
 
+     
+                if (hit.transform.tag == "Wall")
+                {
+                    if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
+                    {
+                        AssessmentManagerForControllers.Instance.errorCount++;
+                    }
+                }
+        
+
             if (interactable)
             {
 
