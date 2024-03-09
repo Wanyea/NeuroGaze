@@ -10,9 +10,9 @@ public class MentalCommands : MonoBehaviour
     bool mentalCmdRcvd = false;
     string mentalCommand;
     List<string> dataStreamList = new List<string>() { DataStreamName.MentalCommands, DataStreamName.SysEvents };
-    string clientId = "svF72ZlUVz0yQRzyUo0oECWj0WvaUqTF4EtQuAyG";
-    string clientSecret = "C74k3zEBEOvA9cf9AmCam5gMWspCgMKs2XwUO3c6vxH3ZR9gN3Sd45njfDdEXyz7gSRLpwRkGU8n5QJ90LvfyRNyUgZUbBztsF373ZKdR1P8OdE6tobxu9Sfvh53UrzH";
-    string appName = "MSI2";
+    string clientId = "B6zjKZOBxIEhrUYVjyxW2yucPbLeyRbeaTss4hXh";
+    string clientSecret = "d3mS1kYsG3tQSGijWQHxlKPypyszEkIKoPXOAskBqYqhBi9WaCUfaAqnT0d9BXZJdhWDdxf7YeHrmcK7UfJK4uWlKIjOyovWkQqQo1TvNCyfoVq1vwEdKYidvOWyR50G";
+    string appName = "MSI3";
     public string profileName = "kylePilot";
     public string headsetId = "EPOCX-E50208B2";
 

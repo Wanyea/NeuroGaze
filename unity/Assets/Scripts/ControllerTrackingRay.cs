@@ -44,7 +44,7 @@ public class ControllerTrackingRay : MonoBehaviour
      
                 if (hit.transform.tag == "Wall")
                 {
-                    if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
+                    if (OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger) || OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
                     {
                         AssessmentManagerForControllers.Instance.errorCount++;
                     }
@@ -64,7 +64,7 @@ public class ControllerTrackingRay : MonoBehaviour
                     interactable.Hover(true);
                 }
 
-                if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
+                if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger) || OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger))
                 {
                     interactable.isPinching = true;
                     Debug.Log($"IsHover: {interactable.isHovered}, IsPinching: {interactable.isPinching}");

@@ -18829,7 +18829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0f36ba537c9d7f45b75c00d1e8b20d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 4
+  id: 5
   csvOutputPath: 
   errorCount: 0
 --- !u!1 &1723300450
@@ -20683,7 +20683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3603264776607211897, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07
+      value: 0.64
       objectReference: {fileID: 0}
     - target: {fileID: 3603264776607211897, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_LocalPosition.z
