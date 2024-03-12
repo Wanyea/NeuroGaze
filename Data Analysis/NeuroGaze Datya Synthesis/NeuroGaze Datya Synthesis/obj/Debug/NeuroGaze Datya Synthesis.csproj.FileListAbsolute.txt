@@ -1,0 +1,24 @@
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\NeuroGaze Datya Synthesis.exe.config
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\NeuroGaze Datya Synthesis.exe
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\NeuroGaze Datya Synthesis.pdb
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\CsvHelper.dll
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\System.Buffers.dll
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\System.Memory.dll
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\System.Numerics.Vectors.dll
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\CsvHelper.xml
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\System.Buffers.xml
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\System.Memory.xml
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\System.Numerics.Vectors.xml
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\obj\Debug\NeuroGaze Datya Synthesis.csproj.AssemblyReference.cache
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\obj\Debug\NeuroGaze Datya Synthesis.csproj.CoreCompileInputs.cache
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\obj\Debug\NeuroGaze Datya Synthesis.csproj.CopyComplete
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\obj\Debug\NeuroGaze Datya Synthesis.exe
+D:\source\NeuroGaze\Data Analysis\NeuroGaze Datya Synthesis\NeuroGaze Datya Synthesis\obj\Debug\NeuroGaze Datya Synthesis.pdb
