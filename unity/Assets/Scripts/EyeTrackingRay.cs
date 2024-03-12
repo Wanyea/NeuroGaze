@@ -30,30 +30,33 @@ public class EyeTrackingRay : MonoBehaviour
 
     private void Update()
     {
-        Vector3 eyesCenter = (leftEyeAnchor.position + rightEyeAnchor.position) * 0.5f;
+        Vector3 eyesCenter = (leftEyeAnchor.position + rightEyeAnchor.position) * 0.5f; // Average the left and right eye anchors to find the midpoint
         Vector3 forwardDirection = (leftEyeAnchor.forward + rightEyeAnchor.forward) * 0.5f; // Average the forward direction of both eyes
         Ray ray = new Ray(eyesCenter, forwardDirection);
         RaycastHit hit;
         bool isHit = Physics.Raycast(ray, out hit, rayDistance);
 
+        // Check the users eye gaze has hit an object
         if (isHit)
         {
             EyeInteractable eyeInteractable = hit.collider.GetComponent<EyeInteractable>();
+
+            // Check if the users eye gaze hit an item we can interact with (select)
             if (eyeInteractable)
             {
                 if (lastEyeInteractable != eyeInteractable)
                 {
                     if (lastEyeInteractable != null)
                     {
-                        lastEyeInteractable.Hover(false);
+                        lastEyeInteractable.Hover(false); // If previous interactable object was in a hover state, set this state to false
                     }
                     lastEyeInteractable = eyeInteractable;
                 }
-                eyeInteractable.Hover(true);
+                eyeInteractable.Hover(true);  // Enlargen or set this cubes "hover state" to true to let users know that can select it
             }
             else if (lastEyeInteractable != null)
             {
-                lastEyeInteractable.Hover(false);
+                lastEyeInteractable.Hover(false); // If previous interactable object was in a hover state, set this state to false
                 lastEyeInteractable = null;
             }
         }
@@ -61,12 +64,12 @@ public class EyeTrackingRay : MonoBehaviour
         {
             if (lastEyeInteractable != null)
             {
-                lastEyeInteractable.Hover(false);
+                lastEyeInteractable.Hover(false); // If previous interactable object was in a hover state, set this state to false
                 lastEyeInteractable = null;
             }
         }
 
-        // Update the LineRenderer to represent the ray
+        // Update the LineRenderer to represent the ray deriving from the users eye
         lineRenderer.SetPosition(0, eyesCenter);
         lineRenderer.SetPosition(1, eyesCenter + forwardDirection * rayDistance);
     }

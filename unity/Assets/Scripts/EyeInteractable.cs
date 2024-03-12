@@ -8,7 +8,6 @@ public class EyeInteractable : MonoBehaviour
     private Vector3 targetScale; // Target scale when looked at
     private bool isHovered = false;
     private bool isBeingPulled = false;
-    private float gazeDuration = 0f;
     [SerializeField] private bool shouldShrink = false;
 
     private void Start()
@@ -24,20 +23,19 @@ public class EyeInteractable : MonoBehaviour
 
     private void Update()
     {
-        string mentalCommand = EyeInteractableManager.Instance.CurrentMentalCommand;
+        string mentalCommand = EyeInteractableManager.Instance.CurrentMentalCommand; // Reference to EyeInteractableManager Instance
 
+        // Check hover state and current mental command
         if (isHovered && mentalCommand == "pull")
         {
-            gazeDuration += Time.deltaTime;
-            if (gazeDuration >= 0.0f)
-            {
-                shouldShrink = true;
-                isBeingPulled = true;
-            }
+
+          // Set flags to select and destroy cube, stop cube from being interacted with
+           shouldShrink = true;
+           isBeingPulled = true;
+          
         }
         else
         {
-            gazeDuration = 0f;
             if (isBeingPulled)
             {
                 transform.localScale = originalScale;
@@ -45,17 +43,18 @@ public class EyeInteractable : MonoBehaviour
             }
         }
 
+        // Check mental command and hover state triggers 
         if (shouldShrink)
         {
             ShrinkAndDestroy();
         }
         else if (isHovered)
         {
-            ScaleUp();
+            ScaleUp(); // Change interactable scale to show user they are looking at it
         }
         else
         {
-            ScaleDown();
+            ScaleDown(); // Change interactable scale to show user they are not looking at it
         }
     }
 

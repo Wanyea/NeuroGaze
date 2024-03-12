@@ -20803,7 +20803,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1526932387}
-  - {fileID: 2944560899141460424}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1888558771
@@ -23480,80 +23479,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146106826}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &2782750364641486163
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1884201495}
-    m_Modifications:
-    - target: {fileID: 516795848891145980, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: ConfidenceThreshold
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3673195538540953911, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: ConfidenceThreshold
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8389086797546184774, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_Name
-      value: OVR Player Rig - NeuroGaze
-      objectReference: {fileID: 0}
-    - target: {fileID: 8389086797546184774, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
---- !u!4 &2944560899141460424 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
-  m_PrefabInstance: {fileID: 2782750364641486163}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6279153400015121421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23654,7 +23579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3603264776607211896, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_Name
-      value: InteractionRigOVR-FullSynthetic
+      value: VR Player Rig
       objectReference: {fileID: 0}
     - target: {fileID: 3603264776607211896, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_IsActive

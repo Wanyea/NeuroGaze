@@ -186,7 +186,7 @@ public class EyeInteractableManager : MonoBehaviour
             yield break;
         }
 
-        // Get all child objects
+        // Get all child objects from parent 
         Transform[] children = parentObject.GetComponentsInChildren<Transform>();
 
         // Shuffle the array
@@ -201,7 +201,7 @@ public class EyeInteractableManager : MonoBehaviour
             children[n] = value;
         }
 
-        // Change the color of the first 4 cubes
+        // Change the color of 3 cubes per wall to red 
         int cubesColored = 0;
         foreach (Transform child in children)
         {
