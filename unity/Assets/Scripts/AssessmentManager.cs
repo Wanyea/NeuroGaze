@@ -10,9 +10,11 @@ public class AssessmentManager : MonoBehaviour
     [SerializeField] string csvOutputPath;
     private int totalRedCubes;
     private int destroyedRedCubes;
+
     public int errorCount;
     private float startTime;
     private bool assessmentActive;
+    public int errorCountForMisclicks;
 
     private void Awake()
     {
@@ -41,6 +43,7 @@ public class AssessmentManager : MonoBehaviour
         // Remove the line that calculates totalRedCubes here
         destroyedRedCubes = 0;
         errorCount = 0;
+        errorCountForMisclicks = 0;
         assessmentActive = true;
         startTime = Time.time;
     }
@@ -68,11 +71,11 @@ public class AssessmentManager : MonoBehaviour
         assessmentActive = false;
         float endTime = Time.time;
         float duration = endTime - startTime;
-        string newLine = $"{id},{duration},{errorCount},{totalRedCubes}\n";
+        string newLine = $"{id},{duration},{errorCountForMisclicks},{errorCount},{totalRedCubes}\n";
 
         if (!File.Exists(csvOutputPath))
         {
-            File.WriteAllText(csvOutputPath, "ID,Round Duration,Error Count,Total Eye Interactables\n");
+            File.WriteAllText(csvOutputPath, "ID,Round Duration,Error Count For Misclicks, Error Count For Wrong Selection ,Total Eye Interactables\n");
         }
 
         File.AppendAllText(csvOutputPath, newLine);

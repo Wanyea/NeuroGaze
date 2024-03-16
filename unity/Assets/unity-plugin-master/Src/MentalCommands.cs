@@ -6,6 +6,7 @@ using TMPro;
 
 public class MentalCommands : MonoBehaviour
 {
+    public static MentalCommands Instance;
     EmotivUnityItf _emotivUnityltf = new EmotivUnityItf();
     bool mentalCmdRcvd = false;
     string mentalCommand;
@@ -30,18 +31,6 @@ public class MentalCommands : MonoBehaviour
 
     private void OnGUI()
     {
-        if (Event.current.Equals(Event.KeyboardEvent("1")))
-        {
-            try
-            {
-                _emotivUnityltf.CreateSessionWithHeadset(headsetId);
-                _emotivUnityltf.LoadProfile(profileName);
-                _emotivUnityltf.SubscribeData(dataStreamList);
-                mentalCmdRcvd = true;
-            } catch {
-                UnityEngine.Debug.Log("Creating Session with: " + headsetId);
-            }
-        }
   
         if (Event.current.Equals(Event.KeyboardEvent("1")))
         {
@@ -125,10 +114,10 @@ public class MentalCommands : MonoBehaviour
         {
             string currentCommand = _emotivUnityltf.mentalCmdIs();
 
-
+            Debug.Log($"The current mental command is: {currentCommand}");
             if (currentCommand != lastMentalCommand)
             {
-                Debug.Log($"The current mental command is: {mentalCommand}");
+                
                 mentalCommand = currentCommand;
                 lastMentalCommand = currentCommand;
 

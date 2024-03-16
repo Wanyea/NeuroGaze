@@ -73,6 +73,7 @@ public class ControllerTrackingRay : MonoBehaviour
                     SetLineColor(defaultColor.color); // Change color back to white when trigger is released
                 }
 
+
             } else if (lastInteractable != null)
             {
                 lastInteractable.Hover(false);
@@ -85,6 +86,15 @@ public class ControllerTrackingRay : MonoBehaviour
             {
                 lastInteractable.Hover(false);
                 lastInteractable = null;
+            }
+        }
+
+        if (isHit)
+        {
+            if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger) || OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger))
+            {
+                if (hit.collider.gameObject.tag == "Wall")
+                    AssessmentManager.Instance.errorCountForMisclicks++;
             }
         }
 

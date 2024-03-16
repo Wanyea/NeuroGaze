@@ -69,6 +69,12 @@ public class EyeTrackingRay : MonoBehaviour
             }
         }
 
+        if (isHit)
+        {
+            if (hit.collider.gameObject.tag == "Wall" && MentalCommands.Instance.GetMentalCommand() == "pull")
+                AssessmentManager.Instance.errorCountForMisclicks++;
+        }
+
         // Update the LineRenderer to represent the ray deriving from the users eye
         lineRenderer.SetPosition(0, eyesCenter);
         lineRenderer.SetPosition(1, eyesCenter + forwardDirection * rayDistance);
