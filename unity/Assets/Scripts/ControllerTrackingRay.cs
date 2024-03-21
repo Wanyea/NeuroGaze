@@ -89,14 +89,6 @@ public class ControllerTrackingRay : MonoBehaviour
             }
         }
 
-        if (isHit)
-        {
-            if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger) || OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger))
-            {
-                if (hit.collider.gameObject.tag == "Wall")
-                    AssessmentManager.Instance.errorCountForMisclicks++;
-            }
-        }
 
         // Update the LineRenderer to represent the ray
         lineRenderer.SetPosition(0, transform.position);

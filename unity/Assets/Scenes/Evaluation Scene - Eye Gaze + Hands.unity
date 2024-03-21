@@ -13679,7 +13679,7 @@ MonoBehaviour:
   mockHandUsedForPinchSelection: 0
   currentlyPinching: 0
   pinchCount: 0
-  maxPinch: 3
+  maxPinch: 1
 --- !u!1 &1160370669
 GameObject:
   m_ObjectHideFlags: 0
@@ -16252,83 +16252,6 @@ MonoBehaviour:
   isHovered: 0
   shouldShrink: 0
   isPinching: 0
---- !u!1001 &1414952078
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1884201495}
-    m_Modifications:
-    - target: {fileID: 852196673747384349, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_Name
-      value: OVR Player Rig - EyeGaze_Hands
-      objectReference: {fileID: 0}
-    - target: {fileID: 852196673747384349, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3595218915374510179, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: eyeLeft
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3595218915374510179, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: eyeRight
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3595218915374510179, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: activeColor
-      value: 
-      objectReference: {fileID: 2100000, guid: 093f260e329a13d4391688b2c5cb5d39, type: 2}
-    - target: {fileID: 3595218915374510179, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: defaultColor
-      value: 
-      objectReference: {fileID: 2100000, guid: 1409c3707ca4cf24887ba9af81a6f5f9, type: 2}
-    - target: {fileID: 9136906380216310271, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136906380216310271, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136906380216310271, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136906380216310271, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136906380216310271, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136906380216310271, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136906380216310271, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136906380216310271, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136906380216310271, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136906380216310271, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
 --- !u!1 &1421056672
 GameObject:
   m_ObjectHideFlags: 0
@@ -18829,9 +18752,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0f36ba537c9d7f45b75c00d1e8b20d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 6
+  id: 10
   csvOutputPath: 
   errorCount: 0
+  errorCountForMisclicks: 0
 --- !u!1 &1723300450
 GameObject:
   m_ObjectHideFlags: 0
@@ -19587,11 +19511,6 @@ MonoBehaviour:
   isHovered: 0
   shouldShrink: 0
   isPinching: 0
---- !u!4 &1772412444 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9136906380216310271, guid: a294ccae66dd4d240a79882838ffd5d5, type: 3}
-  m_PrefabInstance: {fileID: 1414952078}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1788682706
 GameObject:
   m_ObjectHideFlags: 0
@@ -20907,7 +20826,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1035638189}
-  - {fileID: 1772412444}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1888558771

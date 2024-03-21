@@ -18818,7 +18818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1577bc810472ce340ad53d5f40a76e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 7
+  id: 10
   csvOutputPath: 
   errorCount: 0
   errorCountForMisclicks: 0
@@ -18831,7 +18831,7 @@ Transform:
   m_GameObject: {fileID: 1684906086}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23542,11 +23542,11 @@ PrefabInstance:
       objectReference: {fileID: 22442891}
     - target: {fileID: 6279153400065857629, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
       propertyPath: headsetId
-      value: INSIGHT2-DC3B479A
+      value: EPOCX-E50208B2
       objectReference: {fileID: 0}
     - target: {fileID: 6279153400065857629, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
       propertyPath: profileName
-      value: w7
+      value: d10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23568,7 +23568,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 240171171, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2079265572223263571, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_Enabled
