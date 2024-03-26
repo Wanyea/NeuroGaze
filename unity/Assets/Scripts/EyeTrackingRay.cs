@@ -32,7 +32,7 @@ public class EyeTrackingRay : MonoBehaviour
     {
         Vector3 eyesCenter = (leftEyeAnchor.position + rightEyeAnchor.position) * 0.5f; // Average the left and right eye anchors to find the midpoint
         Vector3 forwardDirection = (leftEyeAnchor.forward + rightEyeAnchor.forward) * 0.5f; // Average the forward direction of both eyes
-        Ray ray = new Ray(eyesCenter, forwardDirection);
+        Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
         bool isHit = Physics.Raycast(ray, out hit, rayDistance);
 
@@ -44,6 +44,8 @@ public class EyeTrackingRay : MonoBehaviour
             // Check if the users eye gaze hit an item we can interact with (select)
             if (eyeInteractable)
             {
+                Debug.Log($"The distance between the users eyes and the cube is: {hit.distance}");
+
                 if (lastEyeInteractable != eyeInteractable)
                 {
                     if (lastEyeInteractable != null)
@@ -76,7 +78,7 @@ public class EyeTrackingRay : MonoBehaviour
         }
 
         // Update the LineRenderer to represent the ray deriving from the users eye
-        lineRenderer.SetPosition(0, eyesCenter);
-        lineRenderer.SetPosition(1, eyesCenter + forwardDirection * rayDistance);
+        lineRenderer.SetPosition(0, transform.position);
+        lineRenderer.SetPosition(1, transform.position + transform.forward * rayDistance);
     }
 }

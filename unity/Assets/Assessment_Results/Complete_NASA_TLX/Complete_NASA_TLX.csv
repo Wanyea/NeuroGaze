@@ -3,6 +3,7 @@ Participant Number,Technique being Evaluated,Please answer each prompt based on 
 2,VR Controllers,1,3,6,6,5,6
 2,Eye Tracking + Hand Tracking,6,3,4,2,4,7
 2,NeuroGaze,4,4,2,4,3,6
+3,Eye Tracking + Hand Tracking,6,5,4,5,5,5
 3,VR Controllers,2,3,5,5,7,2
 3,NeuroGaze,5,5,2,4,7,6
 4,Eye Tracking + Hand Tracking,1,1,1,5,1,2
@@ -14,6 +15,9 @@ Participant Number,Technique being Evaluated,Please answer each prompt based on 
 6,VR Controllers,1,1,3,7,1,1
 6,Eye Tracking + Hand Tracking,1,1,3,7,1,1
 6,NeuroGaze,3,1,2,5,2,2
+7,VR Controllers,5,5,3,7,4,3
+7,Eye Tracking + Hand Tracking,6,6,5,5,5,2
+7,NeuroGaze,4,4,5,6,4,1
 8,VR Controllers,3,1,6,6,3,2
 8,Eye Tracking + Hand Tracking,4,2,6,6,4,2
 8,NeuroGaze,6,1,4,3,6,4
@@ -29,18 +33,18 @@ Participant Number,Technique being Evaluated,Please answer each prompt based on 
 12,NeuroGaze,4,1,2,6,5,2
 12,Eye Tracking + Hand Tracking,5,6,6,3,5,2
 12,VR Controllers,6,6,6,5,6,4
-13,NeuroGaze: EEG + Eye Tracking,1,2,2,5,3,2
+13,NeuroGaze,1,2,2,5,3,2
 13,Eye Tracking + Hand Tracking,7,5,4,4,5,3
 13,VR Controllers,5,6,6,6,5,3
-14,NeuroGaze: EEG + Eye Tracking,2,4,4,5,4,3
+14,NeuroGaze,2,4,4,5,4,3
 14,Eye Tracking + Hand Tracking,5,5,5,4,5,2
 14,VR Controllers,6,5,5,5,5,3
-15,NeuroGaze: EEG + Eye Tracking,3,3,2,5,3,1
+15,NeuroGaze,3,3,2,5,3,1
 15,Eye Tracking + Hand Tracking,7,5,4,4,5,3
 15,VR Controllers,4,5,3,6,5,1
-16,NeuroGaze: EEG + Eye Tracking,4,1,2,5,3,1
+16,NeuroGaze,4,1,2,5,3,1
 16,VR Controllers,5,6,6,6,4,3
 16,Eye Tracking + Hand Tracking,4,6,5,3,6,2
-11,NeuroGaze: EEG + Eye Tracking,2,4,4,5,3,2
+11,NeuroGaze,2,4,4,5,3,2
 11,Eye Tracking + Hand Tracking,7,5,3,5,4,3
-11,VR Controllers,2,6,4,6,4,3
+11,VR Controllers,5,5,5,5,4,3
