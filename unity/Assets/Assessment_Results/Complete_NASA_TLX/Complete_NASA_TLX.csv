@@ -27,7 +27,7 @@ Participant Number,Technique being Evaluated,Please answer each prompt based on 
 10,VR Controllers,1,1,2,7,1,1
 10,Eye Tracking + Hand Tracking,1,1,2,7,1,1
 10,NeuroGaze,2,1,2,6,1,1
-1,NeuroGaze: EEG + Eye Tracking,1,1,1,6,3,2
+1,NeuroGaze,1,1,1,6,3,2
 1,Eye Tracking + Hand Tracking,5,4,4,5,3,3
 1,VR Controllers,5,7,6,5,6,3
 12,NeuroGaze,4,1,2,6,5,2
