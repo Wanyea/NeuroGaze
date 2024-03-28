@@ -1,0 +1,19 @@
+Question,Technique Comparison,Statistic,p-Value,Significant
+Mental,VR Controllers VS Eye Tracking + Hand Tracking,14.0,0.025828560698326456,Yes
+Mental,VR Controllers VS NeuroGaze,89.5,0.8237779594699384,No
+Mental,Eye Tracking + Hand Tracking VS NeuroGaze,57.0,0.12402359820387084,No
+Physical,VR Controllers VS Eye Tracking + Hand Tracking,17.0,0.8866897393567406,No
+Physical,VR Controllers VS NeuroGaze,19.0,0.018843332993424375,Yes
+Physical,Eye Tracking + Hand Tracking VS NeuroGaze,12.0,0.005915605813408598,Yes
+Temporal,VR Controllers VS Eye Tracking + Hand Tracking,11.0,0.02561633200258813,Yes
+Temporal,VR Controllers VS NeuroGaze,6.5,0.001364274843169136,Yes
+Temporal,Eye Tracking + Hand Tracking VS NeuroGaze,7.0,0.0022563518696692214,Yes
+Performance,VR Controllers VS Eye Tracking + Hand Tracking,16.0,0.03651017923231463,Yes
+Performance,VR Controllers VS NeuroGaze,43.0,0.09803670847292134,No
+Performance,Eye Tracking + Hand Tracking VS NeuroGaze,61.5,0.4687443708653327,No
+Effort,VR Controllers VS Eye Tracking + Hand Tracking,23.0,0.35290082341101536,No
+Effort,VR Controllers VS NeuroGaze,35.5,0.15799018835619372,No
+Effort,Eye Tracking + Hand Tracking VS NeuroGaze,55.0,0.4927166772270877,No
+Frustration,VR Controllers VS Eye Tracking + Hand Tracking,22.0,0.5650394938312866,No
+Frustration,VR Controllers VS NeuroGaze,38.5,0.968156715412793,No
+Frustration,Eye Tracking + Hand Tracking VS NeuroGaze,54.0,0.7168747737087489,No

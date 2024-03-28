@@ -1,0 +1,4 @@
+Comparison,Statistic,p-Value
+NeuroGaze vs VR Controllers,53.0,0.09047156704428781
+NeuroGaze vs Eye Tracking + Hand Tracking,42.5,0.017181396484375
+VR Controllers vs Eye Tracking + Hand Tracking,59.0,0.4060503542298485
