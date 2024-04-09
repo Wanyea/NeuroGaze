@@ -23,88 +23,26 @@ public class MentalCommands : MonoBehaviour
 
     void Start()
     {
-
-        _emotivUnityltf.Init(clientId,clientSecret,appName);
-        _emotivUnityltf.Start();
-        DataStreamManager.Instance.ScanHeadsets();
-    }
-
-    private void OnGUI()
-    {
-  
-        if (Event.current.Equals(Event.KeyboardEvent("1")))
+        try
         {
-            try 
+            _emotivUnityltf.Init(clientId, clientSecret, appName);
+            _emotivUnityltf.Start();
+            DataStreamManager.Instance.ScanHeadsets();
+            try
             {
                 _emotivUnityltf.CreateSessionWithHeadset(headsetId);
-            } catch
+                _emotivUnityltf.LoadProfile(profileName);
+                _emotivUnityltf.SubscribeData(dataStreamList);
+            } catch (Exception e)
             {
-                UnityEngine.Debug.Log("Creating Session with: " + headsetId);
+                Debug.LogException(e);
             }
-
-        }
-
-        if (Event.current.Equals(Event.KeyboardEvent("2")))
+        } catch (Exception e)
         {
-            _emotivUnityltf.LoadProfile(profileName);
-            UnityEngine.Debug.Log("Loading Profile: " + profileName);
-
+            Debug.LogException(e);
         }
-
-
-        if (Event.current.Equals(Event.KeyboardEvent("3")))
-        {
-            _emotivUnityltf.SubscribeData(dataStreamList);
-            UnityEngine.Debug.Log("Subscribing to DataStream");
-            mentalCmdRcvd = true;
-        }
-
-        if (Event.current.Equals(Event.KeyboardEvent("4")))
-        {
-            mentalCmdRcvd = false;
-            _emotivUnityltf.UnLoadProfile(profileName);
-            _emotivUnityltf.UnSubscribeData(dataStreamList);
-            _emotivUnityltf.Stop();
-            UnityEngine.Debug.Log("Unloaded Profile, Unsubscribed Data, and Stopped EmotivUnityItf");
-
-        }
-
     }
 
-
-/*    public void CreateSession()
-    {
-        emotivTextMesh.text = $"Creating Session with: {headsetId}";
-        _emotivUnityltf.CreateSessionWithHeadset(headsetId);
-        UnityEngine.Debug.Log("Creating Session with: " + headsetId);
-    }
-
-    public void LoadProfile()
-    {
-        emotivTextMesh.text = $"Loading Profile: {profileName}";
-        _emotivUnityltf.LoadProfile(profileName);
-        UnityEngine.Debug.Log("Loading Profile: " + profileName);
-    }
-
-    public void SubscribeToDataStream()
-    {
-        emotivTextMesh.text = "Subscribing to DataStream";
-        _emotivUnityltf.SubscribeData(dataStreamList);
-        UnityEngine.Debug.Log("Subscribing to DataStream");
-        mentalCmdRcvd = true;
-    }
-
-    public void EndSession()
-    {
-        emotivTextMesh.text = "Unloaded Profile, Unsubscribed Data, and Stopped EmotivUnityItf";
-        mentalCmdRcvd = false;
-        _emotivUnityltf.UnLoadProfile(profileName);
-        _emotivUnityltf.UnSubscribeData(dataStreamList);
-        _emotivUnityltf.Stop();
-        UnityEngine.Debug.Log("Unloaded Profile, Unsubscribed Data, and Stopped EmotivUnityItf");
-
-        emotivTextMesh.text = "Emotiv Log";
-    }*/
 
     private string lastMentalCommand = "";
 
@@ -130,5 +68,11 @@ public class MentalCommands : MonoBehaviour
     public string GetMentalCommand() 
     {
         return mentalCommand;
+    }
+
+    private void OnApplicationQuit()
+    {
+        _emotivUnityltf.UnSubscribeData(dataStreamList);
+        _emotivUnityltf.UnLoadProfile(headsetId);
     }
 }
