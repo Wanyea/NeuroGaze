@@ -1,0 +1,12 @@
+Selection Technique: EyeGazeHands
+Average Duration: 15.4382573333333
+Average Error Rate: 0.172222222222222
+
+Selection Technique: NeuroGaze
+Average Duration: 39.262155625
+Average Error Rate: 0.135416666666667
+
+Selection Technique: VRControllers
+Average Duration: 10.7801019333333
+Average Error Rate: 0.122222222222222
+
