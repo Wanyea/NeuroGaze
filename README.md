@@ -1,4 +1,5 @@
-# NeuroGaze: Non-invasive BCI combined with IR trackers for Interaction in Virtual Environments 
+### Codebase for NeuroGaze: A Hybrid EEG and Eye-Tracking Brain-Computer Interface for Hands-Free Interaction in Virtual Reality
 &nbsp;
 <img align="center" src= "readme-assets/sf3dui.gif" width="500px">
-### Codebase for my Master's thesis studying how utilizing a fusion of neuroimaging devices with existing HCIs (denoted "NeuroGaze") can produce novel and effective interaction techniques in virtual environments.
+
+See the preprint here: https://arxiv.org/abs/2509.07863
