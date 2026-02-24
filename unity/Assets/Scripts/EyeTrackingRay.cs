@@ -44,7 +44,7 @@ public class EyeTrackingRay : MonoBehaviour
             // Check if the users eye gaze hit an item we can interact with (select)
             if (eyeInteractable)
             {
-                Debug.Log($"The distance between the users eyes and the cube is: {hit.distance}");
+                // Debug.Log($"The distance between the users eyes and the cube is: {hit.distance}");
 
                 if (lastEyeInteractable != eyeInteractable)
                 {

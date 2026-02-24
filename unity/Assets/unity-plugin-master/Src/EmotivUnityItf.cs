@@ -325,6 +325,8 @@ namespace EmotivUnityPlugin
         /// </summary>
         public void LoadProfile(string profileName)
         {
+            UnityEngine.Debug.Log("Load profile: " + profileName);
+            UnityEngine.Debug.Log("Current headsetId: " + _workingHeadsetId);
             if (!string.IsNullOrEmpty(_workingHeadsetId))
                 _bciTraining.LoadProfileWithHeadset(profileName, _workingHeadsetId);
             else
