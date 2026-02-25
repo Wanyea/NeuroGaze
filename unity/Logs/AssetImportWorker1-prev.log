@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2023.2/staging' branch; Version is '2023.2.11f1 (6a1e21c61430) revision 6954529'; Using compiler version '193431935'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32469 MB
+OS: 'Windows 11  (10.0.26100) 64bit Enterprise' Language: 'en' Physical Memory: 195944 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2023.2.11f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/source/NeuroGaze/unity
+C:/Users/WBUser/NeuroGaze/unity
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54272
+63878
 -job-worker-count
-15
+11
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/source/NeuroGaze/unity
-C:/source/NeuroGaze/unity
+Successfully changed project path to: C:/Users/WBUser/NeuroGaze/unity
+C:/Users/WBUser/NeuroGaze/unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,30 +58,31 @@ C:/source/NeuroGaze/unity
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6340] Host "[IP] 169.254.130.41 [Port] 0 [Flags] 2 [Guid] 1045491910 [EditorId] 1045491910 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [6340] Host "[IP] 169.254.130.41 [Port] 0 [Flags] 2 [Guid] 1045491910 [EditorId] 1045491910 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 15
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Player connection [39016] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 259244893 [EditorId] 259244893 [Version] 1048832 [Id] WindowsEditor(7,UCWATI-22001) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [39016] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 259244893 [EditorId] 259244893 [Version] 1048832 [Id] WindowsEditor(7,UCWATI-22001) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 7.16 ms, found 11 plugins.
-Preloading 3 native plugins for Editor in 1.82 ms.
+Refreshing native plugins compatible for Editor in 17.36 ms, found 18 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 3 native plugins for Editor in 4.66 ms.
 Initialize engine version: 2023.2.11f1 (6a1e21c61430)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/source/NeuroGaze/unity/Assets
+[Subsystems] Discovering subsystems at path C:/Users/WBUser/NeuroGaze/unity/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2820)
+    Renderer: NVIDIA GeForce RTX 5080 (ID=0x2c02)
     Vendor:   NVIDIA
-    VRAM:     7948 MB
-    Driver:   31.0.15.5128
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+    VRAM:     15889 MB
+    Driver:   32.0.15.8180
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -96,43 +97,43 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002832 seconds.
-- Loaded All Assemblies, in  0.279 seconds
+Registered in 0.003327 seconds.
+- Loaded All Assemblies, in  0.249 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 182 ms
+Android Extension - Scanning For ADB Devices 439 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.450 seconds
-Domain Reload Profiling: 727ms
-	BeginReloadAssembly (93ms)
+- Finished resetting the current domain, in  0.684 seconds
+Domain Reload Profiling: 931ms
+	BeginReloadAssembly (90ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (116ms)
-		LoadAssemblies (91ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (89ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (103ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (85ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (450ms)
+	FinalizeReload (684ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (418ms)
+		SetupLoadedEditorAssemblies (644ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (267ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (512ms)
+			SetLoadedEditorAssemblies (2ms)
 			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -153,13 +154,21 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/unity-plugin-master/Src/JsonNet/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.Symbol file LoadedFromMemory doesn't match image C:\source\NeuroGaze\unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\source\NeuroGaze\unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/unity-plugin-master/Src/JsonNet/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.Symbol file LoadedFromMemory doesn't match image C:\Users\WBUser\NeuroGaze\unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\WBUser\NeuroGaze\unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.687 seconds
-Refreshing native plugins compatible for Editor in 4.22 ms, found 11 plugins.
+- Loaded All Assemblies, in  0.763 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 13.73 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 14.45 ms, found 18 plugins.
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -191,49 +200,108 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.619 seconds
-Domain Reload Profiling: 1302ms
-	BeginReloadAssembly (202ms)
+- Finished resetting the current domain, in  0.791 seconds
+Domain Reload Profiling: 1550ms
+	BeginReloadAssembly (197ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
+		CreateAndSetChildDomain (20ms)
 	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (423ms)
-		LoadAssemblies (280ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (506ms)
+		LoadAssemblies (342ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (162ms)
-				TypeCache.ScanAssembly (148ms)
-			BuildScriptInfoCaches (35ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (619ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (157ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (792ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (514ms)
+		SetupLoadedEditorAssemblies (681ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (376ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (504ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 3.86 ms, found 11 plugins.
-Preloading 3 native plugins for Editor in 0.09 ms.
-Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7149 unused Assets / (7.7 MB). Loaded Objects now: 7822.
-Memory consumption went from 216.7 MB to 209.0 MB.
-Total: 6.154400 ms (FindLiveObjects: 0.433500 ms CreateObjectMapping: 0.319100 ms MarkObjects: 3.384300 ms  DeleteObjects: 2.016900 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 13.35 ms, found 18 plugins.
+Preloading 3 native plugins for Editor in 0.14 ms.
+Unloading 266 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8884 unused Assets / (9.3 MB). Loaded Objects now: 9612.
+Memory consumption went from 255.7 MB to 246.3 MB.
+Total: 10.420300 ms (FindLiveObjects: 0.858300 ms CreateObjectMapping: 0.837500 ms MarkObjects: 5.208700 ms  DeleteObjects: 3.514500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 5662.525940 seconds.
+  path: Assets/Scripts/EyeTrackingRayForHands.cs
+  artifactKey: Guid(90dcee8a132c6f24db7d0c3298269f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EyeTrackingRayForHands.cs using Guid(90dcee8a132c6f24db7d0c3298269f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5a3eb8e0e4e061db0c638bdb3ada456') in 0.0048813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/EyeInteractableManager.cs
+  artifactKey: Guid(4bec560498cb55f4e978d83db23cc102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EyeInteractableManager.cs using Guid(4bec560498cb55f4e978d83db23cc102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95c4dac083d085807a98e71e50b93627') in 0.0005075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scripts/EyeInteractableManagerForControllers.cs
+  artifactKey: Guid(183dae5a9b9dbce4eb374b467a4ea7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EyeInteractableManagerForControllers.cs using Guid(183dae5a9b9dbce4eb374b467a4ea7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff7c37b7d5451fbf9f528eb825e1169e') in 0.0004768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.383541 seconds.
+  path: Assets/Scripts/EyeInteractableForHands.cs
+  artifactKey: Guid(8cb3862bbaa76d54cb133b101173420f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EyeInteractableForHands.cs using Guid(8cb3862bbaa76d54cb133b101173420f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a80073e42d1989795862ab8a9c205cc') in 0.0005185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.124354 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(9a6ea8243cdd0704295199d58557da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(9a6ea8243cdd0704295199d58557da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4448c1def63555bf212b6b54aca07945') in 0.0168024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.93 ms, found 18 plugins.
+Preloading 3 native plugins for Editor in 0.14 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8800 unused Assets / (8.5 MB). Loaded Objects now: 9597.
+Memory consumption went from 199.5 MB to 191.0 MB.
+Total: 9.523200 ms (FindLiveObjects: 0.853800 ms CreateObjectMapping: 0.746300 ms MarkObjects: 4.932000 ms  DeleteObjects: 2.990100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -249,13 +317,21 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/unity-plugin-master/Src/JsonNet/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.Symbol file LoadedFromMemory doesn't match image C:\source\NeuroGaze\unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\source\NeuroGaze\unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/unity-plugin-master/Src/JsonNet/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.Symbol file LoadedFromMemory doesn't match image C:\Users\WBUser\NeuroGaze\unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\WBUser\NeuroGaze\unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.544 seconds
-Refreshing native plugins compatible for Editor in 5.18 ms, found 11 plugins.
+- Loaded All Assemblies, in  0.583 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 13.43 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 14.49 ms, found 18 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -283,138 +359,1272 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.589 seconds
-Domain Reload Profiling: 1132ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.705 seconds
+Domain Reload Profiling: 1288ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (348ms)
-		LoadAssemblies (269ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (307ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (126ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (590ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (706ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (483ms)
+		SetupLoadedEditorAssemblies (577ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (346ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (397ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 3.61 ms, found 11 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7147 unused Assets / (7.9 MB). Loaded Objects now: 7823.
-Memory consumption went from 175.3 MB to 167.4 MB.
-Total: 6.000100 ms (FindLiveObjects: 0.402700 ms CreateObjectMapping: 0.247300 ms MarkObjects: 3.234100 ms  DeleteObjects: 2.115300 ms)
+Refreshing native plugins compatible for Editor in 16.20 ms, found 18 plugins.
+Preloading 3 native plugins for Editor in 0.19 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8880 unused Assets / (8.7 MB). Loaded Objects now: 9618.
+Memory consumption went from 203.4 MB to 194.7 MB.
+Total: 9.616500 ms (FindLiveObjects: 0.855500 ms CreateObjectMapping: 0.766700 ms MarkObjects: 4.904600 ms  DeleteObjects: 3.088800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/unity-plugin-master/Src/JsonNet/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.Symbol file LoadedFromMemory doesn't match image C:\source\NeuroGaze\unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\source\NeuroGaze\unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.552 seconds
-Refreshing native plugins compatible for Editor in 4.42 ms, found 11 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <20deccf348554c238921b06fec015ff8>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <20deccf348554c238921b06fec015ff8>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <20deccf348554c238921b06fec015ff8>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <173be45fd37f45a6ad810c03e088cad9>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+Received Import Request.
+  Time since last request: 183.792613 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(9a6ea8243cdd0704295199d58557da6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(9a6ea8243cdd0704295199d58557da6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
 
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.586 seconds
-Domain Reload Profiling: 1137ms
-	BeginReloadAssembly (137ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (362ms)
-		LoadAssemblies (273ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (133ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (586ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (483ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (345ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 3.65 ms, found 11 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7147 unused Assets / (7.9 MB). Loaded Objects now: 7824.
-Memory consumption went from 177.2 MB to 169.2 MB.
-Total: 6.139100 ms (FindLiveObjects: 0.460900 ms CreateObjectMapping: 0.263400 ms MarkObjects: 3.242300 ms  DeleteObjects: 2.171700 ms)
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at System.Object:__icall_wrapper_ves_icall_object_new_specific <0x0006a>
+	  at <>c:<GetMaterialReferenceLookup>b__2_0 <0x00042>
+	  at WhereEnumerableIterator`1:MoveNext <0x000ea>
+	  at UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialReferenceLookup <0x00478>
+	  at UnityEditor.Rendering.Universal.MaterialReferenceBuilder:.cctor <0x00032>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Object:__icall_wrapper_mono_generic_class_init <0x0006a>
+	  at UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer <0x0006a>
+	  at <Module>:invoke_void_CustomObjectIndexerTarget_ObjectIndexer <0x00113>
+	  at UnityEditor.Search.ObjectIndexer:CallCustomIndexers <0x004c9>
+	  at UnityEditor.Search.ObjectIndexer:IndexCustomProperties <0x00132>
+	  at UnityEditor.Search.AssetIndexer:IndexProperties <0x00392>
+	  at UnityEditor.Search.AssetIndexer:IndexDocument <0x00f12>
+	  at UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset <0x00169>
+	  at UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData <0x00018>
+	  at <Module>:runtime_invoke_void__this___object <0x00092>
+=================================================================
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5791555efff3a05b5e5622b87c82be8') in 0.1727596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_10.csv
+  artifactKey: Guid(9ef1d16fe41cc2f428b60e8f98ed944d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_10.csv using Guid(9ef1d16fe41cc2f428b60e8f98ed944d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdeb49fee4d4d0bd15b577208eb9afc2') in 0.0044344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assessment_Results/Complete_NASA_TLX/Complete_NASA_TLX.csv
+  artifactKey: Guid(f96fa01ed6c228c448cfdb779eed27fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Complete_NASA_TLX/Complete_NASA_TLX.csv using Guid(f96fa01ed6c228c448cfdb779eed27fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b90414b484c077d0f761ffefc286bc2b') in 0.0038912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Assessment_Results/gross_error_rate.csv
+  artifactKey: Guid(a5063f59c17ec0f4ba2030b24a1bb767) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/gross_error_rate.csv using Guid(a5063f59c17ec0f4ba2030b24a1bb767) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd15fbd72690491918e58ae55916c5e4f') in 0.0035056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Resources/OVRPlatformToolSettings.asset
+  artifactKey: Guid(000b68054c9ad23438b7540e6b9ff4c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/OVRPlatformToolSettings.asset using Guid(000b68054c9ad23438b7540e6b9ff4c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'becb59c0bfa3b0d3113b3bb193a72663') in 0.0089806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Prefabs/Mental Command Manager .prefab
+  artifactKey: Guid(15240979b3f92de4b89d5f30c61e31f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Mental Command Manager .prefab using Guid(15240979b3f92de4b89d5f30c61e31f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f7e11ac9932cbac878d93007459b37d') in 0.0217457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_14.csv
+  artifactKey: Guid(5f1f791dfb4a4bb40a190099dadf5163) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_14.csv using Guid(5f1f791dfb4a4bb40a190099dadf5163) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6410e7a2d3ef57b0f2c867fc8431e982') in 0.0040182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/unity-plugin-master/README.md
+  artifactKey: Guid(a75ec17b580005345965cd415e3cba2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-plugin-master/README.md using Guid(a75ec17b580005345965cd415e3cba2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a77791c94d8780c1c1c1193fc61a44f') in 0.0038008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Prefabs/OVR Player Rig - VR Controllers.prefab
+  artifactKey: Guid(c5f66237a32893d44ab33ddf7e193d51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/OVR Player Rig - VR Controllers.prefab using Guid(c5f66237a32893d44ab33ddf7e193d51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '744ffb034633656d3f867acffdeb47b7') in 0.0509001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 586
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/MetaXRAudioSettings.asset
+  artifactKey: Guid(56a475726c746ee47a49ac013a2f7924) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/MetaXRAudioSettings.asset using Guid(56a475726c746ee47a49ac013a2f7924) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c9da1881030657e0dd79cab3df2b930') in 0.0048249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assessment_Results/Assessment_Results.zip
+  artifactKey: Guid(1e24ffb688483f0408b9371ed414319c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results.zip using Guid(1e24ffb688483f0408b9371ed414319c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bd1bce0159bbb336844670165d7232e') in 0.0035154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Materials/Beige.mat
+  artifactKey: Guid(63d138ad7c7107a40902adc2afe9bd2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Beige.mat using Guid(63d138ad7c7107a40902adc2afe9bd2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d4eb56095e1c25c1f1b4771695e410c') in 0.0157083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scripts/EyeTrackingRay.cs
+  artifactKey: Guid(d1a298899abc2714581fe86864c68a09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/EyeTrackingRay.cs using Guid(d1a298899abc2714581fe86864c68a09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45938b096d18ce14b324f2e6fa2603f4') in 0.0037652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_8.csv
+  artifactKey: Guid(4c22342194e38cf4bb294b0f73815037) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_8.csv using Guid(4c22342194e38cf4bb294b0f73815037) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8dee24f8faec3ed43d4e82afb2576e91') in 0.0034426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Resources/ONSPSettings.asset
+  artifactKey: Guid(f8811da92827d09418dc1dddd3318b92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/ONSPSettings.asset using Guid(f8811da92827d09418dc1dddd3318b92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b54d9e0cf25b03255037b39c60c00568') in 0.0037472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Scripts/EyeTrackingRayForHands.cs
+  artifactKey: Guid(90dcee8a132c6f24db7d0c3298269f24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/EyeTrackingRayForHands.cs using Guid(90dcee8a132c6f24db7d0c3298269f24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e14aa773d78b41347777cff6070d9ba') in 0.0035457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Scripts/AssessmentManagerForControllers.cs
+  artifactKey: Guid(8992da49c1fba6d42ba88203eccf51e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/AssessmentManagerForControllers.cs using Guid(8992da49c1fba6d42ba88203eccf51e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc0c7b40fa0d456cefbb71ddc4b71289') in 0.0039266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Prefabs/Color Changing Cube.prefab
+  artifactKey: Guid(4220599be15fadf4a8229e1f7ac913be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Color Changing Cube.prefab using Guid(4220599be15fadf4a8229e1f7ac913be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f31461c02e6c97ac11ffec5d01b62c7') in 0.0095109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Scripts/EyeInteractableManagerForHands.cs
+  artifactKey: Guid(5abbd18c1214ca94e88c497957f29a15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/EyeInteractableManagerForHands.cs using Guid(5abbd18c1214ca94e88c497957f29a15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bfda36d1a586598399483b3473d18fd') in 0.004127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Assessment_Results/TaskCompletionTime.pdf
+  artifactKey: Guid(1c0825290a9781548b1ab756b1033ae5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/TaskCompletionTime.pdf using Guid(1c0825290a9781548b1ab756b1033ae5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5456e6d17bcf9e056ca1a4f8f6d8c7ca') in 0.0033496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Scripts/EyeInteractableForHands.cs
+  artifactKey: Guid(8cb3862bbaa76d54cb133b101173420f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/EyeInteractableForHands.cs using Guid(8cb3862bbaa76d54cb133b101173420f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6975ab2adf9f0f8897e86a4ad83e6d21') in 0.0039672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Scripts/EyeInteractableManager.cs
+  artifactKey: Guid(4bec560498cb55f4e978d83db23cc102) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/EyeInteractableManager.cs using Guid(4bec560498cb55f4e978d83db23cc102) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4fbf02a0e62a5fd916dd71d570eac7e') in 0.0040596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_16.csv
+  artifactKey: Guid(bf52736278c37cf4a8734f8b3688023c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_16.csv using Guid(bf52736278c37cf4a8734f8b3688023c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '395e0f104da3430badd16121314c30f7') in 0.0033074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/analysis_results.csv
+  artifactKey: Guid(2cadbc4149c0a9b429155a5bfc2abfaa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/analysis_results.csv using Guid(2cadbc4149c0a9b429155a5bfc2abfaa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99abcd709a59e67a6e4d2b3c406b479c') in 0.0034585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_3.csv
+  artifactKey: Guid(707c366838d81dd4c8f9ba46185921ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_3.csv using Guid(707c366838d81dd4c8f9ba46185921ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b579c22b8bffc87c15b372ddf4cb09e2') in 0.0033744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_5.csv
+  artifactKey: Guid(d55dcaf545575e945b1a2ab602d68bd4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_5.csv using Guid(d55dcaf545575e945b1a2ab602d68bd4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da0d137c74d9fa86a37f8fc3213edcfa') in 0.0032568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scenes/Evaluation Scene - VR Controllers.unity
+  artifactKey: Guid(e2db80ed72e645f4b84aed0ef21f26f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Evaluation Scene - VR Controllers.unity using Guid(e2db80ed72e645f4b84aed0ef21f26f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9f195fef33e8101582c09400970a6c0') in 0.0164372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/nasatlx-aggr.png
+  artifactKey: Guid(7f635a441d60c4244a3e79fdc9ad3c90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/nasatlx-aggr.png using Guid(7f635a441d60c4244a3e79fdc9ad3c90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47d36b407b6d1a1b298c831f3295c1e5') in 0.0255003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Resources/InputActions.asset
+  artifactKey: Guid(c1c2051d04c855c41be0294179d81acc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/InputActions.asset using Guid(c1c2051d04c855c41be0294179d81acc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bae84295539c1b9a0a55a90aebe5050b') in 0.0049255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_12.csv
+  artifactKey: Guid(d3e2cf6e4f2d9784dbb943493661133f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_12.csv using Guid(d3e2cf6e4f2d9784dbb943493661133f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f56cdb6d9fe6bd859950b5915d072a6') in 0.0042832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_15.csv
+  artifactKey: Guid(38d7c115b2581ea43aff99353dfa30b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_15.csv using Guid(38d7c115b2581ea43aff99353dfa30b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '392c91b68cb4ebbed932a7603c83c42b') in 0.0038976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_11.csv
+  artifactKey: Guid(b707a4dbc30344647a4b9d2d49807a65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_11.csv using Guid(b707a4dbc30344647a4b9d2d49807a65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cc2d07fecd36cdf847a59c32572b311') in 0.0037152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_1.csv
+  artifactKey: Guid(6c61f61c645814644beb99054c081b04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_1.csv using Guid(6c61f61c645814644beb99054c081b04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55ed8f04556453717d3186a1275592b4') in 0.0040559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_13.csv
+  artifactKey: Guid(7390ef98378e18842967cc5035c40f85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_13.csv using Guid(7390ef98378e18842967cc5035c40f85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e29fe8410b4dec825dda34b7109b993f') in 0.0038249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scenes/Fusion Stationary Scene/Global Volume Profile 1.asset
+  artifactKey: Guid(98d5f49bd94013140a0c4a76b0e3aedf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Fusion Stationary Scene/Global Volume Profile 1.asset using Guid(98d5f49bd94013140a0c4a76b0e3aedf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d4a5e03b94c1bcf0bea0e5aadc8ced9') in 0.0052693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a06d65d01d501a5e854da6a2d506d619') in 0.0077702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd99811991be8a79c660b3be7fd5ec4ec') in 0.0193064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92e4b4404a82a0a87e83f9b37fc30045') in 0.0062041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scenes/Fusion Stationary Scene/Global Volume Profile 2.asset
+  artifactKey: Guid(d8b28663411d34c42bd2b55087d9cb2f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Fusion Stationary Scene/Global Volume Profile 2.asset using Guid(d8b28663411d34c42bd2b55087d9cb2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '731ea5532abcafc7f7e37cf0bb7bf626') in 0.0050473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/unity-plugin-master/Documentation/ReleaseNotes.md
+  artifactKey: Guid(1fd6cd2bd6b392946b4618d044c605b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-plugin-master/Documentation/ReleaseNotes.md using Guid(1fd6cd2bd6b392946b4618d044c605b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2989ebad0841db44c8a770e19445d11') in 0.0037081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_12.csv
+  artifactKey: Guid(e67ff389fbd58174d969bf9bb50d4ea5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_12.csv using Guid(e67ff389fbd58174d969bf9bb50d4ea5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe96cd2ef36763355f4d1d579f362652') in 0.0037099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb4422ab8ab85736156a12b074e65816') in 0.0053288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35ee1209064982a99330464931deb9e6') in 0.0234354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_6.csv
+  artifactKey: Guid(842f095768394aa488d257193d9b8704) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_6.csv using Guid(842f095768394aa488d257193d9b8704) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40438f4a6328f2293dcdb81c3adea7a5') in 0.0033694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_9.csv
+  artifactKey: Guid(d0ce1250e6e59124f9a5aa834ec75e59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_9.csv using Guid(d0ce1250e6e59124f9a5aa834ec75e59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '384b1f0a7aa0184e0acf0c5c1b0db258') in 0.0033603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_14.csv
+  artifactKey: Guid(8640963ce15868243a82fd8c662d73e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_14.csv using Guid(8640963ce15868243a82fd8c662d73e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bc72543af8f6728e3dcb5d4a84b869a') in 0.0035926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbeeefe60e7da7a0362db3dfe057739d') in 0.0036175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d00af1bfd6fa75974cb0fe2647ef9da') in 0.0060313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Scenes/Fusion Stationary Scene/Global Volume Profile.asset
+  artifactKey: Guid(a28bd04f76830424082745201ac45c88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Fusion Stationary Scene/Global Volume Profile.asset using Guid(a28bd04f76830424082745201ac45c88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '166819811c60ab3eed45da8ff2a6de05') in 0.004336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '495d1d42a981cc926a39eb7c5b870c2e') in 0.0037971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/unity-plugin-master/Src/BufferStream.cs
+  artifactKey: Guid(005ad9150d9eeea4eaeec93c31271beb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-plugin-master/Src/BufferStream.cs using Guid(005ad9150d9eeea4eaeec93c31271beb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '462b3239389b92cbca99e12c19e18d8e') in 0.0039514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c4aa2480b8a9622511034d460cbfe83') in 0.0037185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_9.csv
+  artifactKey: Guid(a673fb9dbb4fef246a0db25029fcfac8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_9.csv using Guid(a673fb9dbb4fef246a0db25029fcfac8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5547054bd53f7f710c556baa3f1abcfe') in 0.0038882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca78e1181f65072f6fb52b127749e067') in 0.0033147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/unity-plugin-master/Src/DataStreamManager.cs
+  artifactKey: Guid(a18a674e5643a8248a7ab974aead4796) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-plugin-master/Src/DataStreamManager.cs using Guid(a18a674e5643a8248a7ab974aead4796) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62f15c656cd583a0e5529d8a0403d4b4') in 0.0056961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  artifactKey: Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3faad01ec47c76cd9575fb747cb89ac9') in 0.003595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scenes/Training Scene Pull.unity
+  artifactKey: Guid(2035c4b99b2bfd949809f684d439e258) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Training Scene Pull.unity using Guid(2035c4b99b2bfd949809f684d439e258) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79fde304230063477d6de0e6dc10caba') in 0.0072296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Assessment_Results/ErrorRates.pdf
+  artifactKey: Guid(34b32fe4fa042d844914d48415485ffd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/ErrorRates.pdf using Guid(34b32fe4fa042d844914d48415485ffd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2231518ff2497f81079a49bd15057ee') in 0.003321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b59377d940126b54c3fefa405d69d230') in 0.0200145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_14.csv
+  artifactKey: Guid(c737261b59a45f047beddc7aaa26c0ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_14.csv using Guid(c737261b59a45f047beddc7aaa26c0ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1ddb25f260b96440e2c5ab641226e9f') in 0.0038969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Prefabs/OVR Player Rig - NeuroGaze.prefab
+  artifactKey: Guid(5676aa0013065e0429066a7d7fdf1ce5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/OVR Player Rig - NeuroGaze.prefab using Guid(5676aa0013065e0429066a7d7fdf1ce5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41437f2fb49221b27c4b4c7bdd2b37de') in 0.0418685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1127
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assessment_Results/Evaluation_Data.zip
+  artifactKey: Guid(905a4e680f38cac408369661266b918c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Evaluation_Data.zip using Guid(905a4e680f38cac408369661266b918c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63bfe9181ff7e5ad2fccc9f920aea99d') in 0.0057634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_13.csv
+  artifactKey: Guid(7f65954478dc6c44e8d50c84bba67a70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_13.csv using Guid(7f65954478dc6c44e8d50c84bba67a70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6f3e2774043211712df1bbb23433f82') in 0.0041579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_16.csv
+  artifactKey: Guid(58feeb86a11d13d4f93d91c98e824663) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_16.csv using Guid(58feeb86a11d13d4f93d91c98e824663) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e995e88db9c0a044785736db96f27baf') in 0.0041258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_1.csv
+  artifactKey: Guid(d32064891b0e894498eb0065ba641bb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_1.csv using Guid(d32064891b0e894498eb0065ba641bb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e60ad8b791c6d368217676e941dcfd05') in 0.0039482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Oculus/OculusProjectSetupSettings.asset
+  artifactKey: Guid(09af00897347532499a1f5c01391a9fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Oculus/OculusProjectSetupSettings.asset using Guid(09af00897347532499a1f5c01391a9fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e48cf74b8aaf7eb7e39af748157bd86e') in 0.0053979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_11.csv
+  artifactKey: Guid(108ec7d5f1680cb44b04b4629ee9a847) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_11.csv using Guid(108ec7d5f1680cb44b04b4629ee9a847) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e8b41a1cba6e271b07e3432f797ae3c') in 0.0033094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '265cb59eb5f1ee547ef15af5bfcb3b9b') in 0.0032499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Scenes/Training Scene Neutral.unity
+  artifactKey: Guid(2b7ba231fd401684aa49af096e59cf35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Training Scene Neutral.unity using Guid(2b7ba231fd401684aa49af096e59cf35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '203a20b7d9483444d4977b0e81effd9b') in 0.0063059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scripts/AssessmentManagerForHands.cs
+  artifactKey: Guid(a0f36ba537c9d7f45b75c00d1e8b20d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/AssessmentManagerForHands.cs using Guid(a0f36ba537c9d7f45b75c00d1e8b20d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '434c324794fb0d079fe72504faa958c4') in 0.0035395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_2.csv
+  artifactKey: Guid(67c2894e19a9be446bbc4d2d391af5ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_2.csv using Guid(67c2894e19a9be446bbc4d2d391af5ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b82d9ea7d9660de1e62755e53ea07da5') in 0.003868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+  artifactKey: Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph using Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '859589ee1ef2d8b48b4f557823a37b73') in 0.0079211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_1.csv
+  artifactKey: Guid(7f820c3321065b943b32d6a7e84a214c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_1.csv using Guid(7f820c3321065b943b32d6a7e84a214c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f16c860f6b9151706a347e14eb3a8ac') in 0.0038243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_4.csv
+  artifactKey: Guid(f154b65db87d86541b46ba6bd5182eee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_4.csv using Guid(f154b65db87d86541b46ba6bd5182eee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dcc65b36e60cadb5673b20fc0497469') in 0.0039807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/not_averaged_analysis_results.csv
+  artifactKey: Guid(5e9dcf2b5cce5fa44ac23cbdfc1ffe31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/not_averaged_analysis_results.csv using Guid(5e9dcf2b5cce5fa44ac23cbdfc1ffe31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db9f2413f03283efd5a62d30b3126ad5') in 0.0059436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_15.csv
+  artifactKey: Guid(21f3bcaddd177b548bf771c548de3c44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_15.csv using Guid(21f3bcaddd177b548bf771c548de3c44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a6e7cad9d5c69b7af52498f6cc8caec') in 0.0040759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_2.csv
+  artifactKey: Guid(ff342c79c767d8c40a33064b857708fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_2.csv using Guid(ff342c79c767d8c40a33064b857708fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a483a9018653e4ca2a7894f013c16e81') in 0.0039369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83abd95ab1cd30037b88593b8ee2a2bc') in 0.0127844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_10.csv
+  artifactKey: Guid(222e3a710729b2b44ba3353bae67fa6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_10.csv using Guid(222e3a710729b2b44ba3353bae67fa6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11a8c643c041a8d2ed263ecfc087e7c7') in 0.0038507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_1.csv
+  artifactKey: Guid(3eb7a52f1895ce648a224eef39c81cac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_1.csv using Guid(3eb7a52f1895ce648a224eef39c81cac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c73a6f7f2d59bf01259a13cb638dd1b') in 0.0037462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assessment_Results/Surveys/6/6_neuro_nasa.pdf
+  artifactKey: Guid(4e5cb24cf06d6f2479d7ae43254ae58e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Surveys/6/6_neuro_nasa.pdf using Guid(4e5cb24cf06d6f2479d7ae43254ae58e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a41ee26f13c71481b1c0b5827d57790') in 0.0037072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_16.csv
+  artifactKey: Guid(0c3413095dd2b0241b049310eeaae295) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_16.csv using Guid(0c3413095dd2b0241b049310eeaae295) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b018f76997a3b9bdd4fa3340e96c4847') in 0.0037572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_3.csv
+  artifactKey: Guid(36889d452c6a3e54297672a9d11be4ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_3.csv using Guid(36889d452c6a3e54297672a9d11be4ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c713e599ae669fcadd0824c0e8b16a5') in 0.0036273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/unity-plugin-master/Src/EmotivUnityItf.cs
+  artifactKey: Guid(ff83c09df7473a1489d32e22f733a414) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-plugin-master/Src/EmotivUnityItf.cs using Guid(ff83c09df7473a1489d32e22f733a414) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f90580cea6c9b41fb6dd682b3e2dbff') in 0.0035007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/XR/Loaders/OculusLoader.asset
+  artifactKey: Guid(97a513fb776826743ab2f32467b3da22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/XR/Loaders/OculusLoader.asset using Guid(97a513fb776826743ab2f32467b3da22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f22d325efdaee52fc5ead03f74014a6') in 0.004588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assessment_Results/Surveys/5/5_eyehand_nasa.pdf
+  artifactKey: Guid(072ceac3bb8ba604fba544a3e63a7fdd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Surveys/5/5_eyehand_nasa.pdf using Guid(072ceac3bb8ba604fba544a3e63a7fdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dee037a9141b5579b520c0f7f5f3bd7') in 0.0033861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_11.csv
+  artifactKey: Guid(ddbad5a2fbb91d3428f6a137e312c459) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_11.csv using Guid(ddbad5a2fbb91d3428f6a137e312c459) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f444c9913acda1844a7261c2e2f638e9') in 0.0037032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe9aa2ecf796c32dee9c3604cec506c8') in 0.0264596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/unity-plugin-master/Src/SuperSocket.ClientEngine.Core.0.10.0/SuperSocket.ClientEngine.dll
+  artifactKey: Guid(d750f2c31f35f7c4ab9d5db26afd9f4f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-plugin-master/Src/SuperSocket.ClientEngine.Core.0.10.0/SuperSocket.ClientEngine.dll using Guid(d750f2c31f35f7c4ab9d5db26afd9f4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a03c9f45343b92ffab9eb37621dc44c5') in 0.0048123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_4.csv
+  artifactKey: Guid(4780a9e8c1be1194b8affa0de7c85dd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_4.csv using Guid(4780a9e8c1be1194b8affa0de7c85dd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39adb3386cb38e03e1170b2dee3c8578') in 0.0039895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/unity-plugin-master/Src/TrainingHandler.cs
+  artifactKey: Guid(6d9ea3f83f8c0aa42bd342deb24f731c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-plugin-master/Src/TrainingHandler.cs using Guid(6d9ea3f83f8c0aa42bd342deb24f731c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd132c0dc1e4d549e386fdabea0026e30') in 0.0037966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfc09c7aa560c7bdd700f533a24f42d2') in 0.0081422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_3.csv
+  artifactKey: Guid(84f826779e1b8ac4298d4bc487452992) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_3.csv using Guid(84f826779e1b8ac4298d4bc487452992) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad7a0756faa66da35fe5e89492957799') in 0.0039867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_12.csv
+  artifactKey: Guid(203b7edb84dcea54f96d0eeae3836f45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_12.csv using Guid(203b7edb84dcea54f96d0eeae3836f45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0565e6c70710d9adeed9f495244d536e') in 0.0039957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Assessment_Results/Surveys/5/5_controllers_nasa.pdf
+  artifactKey: Guid(ce148c1a382c94b45840cace16c690d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Surveys/5/5_controllers_nasa.pdf using Guid(ce148c1a382c94b45840cace16c690d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45cf4382ab45f07e95978a125be99a4a') in 0.003608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_15.csv
+  artifactKey: Guid(23350ff99ad57de42a6e90b8317836a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_15.csv using Guid(23350ff99ad57de42a6e90b8317836a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1ffedb07c103d7292af68518aba67dc') in 0.0039286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_1.csv
+  artifactKey: Guid(dfd214e7274953a42bf293bb6d139896) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_1.csv using Guid(dfd214e7274953a42bf293bb6d139896) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '218bbf8bbd9a0017f318eec4f28ef0f9') in 0.0035242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Assessment_Results/Surveys/5/5_posteval.pdf
+  artifactKey: Guid(3470ad6bd3f01334cb1d66f3fdbe20c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Surveys/5/5_posteval.pdf using Guid(3470ad6bd3f01334cb1d66f3fdbe20c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ef08b35ac33041a23475471f24bc16d') in 0.0033176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_8.csv
+  artifactKey: Guid(ec41aa36a7a10674db5484756edf8361) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_8.csv using Guid(ec41aa36a7a10674db5484756edf8361) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99d0cd56faed5a98b51d4e1007b885d5') in 0.003342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_12.csv
+  artifactKey: Guid(e4d21a5795d472d42af5b91a8fb596c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_12.csv using Guid(e4d21a5795d472d42af5b91a8fb596c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53943b55c7cabc11920ab0fb553b0f51') in 0.0037004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_2.csv
+  artifactKey: Guid(e7bc6c79668f08643828fcc293519b60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_2.csv using Guid(e7bc6c79668f08643828fcc293519b60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c329625ad87cd42a4c7b19cca143eb64') in 0.0037783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_4.csv
+  artifactKey: Guid(fb09642dd1024be449501a9f6f81f0fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_4.csv using Guid(fb09642dd1024be449501a9f6f81f0fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3207fb127ea8992dd20433e45c0921b') in 0.0039722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_5.csv
+  artifactKey: Guid(eda0bae26e6809f4bb844b0e9561d224) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_5.csv using Guid(eda0bae26e6809f4bb844b0e9561d224) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40d64565c44e24debb1a551564f342b1') in 0.0042646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_9.csv
+  artifactKey: Guid(f82fbeff5a01aba4cb77186c636f726c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_9.csv using Guid(f82fbeff5a01aba4cb77186c636f726c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ed7205fc0ed2b47933066dcbcaab0af') in 0.0039469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_6.csv
+  artifactKey: Guid(38da7a5a4401ab941a3b42170a3605c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_6.csv using Guid(38da7a5a4401ab941a3b42170a3605c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd925086906723513b84d64026eb55f67') in 0.0039484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_4.csv
+  artifactKey: Guid(7119cef0c4d53344c876f53b1119b861) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_4.csv using Guid(7119cef0c4d53344c876f53b1119b861) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbd2db0734733039928430c7abf54c18') in 0.0075098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Assessment_Results/Surveys/6/6_posteval.pdf
+  artifactKey: Guid(cd7db93709f968d4da1b8658fe19aa0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Surveys/6/6_posteval.pdf using Guid(cd7db93709f968d4da1b8658fe19aa0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1794a8e7658957852a643703c9f0ded8') in 0.0034792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_15.csv
+  artifactKey: Guid(2fb19aa4e3e0e2c43bc7298fb5010820) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_15.csv using Guid(2fb19aa4e3e0e2c43bc7298fb5010820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86a8f0bf32d27976943fefe8388694c6') in 0.0041374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
+  artifactKey: Guid(2575924bc8e07424d8b12082c365b210) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset using Guid(2575924bc8e07424d8b12082c365b210) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd49b175d3ecb7bfa6bc39d4ffe2cc50f') in 0.0041245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_8.csv
+  artifactKey: Guid(dbcd6cdc52cd9e04c97556451868e5a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_8.csv using Guid(dbcd6cdc52cd9e04c97556451868e5a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab52d3689a909cec4ae1586a7eeeb781') in 0.004147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_14.csv
+  artifactKey: Guid(98e8c5dc8aa31d541ad711e0db6f19e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_14.csv using Guid(98e8c5dc8aa31d541ad711e0db6f19e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d5929768edda164c6df0302e33bf114') in 0.0054329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_9.csv
+  artifactKey: Guid(edac21c9279394f4c86ff7882a7d5630) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_9.csv using Guid(edac21c9279394f4c86ff7882a7d5630) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51b949a842f58035db7abbc56cb4ecda') in 0.0038298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_6.csv
+  artifactKey: Guid(9cbe6347d0b54464e82e2ab2753da021) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_6.csv using Guid(9cbe6347d0b54464e82e2ab2753da021) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9db44e5d7256f20ede0ed53707def76') in 0.003735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_12.csv
+  artifactKey: Guid(502943a9e0a9f534ca00392832704c65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_12.csv using Guid(502943a9e0a9f534ca00392832704c65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9084d297527846ad77e213949e33a92a') in 0.0039469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/unity-plugin-master/Src/EegMotionDataBuffer.cs
+  artifactKey: Guid(98717e636c3625748a9cb2dc694b79f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-plugin-master/Src/EegMotionDataBuffer.cs using Guid(98717e636c3625748a9cb2dc694b79f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8514c39ac870968ca82e9b406c515ed8') in 0.0041226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Assessment_Results/Surveys/6/6_eyehand_nasa.pdf
+  artifactKey: Guid(f679859ce97ab9449a1fb57ef4a273d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Surveys/6/6_eyehand_nasa.pdf using Guid(f679859ce97ab9449a1fb57ef4a273d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29472cbc4fc39078795dd96b83228548') in 0.0037821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_11.csv
+  artifactKey: Guid(27e443b80985aa747b8b35ca7dfcd4e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_11.csv using Guid(27e443b80985aa747b8b35ca7dfcd4e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1760882065f86758f6e9625671a5200e') in 0.0039042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/unity-plugin-master/Src/HeadsetFinder.cs
+  artifactKey: Guid(df27fd823a3218442b6eca59b21e67f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-plugin-master/Src/HeadsetFinder.cs using Guid(df27fd823a3218442b6eca59b21e67f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e32700bb7a31244bbb751e050df07eb') in 0.0039176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_2.csv
+  artifactKey: Guid(ffd79930088c67f4fa18ae94e373374e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/VR_Controllers/StaticVRControllersResults_2.csv using Guid(ffd79930088c67f4fa18ae94e373374e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef0b5b58006d7a434ead16dbe3c1631d') in 0.003629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc327055a9757cc542adb5ec4dd9d6b1') in 0.005219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_15.csv
+  artifactKey: Guid(1d620089b4489f74796706d20d56580b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/VR_Controllers/StaticVRControllersResults_15.csv using Guid(1d620089b4489f74796706d20d56580b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '281cd564b8a0d9b28a752e27f2a2e28c') in 0.0035322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assessment_Results/Complete_NASA_TLX/NASA_TLX_Analysis.csv
+  artifactKey: Guid(23393de539bad0948a3126a35b3a1232) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Complete_NASA_TLX/NASA_TLX_Analysis.csv using Guid(23393de539bad0948a3126a35b3a1232) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '995deaffdf178c49945756bc0f48a969') in 0.0038408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '028cc53f976b8edc9696c04ddd2238be') in 0.0038623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_9.csv
+  artifactKey: Guid(95c4f0882c27f97488da539a61cee634) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Neuro_Gaze/StaticNeuroGazeResults_9.csv using Guid(95c4f0882c27f97488da539a61cee634) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '168beccaf29006136b57be4ac1177551') in 0.0034625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/unity-plugin-master/Src/Headset.cs
+  artifactKey: Guid(c4954b4340d277f459d0eb39d4964fd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-plugin-master/Src/Headset.cs using Guid(c4954b4340d277f459d0eb39d4964fd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f7fb2fc27edf48ed3088ae6c1683a39') in 0.00361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad44600d3680857dae2fe78aa244c65c') in 0.0096038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006160 seconds.
+  path: Assets/XR/Settings/OculusSettings.asset
+  artifactKey: Guid(db81827b38f53dc46be6a3d5f6ce35e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/XR/Settings/OculusSettings.asset using Guid(db81827b38f53dc46be6a3d5f6ce35e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a65609f8e6a70a3a47c6f369d0a2da94') in 0.0063679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_10.csv
+  artifactKey: Guid(38a42c9819bc37b4ba16f4d4106e63f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assessment_Results/Assessment_Results/Eye_Gaze_Hands/StaticEyeGazeHandsResults_10.csv using Guid(38a42c9819bc37b4ba16f4d4106e63f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e1d55554060001cd0aec1adf15b14b0') in 0.0039595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scripts/EyeInteractableForControllers.cs
+  artifactKey: Guid(1d54f76a53dfee64ba7a52049ae1e059) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/EyeInteractableForControllers.cs using Guid(1d54f76a53dfee64ba7a52049ae1e059) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c291cda95c557e0402e6beaf5bb8d13e') in 0.0036215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.071582 seconds.
+  path: Assets/Prefabs/OVR Player Rig - NeuroGaze.prefab
+  artifactKey: Guid(5676aa0013065e0429066a7d7fdf1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OVR Player Rig - NeuroGaze.prefab using Guid(5676aa0013065e0429066a7d7fdf1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '257c40dac479240c81b553f6fc1f773b') in 0.4821546 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1573
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/InteractionRigOVR-FullSynthetic.prefab
+  artifactKey: Guid(5a08bd6d5914a7c4b935eeab8a154396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/InteractionRigOVR-FullSynthetic.prefab using Guid(5a08bd6d5914a7c4b935eeab8a154396) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '396499d2642bca8bd4a6973dc5a7c511') in 0.0565919 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2644
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.374657 seconds.
+  path: Assets/Prefabs/OVR Player Rig - EyeGaze_Hands.prefab
+  artifactKey: Guid(a294ccae66dd4d240a79882838ffd5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OVR Player Rig - EyeGaze_Hands.prefab using Guid(a294ccae66dd4d240a79882838ffd5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54e072c41dc5845b94182566644ff725') in 0.0305131 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 619
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

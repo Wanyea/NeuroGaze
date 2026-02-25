@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8999138195848633062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24be4b5ebfe5f4d8ed1de9b25cb7aa, type: 3}
+  m_Name: HandCommonPosesInteraction Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Interaction Poses
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handinteractionposes
+  openxrExtensionStrings: XR_EXT_hand_interaction
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-8870661912806689645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,7 +32,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -125,6 +145,26 @@ MonoBehaviour:
   company: Meta
   priority: 0
   required: 0
+--- !u!114 &-7593389840972878237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4710975c7840e7d499bbb3757c22b0a5, type: 3}
+  m_Name: MetaXRSubsampledLayout Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta XR Subsampled Layout
+  version: 0.0.1
+  featureIdInternal: com.meta.openxr.feature.subsampledLayout
+  openxrExtensionStrings: XR_META_vulkan_swapchain_create_info
+  company: Meta
+  priority: 0
+  required: 0
 --- !u!114 &-7011689874932561995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f647cc0545697264a9878224faada6d5, type: 3}
   m_Name: MetaQuestFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.metaquest
@@ -175,6 +215,52 @@ MonoBehaviour:
   - visibleName: Quest Pro
     manifestName: cambria
     enabled: 1
+  forceRemoveInternetPermission: 0
+  symmetricProjection: 0
+  systemSplashScreen: {fileID: 0}
+  optimizeBufferDiscards: 1
+  lateLatchingMode: 0
+  lateLatchingDebug: 0
+--- !u!114 &-5993345186602603404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f028123e2efe1d443875bc7609b4a98b, type: 3}
+  m_Name: PalmPoseInteraction Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Palm Pose
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.palmpose
+  openxrExtensionStrings: XR_EXT_palm_pose
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &-4983972511148144295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5019471fb2174e5c852ecd4047163007, type: 3}
+  m_Name: HandInteractionProfile Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Interaction Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handinteraction
+  openxrExtensionStrings: XR_EXT_hand_interaction
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-4693640568476821155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,19 +315,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: 388383554482770848}
+  - {fileID: 1355696988043163977}
   - {fileID: 7442871623174185011}
+  - {fileID: -8999138195848633062}
+  - {fileID: -1465236898246093535}
   - {fileID: -7011689874932561995}
   - {fileID: -6815720091773429516}
   - {fileID: -1140488676013137671}
+  - {fileID: 3361357697131971537}
   - {fileID: 8776799276656625509}
   - {fileID: -4693640568476821155}
+  - {fileID: 6077622676474052482}
+  - {fileID: 8787956450989904540}
   - {fileID: 6431970848366833804}
   - {fileID: -1275733065065072426}
   - {fileID: -8328536755680644040}
   - {fileID: -8870661912806689645}
+  - {fileID: -871223254094612262}
   - {fileID: -8785615228714641207}
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  m_optimizeBufferDiscards: 0
+  m_symmetricProjection: 0
 --- !u!114 &-3731706183789222759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,6 +379,26 @@ MonoBehaviour:
   required: 0
   cacheSize: 1048576
   perThreadCacheSize: 51200
+--- !u!114 &-2744000189746340972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5315f812f023cf4ebf26f7e5d2d70f2, type: 3}
+  m_Name: HPReverbG2ControllerProfile Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: HP Reverb G2 Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.hpreverb
+  openxrExtensionStrings: XR_EXT_hp_mixed_reality_controller
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-1815115338127648545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,6 +416,26 @@ MonoBehaviour:
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestpro
   openxrExtensionStrings: XR_FB_touch_controller_pro
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &-1465236898246093535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5019471fb2174e5c852ecd4047163007, type: 3}
+  m_Name: HandInteractionProfile Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Interaction Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handinteraction
+  openxrExtensionStrings: XR_EXT_hand_interaction
   company: Unity
   priority: 0
   required: 0
@@ -342,6 +477,26 @@ MonoBehaviour:
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestpro
   openxrExtensionStrings: XR_FB_touch_controller_pro
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &-871223254094612262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f028123e2efe1d443875bc7609b4a98b, type: 3}
+  m_Name: PalmPoseInteraction Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Palm Pose
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.palmpose
+  openxrExtensionStrings: XR_EXT_palm_pose
   company: Unity
   priority: 0
   required: 0
@@ -423,6 +578,39 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &1355696988043163977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c5b5af5107e35a43818d5411328bfc3, type: 3}
+  m_Name: DPadInteraction Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: D-Pad Binding
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.dpadinteraction
+  openxrExtensionStrings: XR_KHR_binding_modification XR_EXT_dpad_binding
+  company: Unity
+  priority: 0
+  required: 0
+  forceThresholdLeft: 0.5
+  forceThresholdReleaseLeft: 0.4
+  centerRegionLeft: 0.5
+  wedgeAngleLeft: 1.5707964
+  isStickyLeft: 0
+  forceThresholdRight: 0.5
+  forceThresholdReleaseRight: 0.4
+  centerRegionRight: 0.5
+  wedgeAngleRight: 1.5707964
+  isStickyRight: 0
+  extensionStrings:
+  - XR_KHR_binding_modification
+  - XR_EXT_dpad_binding
 --- !u!114 &3030779056382058361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -446,12 +634,49 @@ MonoBehaviour:
     XR_FB_swapchain_update_state_vulkan XR_FB_composition_layer_alpha_blend XR_KHR_composition_layer_depth
     XR_KHR_composition_layer_cylinder XR_KHR_composition_layer_cube XR_KHR_composition_layer_equirect2
     XR_KHR_convert_timespec_time XR_KHR_visibility_mask XR_FB_render_model XR_FB_spatial_entity
-    XR_FB_spatial_entity_query XR_FB_spatial_entity_storage XR_META_performance_metrics
-    XR_FB_scene XR_FB_spatial_entity_container XR_FB_scene_capture XR_FB_face_tracking
-    XR_FB_eye_tracking XR_FB_keyboard_tracking XR_FB_passthrough XR_FB_triangle_mesh
-    XR_FB_passthrough_keyboard_hands XR_OCULUS_audio_device_guid XR_FB_common_events
-    XR_FB_space_warp XR_FB_hand_tracking_capsules XR_FB_hand_tracking_mesh XR_FB_hand_tracking_aim
-    XR_FB_touch_controller_pro XR_FB_touch_controller_proximity '
+    XR_FB_spatial_entity_user XR_FB_spatial_entity_query XR_FB_spatial_entity_storage
+    XR_FB_spatial_entity_storage_batch XR_META_spatial_entity_mesh XR_META_performance_metrics
+    XR_FB_spatial_entity_sharing XR_FB_scene XR_FB_spatial_entity_container XR_FB_scene_capture
+    XR_FB_face_tracking XR_FB_face_tracking2 XR_FB_eye_tracking XR_FB_eye_tracking_social
+    XR_FB_body_tracking XR_META_body_tracking_full_body XR_META_body_tracking_calibration
+    XR_META_body_tracking_fidelity XR_FB_keyboard_tracking XR_META_virtual_keyboard
+    XR_FB_passthrough XR_FB_triangle_mesh XR_FB_passthrough_keyboard_hands XR_META_passthrough_layer_resumed_event
+    XR_META_passthrough_color_lut XR_META_passthrough_preferences XR_OCULUS_audio_device_guid
+    XR_FB_common_events XR_FB_hand_tracking_capsules XR_FB_hand_tracking_mesh XR_FB_hand_tracking_aim
+    XR_FB_touch_controller_pro XR_FB_touch_controller_proximity XR_FB_composition_layer_depth_test
+    XR_FB_haptic_amplitude_envelope XR_FB_haptic_pcm XR_EXTX1_haptic_parametric XR_META_local_dimming
+    XR_META_hand_tracking_wide_motion_mode XR_EXT_hand_tracking_data_source XR_EXT_hand_joints_motion_range
+    XR_META_touch_controller_plus XR_META_simultaneous_hands_and_controllers XR_MSFT_hand_interaction
+    XR_EXT_hand_interaction XR_FB_hand_tracking_confidence XR_META_detached_controllers
+    XR_LOGITECH_mx_ink_stylus_interaction XR_META_colocation_discovery XR_META_spatial_entity_sharing
+    XR_META_spatial_entity_group_sharing XR_EXT_debug_utils XR_META_dynamic_object_tracker
+    XR_META_dynamic_object_keyboard XR_META_hand_tracking_microgestures XR_META_spatial_entity_persistence
+    XR_META_spatial_entity_discovery XR_META_spatial_entity_room_mesh XR_META_boundary_visibility
+    XR_META_face_tracking_visemes XR_META_headset_id XR_FB_composition_layer_settings
+    XR_META_automatic_layer_filter XR_METAX1_spatial_entity_marker XR_EXT_spatial_entity
+    XR_EXT_spatial_marker_tracking XR_META_environment_raycast XR_EXT_future XR_EXTX2_stationary_reference_space
+    XR_META_recommended_layer_resolution XR_EXT_local_floor '
+  company: Meta
+  priority: 0
+  required: 0
+--- !u!114 &3361357697131971537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e573a2aed6698b047aff95224499b722, type: 3}
+  m_Name: MetaXREyeTrackedFoveationFeature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 1
+  nameUi: Meta XR Eye Tracked Foveation
+  version: 0.0.1
+  featureIdInternal: com.meta.openxr.feature.eyetrackedfoveation
+  openxrExtensionStrings: XR_META_foveation_eye_tracked XR_FB_eye_tracking_social
+    XR_META_vulkan_swapchain_create_info
   company: Meta
   priority: 0
   required: 0
@@ -469,20 +694,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: 34718691132975531}
+  - {fileID: 5319963816629641573}
   - {fileID: 4842567517155297798}
+  - {fileID: 5309617259628799618}
+  - {fileID: -4983972511148144295}
+  - {fileID: -2744000189746340972}
   - {fileID: -4620133967477796508}
   - {fileID: -3731706183789222759}
   - {fileID: -1815115338127648545}
+  - {fileID: 6305630032731424814}
   - {fileID: 3030779056382058361}
   - {fileID: -7606295993553392856}
+  - {fileID: -7593389840972878237}
   - {fileID: -8721214260973184547}
   - {fileID: 756999602380791370}
   - {fileID: -7836669078810791546}
   - {fileID: 7090653050555066934}
+  - {fileID: -5993345186602603404}
   - {fileID: -3069743502113868380}
   - {fileID: 4182669910556483970}
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  m_optimizeBufferDiscards: 0
+  m_symmetricProjection: 0
 --- !u!114 &4182669910556483970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -523,6 +757,100 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &5309617259628799618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24be4b5ebfe5f4d8ed1de9b25cb7aa, type: 3}
+  m_Name: HandCommonPosesInteraction Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Interaction Poses
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handinteractionposes
+  openxrExtensionStrings: XR_EXT_hand_interaction
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &5319963816629641573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c5b5af5107e35a43818d5411328bfc3, type: 3}
+  m_Name: DPadInteraction Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: D-Pad Binding
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.dpadinteraction
+  openxrExtensionStrings: XR_KHR_binding_modification XR_EXT_dpad_binding
+  company: Unity
+  priority: 0
+  required: 0
+  forceThresholdLeft: 0.5
+  forceThresholdReleaseLeft: 0.4
+  centerRegionLeft: 0.5
+  wedgeAngleLeft: 1.5707964
+  isStickyLeft: 0
+  forceThresholdRight: 0.5
+  forceThresholdReleaseRight: 0.4
+  centerRegionRight: 0.5
+  wedgeAngleRight: 1.5707964
+  isStickyRight: 0
+  extensionStrings:
+  - XR_KHR_binding_modification
+  - XR_EXT_dpad_binding
+--- !u!114 &6077622676474052482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81954520b8bbd2f458104fe69f5a7680, type: 3}
+  m_Name: MetaXRSpaceWarp Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta XR Space Warp
+  version: 1.0.0
+  featureIdInternal: com.meta.openxr.feature.spacewarp
+  openxrExtensionStrings: XR_FB_space_warp
+  company: Meta
+  priority: 0
+  required: 0
+--- !u!114 &6305630032731424814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e573a2aed6698b047aff95224499b722, type: 3}
+  m_Name: MetaXREyeTrackedFoveationFeature Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta XR Eye Tracked Foveation
+  version: 0.0.1
+  featureIdInternal: com.meta.openxr.feature.eyetrackedfoveation
+  openxrExtensionStrings: XR_META_foveation_eye_tracked XR_FB_eye_tracking_social
+    XR_META_vulkan_swapchain_create_info
+  company: Meta
+  priority: 0
+  required: 0
 --- !u!114 &6431970848366833804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -555,7 +883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -598,6 +926,8 @@ MonoBehaviour:
   features: []
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  m_optimizeBufferDiscards: 0
+  m_symmetricProjection: 0
 --- !u!114 &8488260088863914046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -613,6 +943,8 @@ MonoBehaviour:
   features: []
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  m_optimizeBufferDiscards: 0
+  m_symmetricProjection: 0
 --- !u!114 &8776799276656625509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -636,12 +968,48 @@ MonoBehaviour:
     XR_FB_swapchain_update_state_vulkan XR_FB_composition_layer_alpha_blend XR_KHR_composition_layer_depth
     XR_KHR_composition_layer_cylinder XR_KHR_composition_layer_cube XR_KHR_composition_layer_equirect2
     XR_KHR_convert_timespec_time XR_KHR_visibility_mask XR_FB_render_model XR_FB_spatial_entity
-    XR_FB_spatial_entity_query XR_FB_spatial_entity_storage XR_META_performance_metrics
-    XR_FB_scene XR_FB_spatial_entity_container XR_FB_scene_capture XR_FB_face_tracking
-    XR_FB_eye_tracking XR_FB_keyboard_tracking XR_FB_passthrough XR_FB_triangle_mesh
-    XR_FB_passthrough_keyboard_hands XR_OCULUS_audio_device_guid XR_FB_common_events
-    XR_FB_space_warp XR_FB_hand_tracking_capsules XR_FB_hand_tracking_mesh XR_FB_hand_tracking_aim
-    XR_FB_touch_controller_pro XR_FB_touch_controller_proximity '
+    XR_FB_spatial_entity_user XR_FB_spatial_entity_query XR_FB_spatial_entity_storage
+    XR_FB_spatial_entity_storage_batch XR_META_spatial_entity_mesh XR_META_performance_metrics
+    XR_FB_spatial_entity_sharing XR_FB_scene XR_FB_spatial_entity_container XR_FB_scene_capture
+    XR_FB_face_tracking XR_FB_face_tracking2 XR_FB_eye_tracking XR_FB_eye_tracking_social
+    XR_FB_body_tracking XR_META_body_tracking_full_body XR_META_body_tracking_calibration
+    XR_META_body_tracking_fidelity XR_FB_keyboard_tracking XR_META_virtual_keyboard
+    XR_FB_passthrough XR_FB_triangle_mesh XR_FB_passthrough_keyboard_hands XR_META_passthrough_layer_resumed_event
+    XR_META_passthrough_color_lut XR_META_passthrough_preferences XR_OCULUS_audio_device_guid
+    XR_FB_common_events XR_FB_hand_tracking_capsules XR_FB_hand_tracking_mesh XR_FB_hand_tracking_aim
+    XR_FB_touch_controller_pro XR_FB_touch_controller_proximity XR_FB_composition_layer_depth_test
+    XR_FB_haptic_amplitude_envelope XR_FB_haptic_pcm XR_EXTX1_haptic_parametric XR_META_local_dimming
+    XR_META_hand_tracking_wide_motion_mode XR_EXT_hand_tracking_data_source XR_EXT_hand_joints_motion_range
+    XR_META_touch_controller_plus XR_META_simultaneous_hands_and_controllers XR_MSFT_hand_interaction
+    XR_EXT_hand_interaction XR_FB_hand_tracking_confidence XR_META_detached_controllers
+    XR_LOGITECH_mx_ink_stylus_interaction XR_META_colocation_discovery XR_META_spatial_entity_sharing
+    XR_META_spatial_entity_group_sharing XR_EXT_debug_utils XR_META_dynamic_object_tracker
+    XR_META_dynamic_object_keyboard XR_META_hand_tracking_microgestures XR_META_spatial_entity_persistence
+    XR_META_spatial_entity_discovery XR_META_spatial_entity_room_mesh XR_META_boundary_visibility
+    XR_META_face_tracking_visemes XR_META_headset_id XR_FB_composition_layer_settings
+    XR_META_automatic_layer_filter XR_METAX1_spatial_entity_marker XR_EXT_spatial_entity
+    XR_EXT_spatial_marker_tracking XR_META_environment_raycast XR_EXT_future XR_EXTX2_stationary_reference_space
+    XR_META_recommended_layer_resolution XR_EXT_local_floor '
+  company: Meta
+  priority: 0
+  required: 0
+--- !u!114 &8787956450989904540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4710975c7840e7d499bbb3757c22b0a5, type: 3}
+  m_Name: MetaXRSubsampledLayout Android
+  m_EditorClassIdentifier: 
+  m_enabled: 1
+  nameUi: Meta XR Subsampled Layout
+  version: 0.0.1
+  featureIdInternal: com.meta.openxr.feature.subsampledLayout
+  openxrExtensionStrings: XR_META_vulkan_swapchain_create_info
   company: Meta
   priority: 0
   required: 0

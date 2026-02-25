@@ -15,10 +15,6 @@ public class EyeTrackingRay : MonoBehaviour
         lineRenderer = GetComponent<LineRenderer>();
         SetupRay();
     }
-    private void Start()
-    {
-        SetupRay();
-    }
 
     private void SetupRay()
     {
@@ -30,55 +26,64 @@ public class EyeTrackingRay : MonoBehaviour
 
     private void Update()
     {
-        Vector3 eyesCenter = (leftEyeAnchor.position + rightEyeAnchor.position) * 0.5f; // Average the left and right eye anchors to find the midpoint
-        Vector3 forwardDirection = (leftEyeAnchor.forward + rightEyeAnchor.forward) * 0.5f; // Average the forward direction of both eyes
-        Ray ray = new Ray(transform.position, transform.forward);
-        RaycastHit hit;
-        bool isHit = Physics.Raycast(ray, out hit, rayDistance);
+        if (leftEyeAnchor == null || rightEyeAnchor == null)
+            return;
 
-        // Check the users eye gaze has hit an object
+        // Eye gaze origin & direction (combined)
+        Vector3 eyesCenter = (leftEyeAnchor.position + rightEyeAnchor.position) * 0.5f;
+
+        Vector3 forwardDirection = (leftEyeAnchor.forward + rightEyeAnchor.forward) * 0.5f;
+        forwardDirection.Normalize();
+
+        Ray ray = new Ray(eyesCenter, forwardDirection);
+
+        bool isHit = Physics.Raycast(ray, out RaycastHit hit, rayDistance);
+
+        // Hover logic
         if (isHit)
         {
             EyeInteractable eyeInteractable = hit.collider.GetComponent<EyeInteractable>();
 
-            // Check if the users eye gaze hit an item we can interact with (select)
-            if (eyeInteractable)
+            if (eyeInteractable != null)
             {
-                Debug.Log($"The distance between the users eyes and the cube is: {hit.distance}");
-
                 if (lastEyeInteractable != eyeInteractable)
                 {
                     if (lastEyeInteractable != null)
-                    {
-                        lastEyeInteractable.Hover(false); // If previous interactable object was in a hover state, set this state to false
-                    }
+                        lastEyeInteractable.Hover(false);
+
                     lastEyeInteractable = eyeInteractable;
                 }
-                eyeInteractable.Hover(true);  // Enlargen or set this cubes "hover state" to true to let users know that can select it
+
+                eyeInteractable.Hover(true);
             }
-            else if (lastEyeInteractable != null)
+            else
             {
-                lastEyeInteractable.Hover(false); // If previous interactable object was in a hover state, set this state to false
-                lastEyeInteractable = null;
+                ClearHover();
             }
         }
         else
         {
-            if (lastEyeInteractable != null)
-            {
-                lastEyeInteractable.Hover(false); // If previous interactable object was in a hover state, set this state to false
-                lastEyeInteractable = null;
-            }
+            ClearHover();
         }
 
+        // Misclick check (keep your existing logic)
         if (isHit)
         {
-            if (hit.collider.gameObject.tag == "Wall" && MentalCommands.Instance.GetMentalCommand() == "pull")
+            if (hit.collider.CompareTag("Wall") && MentalCommands.Instance.GetMentalCommand() == "pull")
                 AssessmentManager.Instance.errorCountForMisclicks++;
         }
 
-        // Update the LineRenderer to represent the ray deriving from the users eye
-        lineRenderer.SetPosition(0, transform.position);
-        lineRenderer.SetPosition(1, transform.position + transform.forward * rayDistance);
+        // Draw the actual gaze ray we used
+        lineRenderer.SetPosition(0, eyesCenter);
+        lineRenderer.SetPosition(1, eyesCenter + forwardDirection * rayDistance);
+    }
+
+    private void ClearHover()
+    {
+        if (lastEyeInteractable != null)
+        {
+            lastEyeInteractable.Hover(false);
+            lastEyeInteractable = null;
+        }
     }
 }

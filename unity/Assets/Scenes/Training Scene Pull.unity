@@ -127,25 +127,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 247086503}
     m_Modifications:
-    - target: {fileID: 240171171, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2079265572223263571, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2079265572229852843, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3603264776607211896, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_Name
       value: InteractionRigOVR-FullSynthetic
-      objectReference: {fileID: 0}
-    - target: {fileID: 3603264776607211896, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3603264776607211897, guid: 5a08bd6d5914a7c4b935eeab8a154396, type: 3}
       propertyPath: m_LocalPosition.x
@@ -989,6 +973,7 @@ MonoBehaviour:
   id: 4
   csvOutputPath: 
   errorCount: 0
+  errorCountForMisclicks: 0
 --- !u!1 &247086502
 GameObject:
   m_ObjectHideFlags: 0
@@ -3977,11 +3962,11 @@ PrefabInstance:
       objectReference: {fileID: 1443857684}
     - target: {fileID: 6279153400065857629, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
       propertyPath: headsetId
-      value: EPOCX-E50208B2
+      value: EPOCX-E5020D3E
       objectReference: {fileID: 0}
     - target: {fileID: 6279153400065857629, guid: 15240979b3f92de4b89d5f30c61e31f1, type: 3}
       propertyPath: profileName
-      value: j4
+      value: WanyeaATI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6450,9 +6435,25 @@ PrefabInstance:
       propertyPath: ConfidenceThreshold
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1616894828148898271, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
+      propertyPath: _skeletonType
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335179933899189355, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
+      propertyPath: _meshType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585104324037482503, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
+      propertyPath: _openXRJointTransforms.Array.size
+      value: 26
+      objectReference: {fileID: 0}
     - target: {fileID: 3673195538540953911, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
       propertyPath: ConfidenceThreshold
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035640828915709476, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
+      propertyPath: _meshType
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6493,6 +6494,10 @@ PrefabInstance:
     - target: {fileID: 7595053202439593255, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8084719309326412168, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
+      propertyPath: _skeletonType
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8389086797546184774, guid: 5676aa0013065e0429066a7d7fdf1ce5, type: 3}
       propertyPath: m_Name
