@@ -234,10 +234,10 @@ The study was approved by the University of Central Florida Institutional Review
 
 ## Authors
 
-Kyle Coutray, **Wanyea Barbel**, Zack Groth, and Joseph J. LaViola Jr.
+Wanyea Barbel, Kyle Coutray, Zack Groth, and Joseph J. LaViola Jr.
 Interactive Systems and User Experience Research Cluster, Department of Computer Science, University of Central Florida.
 
-Correspondence: Kyle Coutray — contact@kylecoutray.com
+Correspondence: Wanyea Barbel — wanyeabarbel@gmail.com
 
 ---
 
